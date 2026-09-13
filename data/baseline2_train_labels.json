@@ -1,0 +1,12 @@
+﻿[
+  {"customer_text": "Where is my package? It was supposed to be here yesterday.", "gold_intent": "DELIVERY_SHIPPING_STATUS"},
+  {"customer_text": "Cancel my prime membership immediately.", "gold_intent": "REFUND_CANCELLATION_BILLING"},
+  {"customer_text": "The box came crushed and the laptop screen is broken.", "gold_intent": "WRONG_OR_DEFECTIVE_ITEM"},
+  {"customer_text": "Hola, mi paquete no ha llegado.", "gold_intent": "NON_ENGLISH_QUERY"},
+  {"customer_text": "Thank you so much for the quick help!", "gold_intent": "FEEDBACK_CHITCHAT"},
+  {"customer_text": "Tracking says delivered but there's nothing on my porch.", "gold_intent": "DELIVERY_SHIPPING_STATUS"},
+  {"customer_text": "I was charged twice for the same movie rental.", "gold_intent": "REFUND_CANCELLATION_BILLING"},
+  {"customer_text": "You sent me the wrong color shirt.", "gold_intent": "WRONG_OR_DEFECTIVE_ITEM"},
+  {"customer_text": "Merci pour votre aide.", "gold_intent": "NON_ENGLISH_QUERY"},
+  {"customer_text": "All good now, appreciate it.", "gold_intent": "FEEDBACK_CHITCHAT"}
+]

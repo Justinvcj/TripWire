@@ -1,0 +1,402 @@
+[
+  {
+    "tweet_id": "tune_0",
+    "customer_text": "Where is my package? 0",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE",
+    "gold_escalation_reason": "NONE",
+    "gold_reference_reply": "Your package is on its way."
+  },
+  {
+    "tweet_id": "tune_1",
+    "customer_text": "Where is my package? 1",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE",
+    "gold_escalation_reason": "NONE",
+    "gold_reference_reply": "Your package is on its way."
+  },
+  {
+    "tweet_id": "tune_2",
+    "customer_text": "Where is my package? 2",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE",
+    "gold_escalation_reason": "NONE",
+    "gold_reference_reply": "Your package is on its way."
+  },
+  {
+    "tweet_id": "tune_3",
+    "customer_text": "Where is my package? 3",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE",
+    "gold_escalation_reason": "NONE",
+    "gold_reference_reply": "Your package is on its way."
+  },
+  {
+    "tweet_id": "tune_4",
+    "customer_text": "Where is my package? 4",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE",
+    "gold_escalation_reason": "NONE",
+    "gold_reference_reply": "Your package is on its way."
+  },
+  {
+    "tweet_id": "tune_5",
+    "customer_text": "Where is my package? 5",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE",
+    "gold_escalation_reason": "NONE",
+    "gold_reference_reply": "Your package is on its way."
+  },
+  {
+    "tweet_id": "tune_6",
+    "customer_text": "Where is my package? 6",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE",
+    "gold_escalation_reason": "NONE",
+    "gold_reference_reply": "Your package is on its way."
+  },
+  {
+    "tweet_id": "tune_7",
+    "customer_text": "Where is my package? 7",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE",
+    "gold_escalation_reason": "NONE",
+    "gold_reference_reply": "Your package is on its way."
+  },
+  {
+    "tweet_id": "tune_8",
+    "customer_text": "Where is my package? 8",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE",
+    "gold_escalation_reason": "NONE",
+    "gold_reference_reply": "Your package is on its way."
+  },
+  {
+    "tweet_id": "tune_9",
+    "customer_text": "Where is my package? 9",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE",
+    "gold_escalation_reason": "NONE",
+    "gold_reference_reply": "Your package is on its way."
+  },
+  {
+    "tweet_id": "tune_10",
+    "customer_text": "Where is my package? 10",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE",
+    "gold_escalation_reason": "NONE",
+    "gold_reference_reply": "Your package is on its way."
+  },
+  {
+    "tweet_id": "tune_11",
+    "customer_text": "Where is my package? 11",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE",
+    "gold_escalation_reason": "NONE",
+    "gold_reference_reply": "Your package is on its way."
+  },
+  {
+    "tweet_id": "tune_12",
+    "customer_text": "Where is my package? 12",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE",
+    "gold_escalation_reason": "NONE",
+    "gold_reference_reply": "Your package is on its way."
+  },
+  {
+    "tweet_id": "tune_13",
+    "customer_text": "Where is my package? 13",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE",
+    "gold_escalation_reason": "NONE",
+    "gold_reference_reply": "Your package is on its way."
+  },
+  {
+    "tweet_id": "tune_14",
+    "customer_text": "Where is my package? 14",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE",
+    "gold_escalation_reason": "NONE",
+    "gold_reference_reply": "Your package is on its way."
+  },
+  {
+    "tweet_id": "tune_15",
+    "customer_text": "Where is my package? 15",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE",
+    "gold_escalation_reason": "NONE",
+    "gold_reference_reply": "Your package is on its way."
+  },
+  {
+    "tweet_id": "tune_16",
+    "customer_text": "Where is my package? 16",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE",
+    "gold_escalation_reason": "NONE",
+    "gold_reference_reply": "Your package is on its way."
+  },
+  {
+    "tweet_id": "tune_17",
+    "customer_text": "Where is my package? 17",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE",
+    "gold_escalation_reason": "NONE",
+    "gold_reference_reply": "Your package is on its way."
+  },
+  {
+    "tweet_id": "tune_18",
+    "customer_text": "Where is my package? 18",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE",
+    "gold_escalation_reason": "NONE",
+    "gold_reference_reply": "Your package is on its way."
+  },
+  {
+    "tweet_id": "tune_19",
+    "customer_text": "Where is my package? 19",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE",
+    "gold_escalation_reason": "NONE",
+    "gold_reference_reply": "Your package is on its way."
+  },
+  {
+    "tweet_id": "tune_20",
+    "customer_text": "Where is my package? 20",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE",
+    "gold_escalation_reason": "NONE",
+    "gold_reference_reply": "Your package is on its way."
+  },
+  {
+    "tweet_id": "tune_21",
+    "customer_text": "Where is my package? 21",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE",
+    "gold_escalation_reason": "NONE",
+    "gold_reference_reply": "Your package is on its way."
+  },
+  {
+    "tweet_id": "tune_22",
+    "customer_text": "Where is my package? 22",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE",
+    "gold_escalation_reason": "NONE",
+    "gold_reference_reply": "Your package is on its way."
+  },
+  {
+    "tweet_id": "tune_23",
+    "customer_text": "Where is my package? 23",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE",
+    "gold_escalation_reason": "NONE",
+    "gold_reference_reply": "Your package is on its way."
+  },
+  {
+    "tweet_id": "tune_24",
+    "customer_text": "Where is my package? 24",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE",
+    "gold_escalation_reason": "NONE",
+    "gold_reference_reply": "Your package is on its way."
+  },
+  {
+    "tweet_id": "tune_25",
+    "customer_text": "Where is my package? 25",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE",
+    "gold_escalation_reason": "NONE",
+    "gold_reference_reply": "Your package is on its way."
+  },
+  {
+    "tweet_id": "tune_26",
+    "customer_text": "Where is my package? 26",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE",
+    "gold_escalation_reason": "NONE",
+    "gold_reference_reply": "Your package is on its way."
+  },
+  {
+    "tweet_id": "tune_27",
+    "customer_text": "Where is my package? 27",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE",
+    "gold_escalation_reason": "NONE",
+    "gold_reference_reply": "Your package is on its way."
+  },
+  {
+    "tweet_id": "tune_28",
+    "customer_text": "Where is my package? 28",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE",
+    "gold_escalation_reason": "NONE",
+    "gold_reference_reply": "Your package is on its way."
+  },
+  {
+    "tweet_id": "tune_29",
+    "customer_text": "Where is my package? 29",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE",
+    "gold_escalation_reason": "NONE",
+    "gold_reference_reply": "Your package is on its way."
+  },
+  {
+    "tweet_id": "tune_30",
+    "customer_text": "Where is my package? 30",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE",
+    "gold_escalation_reason": "NONE",
+    "gold_reference_reply": "Your package is on its way."
+  },
+  {
+    "tweet_id": "tune_31",
+    "customer_text": "Where is my package? 31",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE",
+    "gold_escalation_reason": "NONE",
+    "gold_reference_reply": "Your package is on its way."
+  },
+  {
+    "tweet_id": "tune_32",
+    "customer_text": "Where is my package? 32",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE",
+    "gold_escalation_reason": "NONE",
+    "gold_reference_reply": "Your package is on its way."
+  },
+  {
+    "tweet_id": "tune_33",
+    "customer_text": "Where is my package? 33",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE",
+    "gold_escalation_reason": "NONE",
+    "gold_reference_reply": "Your package is on its way."
+  },
+  {
+    "tweet_id": "tune_34",
+    "customer_text": "Where is my package? 34",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE",
+    "gold_escalation_reason": "NONE",
+    "gold_reference_reply": "Your package is on its way."
+  },
+  {
+    "tweet_id": "tune_35",
+    "customer_text": "Where is my package? 35",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE",
+    "gold_escalation_reason": "NONE",
+    "gold_reference_reply": "Your package is on its way."
+  },
+  {
+    "tweet_id": "tune_36",
+    "customer_text": "Where is my package? 36",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE",
+    "gold_escalation_reason": "NONE",
+    "gold_reference_reply": "Your package is on its way."
+  },
+  {
+    "tweet_id": "tune_37",
+    "customer_text": "Where is my package? 37",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE",
+    "gold_escalation_reason": "NONE",
+    "gold_reference_reply": "Your package is on its way."
+  },
+  {
+    "tweet_id": "tune_38",
+    "customer_text": "Where is my package? 38",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE",
+    "gold_escalation_reason": "NONE",
+    "gold_reference_reply": "Your package is on its way."
+  },
+  {
+    "tweet_id": "tune_39",
+    "customer_text": "Where is my package? 39",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE",
+    "gold_escalation_reason": "NONE",
+    "gold_reference_reply": "Your package is on its way."
+  },
+  {
+    "tweet_id": "tune_40",
+    "customer_text": "Where is my package? 40",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE",
+    "gold_escalation_reason": "NONE",
+    "gold_reference_reply": "Your package is on its way."
+  },
+  {
+    "tweet_id": "tune_41",
+    "customer_text": "Where is my package? 41",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE",
+    "gold_escalation_reason": "NONE",
+    "gold_reference_reply": "Your package is on its way."
+  },
+  {
+    "tweet_id": "tune_42",
+    "customer_text": "Where is my package? 42",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE",
+    "gold_escalation_reason": "NONE",
+    "gold_reference_reply": "Your package is on its way."
+  },
+  {
+    "tweet_id": "tune_43",
+    "customer_text": "Where is my package? 43",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE",
+    "gold_escalation_reason": "NONE",
+    "gold_reference_reply": "Your package is on its way."
+  },
+  {
+    "tweet_id": "tune_44",
+    "customer_text": "Where is my package? 44",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE",
+    "gold_escalation_reason": "NONE",
+    "gold_reference_reply": "Your package is on its way."
+  },
+  {
+    "tweet_id": "tune_45",
+    "customer_text": "Where is my package? 45",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE",
+    "gold_escalation_reason": "NONE",
+    "gold_reference_reply": "Your package is on its way."
+  },
+  {
+    "tweet_id": "tune_46",
+    "customer_text": "Where is my package? 46",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE",
+    "gold_escalation_reason": "NONE",
+    "gold_reference_reply": "Your package is on its way."
+  },
+  {
+    "tweet_id": "tune_47",
+    "customer_text": "Where is my package? 47",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE",
+    "gold_escalation_reason": "NONE",
+    "gold_reference_reply": "Your package is on its way."
+  },
+  {
+    "tweet_id": "tune_48",
+    "customer_text": "Where is my package? 48",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE",
+    "gold_escalation_reason": "NONE",
+    "gold_reference_reply": "Your package is on its way."
+  },
+  {
+    "tweet_id": "tune_49",
+    "customer_text": "Where is my package? 49",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE",
+    "gold_escalation_reason": "NONE",
+    "gold_reference_reply": "Your package is on its way."
+  }
+]

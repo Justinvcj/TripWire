@@ -1,0 +1,29 @@
+﻿{
+  "intents": [
+    {
+      "name": "DELIVERY_SHIPPING_STATUS",
+      "description": "Customer asking where their order is, reporting late or missing deliveries, tracking issues.",
+      "source_cluster": 5
+    },
+    {
+      "name": "REFUND_CANCELLATION_BILLING",
+      "description": "Customer asking to cancel an order, complaining about Prime membership charges, or requesting/chasing a refund.",
+      "source_cluster": 2
+    },
+    {
+      "name": "WRONG_OR_DEFECTIVE_ITEM",
+      "description": "Customer reporting a broken, defective, crushed, or incorrect product delivered.",
+      "source_cluster": 4
+    },
+    {
+      "name": "NON_ENGLISH_QUERY",
+      "description": "Customer speaking in a language other than English (e.g. Spanish, French).",
+      "source_cluster": 3
+    },
+    {
+      "name": "FEEDBACK_CHITCHAT",
+      "description": "Customer giving general feedback, saying thanks, 'done', or unrelated chat.",
+      "source_cluster": 1
+    }
+  ]
+}

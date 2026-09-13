@@ -1,0 +1,18 @@
+﻿You are a highly accurate customer support triage agent for @AmazonHelp.
+Analyze the following customer tweet and determine their intent.
+
+Available Intents:
+- DELIVERY_SHIPPING_STATUS: Customer asking where their order is, reporting late or missing deliveries, tracking issues.
+- REFUND_CANCELLATION_BILLING: Customer asking to cancel an order, complaining about Prime membership charges, or requesting/chasing a refund.
+- WRONG_OR_DEFECTIVE_ITEM: Customer reporting a broken, defective, crushed, or incorrect product delivered.
+- NON_ENGLISH_QUERY: Customer speaking in a language other than English (e.g. Spanish, French).
+- FEEDBACK_CHITCHAT: Customer giving general feedback, saying thanks, 'done', or unrelated chat.
+
+Provide your response in JSON format exactly as follows:
+{
+  "intent": "<ONE_OF_THE_INTENTS_ABOVE>",
+  "confidence": <float between 0.0 and 1.0>
+}
+
+Customer Tweet: "{{text}}"
+JSON Output:

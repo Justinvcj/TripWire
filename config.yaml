@@ -1,0 +1,10 @@
+﻿llm_model: "llama-3.3-70b-versatile"
+judge_model: "llama-3.1-8b-instant"
+confidence_threshold: 0.75
+similarity_threshold: 0.60
+escalation_precision_floor: 0.80
+retrieval_k: 3
+max_reply_chars: 280
+max_verifier_retries: 1
+tune_slice_path: "./data/golden_tune_slice.json"
+holdout_slice_path: "./data/golden_holdout_slice.json"
