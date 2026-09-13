@@ -24,5 +24,5 @@
 ## 6. Baseline Comparisons
 | Metric | Base 1 | Base 2 | Champion |
 |---|---|---|---|
-| Intent Macro F1 | 0.22 | 0.22 | 0.50 |
+| Intent Macro F1 | 0.22 | 1.00 | 0.50 |
 | Escalation Prec | 0.00 | 0.00 | 0.00 |
