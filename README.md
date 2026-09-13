@@ -33,7 +33,7 @@ python evaluation/run_eval.py --fast
 ## 💻 Interactive Demonstrations
 
 <div align="center">
-  <img src="assets/demo_screenshot.png" alt="Tripwire UI" width="800"/>
+  <img src="assets/demo_initial.png" alt="Tripwire UI - Input" width="48%" /> <img src="assets/demo_response.png" alt="Tripwire UI - Response" width="48%" />
 </div>
 
 
