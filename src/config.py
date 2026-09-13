@@ -1,5 +1,9 @@
 ﻿import yaml
+import os
+from dotenv import load_dotenv
 from pydantic_settings import BaseSettings
+
+load_dotenv()
 
 class Settings(BaseSettings):
     llm_model: str
@@ -15,9 +19,10 @@ class Settings(BaseSettings):
     
     class Config:
         env_file = ".env"
+        extra = "ignore"
 
 def load_config() -> Settings:
-    with open('config.yaml', 'r') as f:
+    with open('config.yaml', 'r', encoding='utf-8-sig') as f:
         data = yaml.safe_load(f)
     settings = Settings(**data)
     
