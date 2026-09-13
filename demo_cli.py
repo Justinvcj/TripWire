@@ -28,8 +28,8 @@ def main():
         
         print(f"?? Intent: {result.intent}")
         print(f"?? Action: {result.action}")
-        print(f"?? Confidence: {result.confidence}")
-        print(f"?? Reason: {result.reason}")
+        print(f"?? Confidence: {result.intent_confidence}")
+        print(f"?? Reason: {result.escalation_reason}")
         
         print("\n[Retrieving Context...]")
         if result.retrieved_docs:

@@ -47,7 +47,7 @@ with col1:
                     st.success("Message Processed Successfully!")
                     
                     st.markdown("#### ?? Intent & Triage")
-                    st.code(f"Intent: {result.intent}\nAction: {result.action}\nConfidence: {result.confidence}\nReason: {result.reason}", language="yaml")
+                    st.code(f"Intent: {result.intent}\nAction: {result.action}\nConfidence: {result.intent_confidence}\nReason: {result.escalation_reason}", language="yaml")
                     
                     st.markdown("#### ?? RAG Context Retrieved")
                     rag_docs = "\n\n".join(result.retrieved_docs)
