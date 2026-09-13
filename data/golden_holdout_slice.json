@@ -1,1052 +1,1652 @@
 [
   {
-    "tweet_id": "445634",
-    "customer_text": "@AmazonHelp \u304a\u8fd4\u4e8b\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\uff01\n\u307e\u305a\u914d\u9001\u696d\u8005\u306b\u78ba\u8a8d\u3059\u308c\u3070\u826f\u3044\u306e\u3067\u3059\u306d\u3002\n\u5bfe\u51e6\u6cd5\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u308a\u3001\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3057\u305f\u3002",
-    "gold_reference_reply": "@220525 \u304a\u624b\u6570\u3092\u304a\u304b\u3051\u3044\u305f\u3057\u307e\u3059\u304c\u3001\u3069\u3046\u305e\u3088\u308d\u3057\u304f\u304a\u9858\u3044\u3044\u305f\u3057\u307e\u3059\u3002\u3054\u4e0d\u660e\u306a\u70b9\u304c\u3054\u3056\u3044\u307e\u3057\u305f\u3089\u3054\u9060\u616e\u306a\u304f\u3054\u8cea\u554f\u304f\u3060\u3055\u3044\u3002SK",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "2954491",
-    "customer_text": "@AmazonHelp No, nunca me hizo falta, tan verdad que siempre ven\u00edan en d\u00eda y hora",
-    "gold_reference_reply": "@815672 Comprendo. Fran, si desearas comunicarte con ellos en esta ocasi\u00f3n para verificar lo que ha pasado con esta entrega, te dejo el siguiente enlace con informaci\u00f3n para contactarlos: https://t.co/SWwGj6yvRq\n^ES",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "2945615",
-    "customer_text": "@AmazonHelp I wonder if you'll do. We'll see where this goes because it seems like yet another automated response to pacify a customer, instead of actually providing any quality service.",
-    "gold_reference_reply": "@813367 I get your concern. Once you share the details, please be assured that we'll work on the issue and get back to you soon.",
-    "gold_intent": "FEEDBACK_CHITCHAT",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "2288850",
-    "customer_text": "@115850 it's been 3 times and now I find it too hard to trust you on my money. I mean how hard it is to credit the cashback to my amazon pay balance, if I am eligible for it. Awful service.",
-    "gold_reference_reply": "@183234 I understand how upsetting this can be. This is certainly not the kind of experience we want our customers to have. Kindly reach out to us here: https://t.co/vlvfJr4nN9 and we will assist you. ^AH",
-    "gold_intent": "REFUND_CANCELLATION_BILLING",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "2473479",
-    "customer_text": "@120533 maintenant vous laissez vos clients sans r\u00e9ponse apr\u00e8s vous etes engag\u00e9s \u00e0 un retour sous 48h? Je vous ai connu plus soucieux de vos clients!",
-    "gold_reference_reply": "@707244 Bonjour, pouvez-vous nous expliquer davantage s'il vous pla\u00eet ? ^MA",
-    "gold_intent": "NON_ENGLISH_QUERY",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "2240645",
-    "customer_text": "Dear @115821. In 5 days, it'll be a full year since I ordered this item and you still have NOT shipped it to me. I have contacted you many times &amp; continue to get \"your business is important to us\".  But, your actions tell me that it's not. #SendMeMyItemPlease #MomsChristmasGift https://t.co/msVYCPEyCF",
-    "gold_reference_reply": "@653281 Hey Geoff, so sorry for the long wait. When you previously contacted us, did we provide a reason as to why it's taking so long? ^BG",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "896707",
-    "customer_text": "@AmazonHelp I've been on hold for a manager for 20 min. I received an email while on hold from someone named Van who said there is nothing they can do.",
-    "gold_reference_reply": "@332951 Uh oh! Please keep us updated on the outcome of the call so this can be researched. ^HC",
-    "gold_intent": "FEEDBACK_CHITCHAT",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "805592",
-    "customer_text": "@123813 Buenas tardes, hay manera de poner esta App en pantallas Hisense o Roku?? Gracias \u270c\ufe0f\ud83d\ude00",
-    "gold_reference_reply": "@311964 Buenas tardes Alex, puedes ver los dispositivos compatibles con Prime Video en este enlace: https://t.co/p43hj2PE1o. ^DA",
-    "gold_intent": "NON_ENGLISH_QUERY",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "686",
-    "customer_text": "@AmazonHelp Already contacted 3-4 times in the last month. But all I got was assurance that matter is escalated &amp; new status will be provided in 1 day!",
-    "gold_reference_reply": "@115849 Please share your details here:https://t.co/GIJyeYqKE0 and I'll get back to you. 2/2 ^HD",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "651734",
-    "customer_text": "@115850 I am not get my subscription due today. __email__.\n\nWhen it delivered?",
-    "gold_reference_reply": "@274981 I apologize for the delay. Connect with our support team and it'll be resolved. Here's the link: https://t.co/vlvfJr4nN9. ^SK",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "1126657",
-    "customer_text": "@AmazonHelp I've updated the email address now and shared the required details over the link",
-    "gold_reference_reply": "@385652 Thank you for keeping us posted, our support team will surely sort this for you. ^SF",
-    "gold_intent": "FEEDBACK_CHITCHAT",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "490484",
-    "customer_text": "@AmazonHelp A domina\u00e7\u00e3o masculina do Bourdieu. \ud83d\ude0a",
-    "gold_reference_reply": "@231842 Opa! Interessante demais, Rossana \ud83d\ude09 O livro da Chimamanda \u00e9 maravilhoso, tamb\u00e9m \ud83d\udc96. ^LG",
-    "gold_intent": "NON_ENGLISH_QUERY",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "801657",
-    "customer_text": "@119625 @119625 Hey, any chance of adding kannada movies? I would love to see. #KannadaMoviesOnAmazonPrime",
-    "gold_reference_reply": "@311024 Regional languages are an integral to our Indian content. Stay tuned, we'll keep adding more subtitle and audio languages. ^MS",
-    "gold_intent": "FEEDBACK_CHITCHAT",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "1916339",
-    "customer_text": "@118919 third class shopping site delivery boy don't how to spk using abuse words during conversation that ph no is 8700379353 poops",
-    "gold_reference_reply": "@570797 Please don't provide your order details, we consider it personal information. Our Twitter page is visible to public. ^KS 2/2",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "1622228",
-    "customer_text": "@AmazonHelp It says amazon carrier",
-    "gold_reference_reply": "@441237 It is standard to leave notice when a delivery has been attempted. Did we fail to do this? ^EM",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "15704",
-    "customer_text": ".@115821 don't say you'll deliver the next business day then come back the same day. I won't let someone in my building I'm not expecting.",
-    "gold_reference_reply": "@119453 I'm sorry for the frustration. Who was the carrier for this delivery? You can check here: https://t.co/Y5jpI9gRhE ^EA",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "423822",
-    "customer_text": "@AmazonHelp He had even threatened me so I have to report this",
-    "gold_reference_reply": "@206130 . Please share your details with us here: https://t.co/GIJyeYqKE0. We'll get in touch shortly. ^CB",
-    "gold_intent": "FEEDBACK_CHITCHAT",
-    "gold_action": "ESCALATE_TO_HUMAN"
-  },
-  {
-    "tweet_id": "1374083",
-    "customer_text": "@AmazonHelp \u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059",
-    "gold_reference_reply": "@439825 \u5546\u54c1\u306e\u304a\u5c4a\u3051\u3092\u5fc3\u5f85\u3061\u306b\u3044\u305f\u3060\u3044\u3066\u3044\u308b\u306b\u3082\u95a2\u308f\u3089\u305a\u3001\u304a\u5f85\u305f\u305b\u3059\u308b\u304b\u305f\u3061\u3068\u306a\u308a\u8aa0\u306b\u7533\u3057\u8a33\u3054\u3056\u3044\u307e\u305b\u3093\u3002\u304a\u624b\u6570\u3092\u304a\u304b\u3051\u3057\u307e\u3059\u304c\u3069\u3046\u305e\u3088\u308d\u3057\u304f\u304a\u9858\u3044\u3044\u305f\u3057\u307e\u3059\u3002\u3000MH",
-    "gold_intent": "FEEDBACK_CHITCHAT",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "431628",
-    "customer_text": "@AmazonHelp So I need to cancel it? Wow!",
-    "gold_reference_reply": "@217613 I get your disappointment. As mentioned earlier, once the order is on its way back, we will not be able to reinstate it.  ^NK",
-    "gold_intent": "REFUND_CANCELLATION_BILLING",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "605044",
-    "customer_text": "Sto facendo tutti i regali su Amazon, compresi i giochi per i miei nipoti. Credo che il corriere dovr\u00e0 prendersi una giornata solo per me.",
-    "gold_reference_reply": "@263824 Ordina pure tutto ci\u00f2 che vuoi! Abbiamo gi\u00e0 scelto un corriere speciale tutto per te! \ud83d\ude09 ^LF https://t.co/MBYm6oGN5i",
-    "gold_intent": "NON_ENGLISH_QUERY",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "224569",
-    "customer_text": "@AmazonHelp Whats the status AMAZON team....!!!??? Today is the last day of delivery, and still no sign of it...infact courier comp.even nt pickng call!",
-    "gold_reference_reply": "@169653 Sorry for the trouble. Kindly report this to our support team here: https://t.co/vlvfJr4nN9 and we'll check this. ^HN",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "988115",
-    "customer_text": "@AmazonHelp 9904708447",
-    "gold_reference_reply": "@354115 as we consider it to be personal information. Our Twitter page is public.\u200b 2/2 ^NK",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "162100",
-    "customer_text": "@AmazonHelp Ja. Komm nicht an der Info vorbei. Bei einem anderen Spiel lief es problemlos",
-    "gold_reference_reply": "@153423 Dann melde dich doch am besten mal bei uns im Kundenservice: https://t.co/5RHhEVutwe Wir wollen ja, dass du dein Spiel rechtzeitig bekommst. ;) ^BB",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "1935112",
-    "customer_text": "Bonjour @AmazonHelp possible de discuter en DM ?",
-    "gold_reference_reply": "@575738 Oui, Vous pouvez nouc contacter en DM.",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "152203",
-    "customer_text": "@AmazonHelp Ah dommage je n'ach\u00e8terais pas alors. Vous ne savez pas si vous en aurez \u00e0 nouveau en stock ? (vu que ce sont les nouveaux ipad pro).",
-    "gold_reference_reply": "@150780 Nous n'avons malheureusement pas de visibilit\u00e9 dessus pour l'instant. Restez connect\u00e9e :) ce sera mis \u00e0 jour d\u00e8s qu'il y a du nouveau.",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "2598390",
-    "customer_text": "I bought my phone on Amazon and now i was buying a back case for it by the same account and it says the address is invalid..this has happened second time and my order is not delivered may I know y?  This is really dumb See emails below @115821 https://t.co/PwiSEavYtD",
-    "gold_reference_reply": "@735645 Hi, sorry to hear your order has not been delivered. Can you confirm which Amazon site you ordered from, was it https://t.co/xJXEJm9Z6c etc? ^BZ",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "825082",
-    "customer_text": "Hey @115821 I\u2019m trying to buy \u201c3 Ninjas\u201d on dvd and your app isn\u2019t allowing me too! \n\nI\u2019m unhappy!!!!",
-    "gold_reference_reply": "@316503 That's strange! Sometimes uninstalling and reinstalling the app does the trick! Let us know if you need additional help. ^KJ",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "500714",
-    "customer_text": "@AmazonHelp Le colis est finalement la ce matin. Encore un scan precose j'imagine...",
-    "gold_reference_reply": "@234609 Je suis ravie d'apprendre que votre colis a \u00e9t\u00e9 livr\u00e9 \ud83d\ude0a Votre colis est en bon \u00e9tat?^FT",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "2766984",
-    "customer_text": "@AmazonHelp First time was 6th November and then every 2 days since then",
-    "gold_reference_reply": "@773763 I'm sorry you haven't received a response. Since they haven't responded to your inquiry, you should be eligible for our A-to-z Guarantee. More information about our A-to-z Guarantee can be found here: https://t.co/2BOMmKnn8r ^SK",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "2457818",
-    "customer_text": "@115821 https://t.co/HutVpHsi3D  ^JC i was disappointed to find a dirty bed sheet against my order of a blanket under order id(DLI4SBK212) placed.this is happening frequently with  you, hope action against ajay sales corporation.",
-    "gold_reference_reply": "@703961 We'll certainly take a look at this issue. Could you confirm if you have reported this to our support team here: https://t.co/vlvfJr4nN9 ? ^SY",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "326306",
-    "customer_text": "@AmazonHelp Siento verguenza pagar un servicio que me pasa 3 codigos y ninguno funciona y luego le hechan la culpa a otra empresa",
-    "gold_reference_reply": "@193738 \u00bfQu\u00e9 ha sucedido, Mr.Eevee? \u00bfQu\u00e9 informaci\u00f3n te ha brindado nuestros compa\u00f1eros de Soporte al Cliente sobre tu caso? ^LG",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "469468",
-    "customer_text": "@115850 help. Placed an order of @226787 QY7 and payment done but order not showing in My Orders. Not even received any confirmatory email.\n@115821 @AmazonHelp @115821",
-    "gold_reference_reply": "@226786 Do not worry, we'll check this for you. Please connect with our support team here: https://t.co/vlvfJr4nN9. ^NR",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "1576291",
-    "customer_text": "@AmazonHelp I mean, I was sitting here when this false alert was sent. Like how you gonna tell me you delivered something &amp; you have not?",
-    "gold_reference_reply": "@485645 Who is the carrier listed for this package here: https://t.co/Y5jpI9gRhE ? ^LB",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "445473",
-    "customer_text": "@AmazonHelp Looking to buy Garmin 735xt on UK site. Price changes from \u00a3245 on item to \u00a3251 at check-out (not including postage). Can you explain or correct this discrepancy please? Looking to buy today",
-    "gold_reference_reply": "@220498 HI Se\u00e1n, could you send me a link to the item listing so I can take a look at that for you? ^TI",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "2617260",
-    "customer_text": "@AmazonHelp my book I ordered came without the first 26 pages.. um what",
-    "gold_reference_reply": "@302999 I'm sorry you're missing pages from your book! Please visit us at the following link to check out our return options: https://t.co/2s212wsmvI ^WT",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "1150906",
-    "customer_text": "@AmazonHelp Fradulent sellers or delivery boys are stealing the product before delivery! What are your safeguards against such practices?",
-    "gold_reference_reply": "@390831 Please don\u2019t provide your details, we consider it to be personal info. Our Twitter page is visible to public. 2/2 ^MA",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "199241",
-    "customer_text": "@AmazonHelp No, it has not expired, it is up to 5th of October.Both your customer care and MI customer care are harassing us.",
-    "gold_reference_reply": "@162951 I'd like to take a closer look into this, please share your details here: https://t.co/GIJyeYqKE0. ^AG",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "1125345",
-    "customer_text": "@115850 I Received A Fake Sennheiser From U, Requested For Pickup &amp; Refund, But Didn't Get Any Of Those, I Want My Money Back..!! #worst https://t.co/rikeKHoBid",
-    "gold_reference_reply": "@385340 Apologies, pawan. Have you contacted our support team about this? We'll be glad to help. ^SK",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "793330",
-    "customer_text": "@AmazonHelp je viens de recevoir votre r\u00e9ponse et je vous remercie du remboursement. \nbonne continuation",
-    "gold_reference_reply": "@309164 Merci \u00e0 vous !",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "1622297",
-    "customer_text": "@AmazonHelp I should have posted it on Twitter earlier! You guys finally managed to get the delivery on track.  #HappyDiwali",
-    "gold_reference_reply": "@497044 Glad to know your package has arrived safely. Hope you enjoy it for Diwali. :) ^SA",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "2677347",
-    "customer_text": "@AmazonHelp Your people. AMZL. I emailed about this. Got a refund for the missing pkg, but not a word about the other concern.",
-    "gold_reference_reply": "@608181 So sorry for that! I'd like a member of my team to look into this issue. Please let us know more: https://t.co/bJyxBcKF2F ^AD",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "2907853",
-    "customer_text": "@115851 @115821 can someone please explain why 3 amazon prime packages have been lost by amazon logistics, the same facility, in a weeks time and now i have to wait 2 more days for them to locate the package and redelivery. 2 day shipping has turned into 4 day shipping. Wtf",
-    "gold_reference_reply": "@553163 Oh no! I'm sorry for the trouble with the deliveries on your orders. I'd like to have a member of my team look into this with you. When you have a moment, please provide as much information as possible here: https://t.co/SmYnr5o8R8 ^TG",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "665612",
-    "customer_text": "@AmazonHelp Hi, yes I have.  Because the Xbox is part of a bigger order and other items have been delivered it won\u2019t let me change the delivery address.",
-    "gold_reference_reply": "@278566 I'd like to have a member from our support team review any available options with you via phone: 1-866-216-1072. ^WM",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "2895952",
-    "customer_text": "@AmazonHelp The yearly renewal \ud83d\ude29\ud83d\ude29.",
-    "gold_reference_reply": "@193547 If you need it refunded you can get in touch with us here:  https://t.co/hApLpMlfHN. Please let us know how you get on! ^HS",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "2549002",
-    "customer_text": "@115850 y u no give bookmarks with books?",
-    "gold_reference_reply": "@724275 We're constantly striving to improve our services &amp; will consider your feedback to provide a better experience. (2/2)^YP",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "281679",
-    "customer_text": "#Amazon \u3067 #\u30cb\u30f3\u30c6\u30f3\u30c9\u30fc\u30af\u30e9\u30b7\u30c3\u30af\u30df\u30cb\u30b9\u30fc\u30d1\u30fc\u30d5\u30a1\u30df\u30b3\u30f3 \u914d\u9001\u3055\u308c\u3066\u308b\u306e\u306b\u4f4f\u6240\u304c\u6587\u5b57\u5316\u3051\u3067\u8fd4\u9001\u3060\u3063\u3066\u3088\u3002\n\u5225\u306b\u65e5\u6570\u306f\u69cb\u308f\u306a\u3044\u304b\u3089\u3001\u78ba\u5b9f\u306b\u8377\u7269\u5c4a\u3044\u3066\u304f\u308c\u306a\u3044\u304b\u306a",
-    "gold_reference_reply": "@183112 \u3053\u306e\u305f\u3073\u306f\u3001\u3054\u8ff7\u60d1\u3092\u304a\u304b\u3051\u3057\u7533\u3057\u8a33\u3054\u3056\u3044\u307e\u305b\u3093\u3002\n\u672c\u4ef6\u306b\u3064\u3044\u3066\u3054\u6ce8\u6587\u3044\u305f\u3060\u3044\u305f\u304a\u5ba2\u69d8\u306b\u5f8c\u65e5https://t.co/st4oU5QbhP\u3088\u308a\u3054\u9023\u7d61\u3092\u884c\u308f\u305b\u3066\u3044\u305f\u3060\u304d\u307e\u3059\u305f\u3081\u3001\u305d\u306e\u3054\u9023\u7d61\u3092\u304a\u5f85\u3061\u3044\u305f\u3060\u304d\u307e\u3059\u3088\u3046\u304a\u9858\u3044\u3044\u305f\u3057\u307e\u3059\u3002HM",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "247442",
-    "customer_text": "@AmazonHelp Please share your email ID.",
-    "gold_reference_reply": "@174795 Please drop in your details here: https://t.co/GIJyeYqKE0 from your registered account and I'll get in touch with you.^BA",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "1263971",
-    "customer_text": "@AmazonHelp why are we still waiting for collection of something which should have been collected 2 days ago,fed up ringing you \ud83d\ude20",
-    "gold_reference_reply": "@415995 Hi, sorry to hear that. Did an agent organise the collection for you? What company is being used? ^JJ",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "2919856",
-    "customer_text": "@AmazonHelp can you add more than one google account to Alexa for calendars?",
-    "gold_reference_reply": "@236020 You can currently link one calendar from each of the supported e-mail providers. If there is another adult part of your Amazon Household, they may also link one calendar from each of the supported providers. See more information here: https://t.co/aaEk6VBtMf ^LR",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "1332722",
-    "customer_text": "@126705 Hey @AmazonHelp any idea if it\u2019s coming as @126705 aren\u2019t answering",
-    "gold_reference_reply": "@430898 Parcels may be delivered up to 21:00. Please keep us updated on its arrival! ^ZW",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "843185",
-    "customer_text": "@AmazonHelp I have sent... Thanks for the immediate reply",
-    "gold_reference_reply": "@320516 Thanks for confirming. We'll reach out to you soon. ^SG",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "1404741",
-    "customer_text": "@115850 the world's most confused shopping site. The product has neither canceled nor delivered for the last 4 days.\nCan you please solve?",
-    "gold_reference_reply": "@446595 Please contact us here https://t.co/00q4Sqj9zL. For further assistance. (2/2) ^MD",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "2302565",
-    "customer_text": "I have 2 emails confirming my @115821 delivery would arrive in 2 days, I get an email today saying the item won't be here until a week later. Why?",
-    "gold_reference_reply": "@410046 I'm sorry for the wait! We don't have access to your account or order information via Twitter. If you'd like to reach us via phone or chat, we'll take a look with you and see if we can help: https://t.co/hApLpMlfHN ^KN",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "2952194",
-    "customer_text": "@AmazonHelp Yes it does show out for delivery right now ^RO",
-    "gold_reference_reply": "@125005 We expect your item to arrive by the delivery date given. This can be until the 8 PM cutoff time. \n\n-Victoria S.",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "2221842",
-    "customer_text": "@AmazonHelp Let me reiterate, it\u2019s a new TV which we got from Amazon website. Order Number\n405-5258589-3564310",
-    "gold_reference_reply": "@191528 I would like to take a closer look into this. Please drop in your details here: - https://t.co/beaaDm0muc. We shall get back to once we have your details. 2/2 ^AH",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "1990247",
-    "customer_text": "Hey @115850, really interested in knowing more about these parents who buy Deftones &amp; Naruto onesies off your site. Thanks in advance!",
-    "gold_reference_reply": "@589004 I'm afraid, we wouldn't be able to share requested info. Should you face any further concern, please keep us posted. ^SV",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "2974792",
-    "customer_text": "\u30a2\u30de\u30be\u30f3\u304b\u3089\u5c4a\u304d\u307e\u3057\u305f\u308f\uff5e https://t.co/xwjWRyT0Wp",
-    "gold_reference_reply": "@820430 ( \u02d8\u03c9\u02d8 ).\uff61oO(Amazon\u3092\u3054\u5229\u7528\u3044\u305f\u3060\u304d\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3057\u305f\u30fb\u30fb\u30fb\uff01)\u3000MH",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "2880535",
-    "customer_text": "Hello @120533, est ce que c est un vrai mail de vos services ou une tentative frauduleuse de r\u00e9cup\u00e9rer mes infos ? Merci ! https://t.co/5eIo5taBEw",
-    "gold_reference_reply": "@799355 Bonjour, Cet email provient d'Amazon.fr, vous donne droit \u00e0 un code promotionnel.\n^YL",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "441862",
-    "customer_text": "@AmazonHelp merci de l\u00e9 r\u00e9ponse, je ne demande que cela mais pour communiquer il faut \u00eatre connect\u00e9 \u00e0 son compte...",
-    "gold_reference_reply": "@219785 2/2 Tenez-nous au courant s'il vous pla\u00eet. ^SA",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "2477412",
-    "customer_text": "@AmazonHelp pronta a scatenarsi con lo shopping! https://t.co/c9B2RdnlKg",
-    "gold_reference_reply": "@708127 Vogliamo aiutarla anche noi! Clicca qui https://t.co/YqSLjWcfCa\u200b e compila i dati richiesti. ^MA",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "1493311",
-    "customer_text": "@AmazonHelp hi, my preorder of @115766 WW II has a arrival date of Nov 9 to 17. I have Prime, was supposed to get it on day 1. Help me!",
-    "gold_reference_reply": "@466771 Sorry to hear this! Was there any reason on the order given for this delay? ^TH",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "490508",
-    "customer_text": "First @118706 sends my @115821 package to MN instead OK, and now it\u2019s showing it\u2019s left the carrier facility in my city 3 days in a row. It was supposed to be here on the 24th. :/",
-    "gold_reference_reply": "@231848 We'd like to take a closer look into the delivery and available options. Please contact us here: https://t.co/hApLpMlfHN ^LI",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "490443",
-    "customer_text": ". @AmazonHelp por ahorraros 4 duros en costes log\u00edsticos,ni llam\u00e1is ni intent\u00e1is una segunda entrega.Tiene cliente que molestarse buscando",
-    "gold_reference_reply": "@231831 Juan, \u00bftienes alg\u00fan pedido pendiente de entrega? ^MB",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "1469146",
-    "customer_text": "@AmazonHelp It shows a new delivery date of tomorrow or Saturday. That\u2019s rude, I\ufe0f could\u2019ve gotten it at the store. \ud83d\ude11",
-    "gold_reference_reply": "@448572 I understand. If the item doesn't arrive by the date provided, let us know and we will look into more options for you. ^QJ",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "470084",
-    "customer_text": "@AmazonHelp The point here is having someone from the call centre call me does not fix the problem.  Believe me I've tried. I was hoping contacting you would fix the problem. I don't need another meaningless assurance that the problem would be looked in to.",
-    "gold_reference_reply": "@226920 I understand your frustration, Craig. However, we do not have account access via Twitter. If you change your mind, please provide more info on the form. We would love to assist you further. ^BA",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "1041837",
-    "customer_text": "@AmazonHelp J\u00e1 aproveitei alguns sim, e espero aproveitar mais durante a semana \ud83d\ude0a",
-    "gold_reference_reply": "@154210 Que legal! Envie uma foto do seus pedidos assim eles chegarem, para dividir a felicidade! :D Abra\u00e7o! ^CR",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "226377",
-    "customer_text": "Amazon PrimeReading\u69d8\u3005\u3084\u3067\u3047(\u4eba\uff3e\u03c9\uff3e) https://t.co/eBEYmu4qSC",
-    "gold_reference_reply": "@170038 \u304a\u6c17\u306b\u5165\u308a\u306e\u4f5c\u54c1\u304c\u3042\u3063\u3066\u3088\u304b\u3063\u305f\u3067\u3059\u3002\u3054\u582a\u80fd\u304f\u3060\u3055\u3044\u307e\u305b\uff01\u263a\ufe0f\u263a\ufe0f\u263a\ufe0fET",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "2141372",
-    "customer_text": "@AmazonHelp i read that, but no where i can find if i cant use drive anymore since i have that prime photos now. and i understand my videos go back to 5gb but i use the interface of drive for storage now. and liked to keep it that way",
-    "gold_reference_reply": "@629691 Amazon Drive requires a subscription separate from Prime Photos; for more info, please visit this link: https://t.co/RXj7wTQA1p ^JS",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "983243",
-    "customer_text": "\u00a1Ya ha llegado! Gracias @116928 @80 \ud83d\ude0d\ud83d\ude0d #tabletagrafica #wacom https://t.co/W41GihmvMV",
-    "gold_reference_reply": "@353105 Nos alegra mucho saber que ya recibiste tu pedido. Espero que lo disfrutes. ^VM https://t.co/MMA3d3I1jL",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "1412341",
-    "customer_text": "@115830 Thanks for fast &amp; furious 8 dvd! Pre ordered for delivery date release and now says be with you by Wednesday! I'll go to Tesco! \ud83d\ude21",
-    "gold_reference_reply": "@448205 I'm so sorry for the delay! What was the date given at checkout and here: https://t.co/aaDyEz1VgE? ^AG",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "483110",
-    "customer_text": "@115830 Do you deliver to Turkey?",
-    "gold_reference_reply": "@229903 I'm sorry, our UK website doesn't currently ship to Turkey. However, you may be interested in purchasing from our U.S. website: https://t.co/dpMWnGEx0R ^RA",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "2386629",
-    "customer_text": "Amazon\u304b\u3089\u30b7\u30e7\u30fc\u30c8\u30e1\u30fc\u30eb\u304c\u5c4a\u3044\u305f\u306e\u3067\u4f55\u3060\u308d\u3046\u3068\u601d\u3063\u305f\u3089\u300c\u767b\u9332\u6599\u91d1\u672a\u7d0d\u3046\u3093\u306c\u3093\u304b\u3093\u306c\u3093\u3001\u3001\u3001\u672c\u65e5\u4e2d\u306b\u9023\u7d61\u3092\u3002\u96fb\u8a71\u756a\u53f7\u300d\u3067\u3057\u305f\u3002\u307e\u3060\u3053\u3093\u306a\u8a50\u6b3a\u306e\u624b\u53e3\u304c\u7d9a\u3044\u3066\u3044\u308b\u3093\u3067\u3059\u306d\u3002",
-    "gold_reference_reply": "@687780 Amazon\u3092\u9a19\u308bE\u30e1\u30fc\u30eb\u3084SMS\u304c\u5897\u3048\u3066\u3044\u308b\u3088\u3046\u3067\u3059\u306e\u3067\u3001\u4eca\u5f8c\u3082\u304a\u6c17\u3092\u4ed8\u3051\u304f\u3060\u3055\u3044\u307e\u305b\u3002\u306a\u304a\u3001\u5f53\u30b5\u30a4\u30c8\u304b\u3089\u306eE\u30e1\u30fc\u30eb\u304b\u3069\u3046\u304b\u306e\u8b58\u5225\u65b9\u6cd5\u306b\u3064\u3044\u3066\u3001\u3088\u308d\u3057\u3051\u308c\u3070\u3001\u30ea\u30f3\u30af\u306e\u30d8\u30eb\u30d7\u30da\u30fc\u30b8\u3092\u3054\u53c2\u7167\u304f\u3060\u3055\u3044\u3002https://t.co/xWXio7AP2Z  SM",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "105154",
-    "customer_text": "@AmazonHelp Apparently tomorrow. The saga of Amazon Prime delivery nor non delivery.",
-    "gold_reference_reply": "@139224 Please keep us updated on the delivery of your order, we'll be here to help. ^MH",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "249900",
-    "customer_text": "@116928 tengo una duda sobre un art\u00edculo que quiero adquirir. Me pod\u00e9is ayudar?",
-    "gold_reference_reply": "@175386 Hola Andal\u00fa, \u00bfc\u00f3mo podemos ayudarte? ^LG",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "153663",
-    "customer_text": "@AmazonHelp No, en todo caso debieran ser ellos los que se pusieran en contacto si tienen problemas para entregar un pedido, pero tampoco.",
-    "gold_reference_reply": "@151174 Entiendo, @132703 pueden ayudarnos con la entrega de este pedido por favor. Gada si no recibes una respuesta del transportista por favor no dudes en contactarnos. ^NB",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "2528264",
-    "customer_text": "@AmazonHelp I didn't get any cancellation email, attached a screenshot of the last email which I got regarding my order. There were multiple reasons mentioned in that which blames issues in your system. https://t.co/F57oNFpNEF",
-    "gold_reference_reply": "@665478 We understand your order was cancelled due to unknown reasons. Let us investigate this further and help assist. Kindly fill in your details here https://t.co/KnBbSsruOz and we'll reach out to you for assistance. ^VM",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "287873",
-    "customer_text": "@AmazonHelp Dear @115850  Your staff is  saying that you have delivered the product to me, then what I am following with last 10 days.",
-    "gold_reference_reply": "@183542 Kindly check for our correspondence on the link provided below. You can choose to revert to the same if you feel. ^CB",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "477840",
-    "customer_text": "Amazon\u30d7\u30e9\u30a4\u30e0\u4f1a\u54e1\u306e\u304f\u305b\u306b\u60c5\u5f31\u306e\u304a\u304b\u3052\u3067\u30d7\u30e9\u30a4\u30e0\u914d\u9001\u3068\u30d7\u30e9\u30a4\u30e0\u30d3\u30c7\u30aa\u3050\u3089\u3044\u306e\u65e8\u307f\u3057\u304b\u5438\u3063\u3066\u306a\u304b\u3063\u305f....",
-    "gold_reference_reply": "@228509 \uff08\u00b4-`\uff09.\uff61oO ( \u305d\u306e\u4ed6\u306e\u7279\u5178\u3082\u3088\u308d\u3057\u3051\u308c\u3070\u305c\u3072\u30fb\u30fb\u30fb\u3000\u7279\u5178\u4e00\u89a7\u3067\u3059\u261ehttps://t.co/JVlaJGORZx  )HM",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "812470",
-    "customer_text": "@AmazonHelp Hi. Yes I sent an email too and all sorted. Thanks !",
-    "gold_reference_reply": "@313591 We're glad to see you were helped! Have a great evening, let us know if you need anything else. ^DW",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "605207",
-    "customer_text": "@115850   worst experince ever..Your amazon transprotation service is pathetic.I dunno why some product are amazon exclusive.. Flipkart @118702 is way better for me...\nYour courier boy told that he will not come beyond certain pnt and i had to cancel all my orders",
-    "gold_reference_reply": "@263848 I'm sorry, this wasn't intended. Did you report this to our customer service team here: https://t.co/vlvfJrlYEH? ^SI",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "2934421",
-    "customer_text": "@AmazonHelp check my account detail 8238240804.",
-    "gold_reference_reply": "@803283 We understand you are yet to receive your cashback. However, for us to assist you better, please reach us via the link provided earlier and fill in your details. We'll reach out to you as soon as we receive your information. ^VM",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "1486616",
-    "customer_text": "called amazon customer support bc the help page didn\u2019t help me and before I hung up the guy goes \u201cone last thing miss, next time try checking the help page before calling\u201d \ud83d\ude44\ud83d\ude44\ud83d\ude44",
-    "gold_reference_reply": "@465246 I'm very sorry for this experience. Please report this via the survey e-mailed post call; it's reviewed by Leadership. ^EA",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "2343945",
-    "customer_text": "@AmazonHelp God knows who the courier was, didn't even bother to knock my door or leave a note. I only knew it went to number 70 coz i had an email it was delivered and I've had plenty of deliveries without issue before not",
-    "gold_reference_reply": "@378865 We'd like to document your feedback and look into your options. Please contact us here: https://t.co/qy3J24VGxb ^AF",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "1161689",
-    "customer_text": "@AmazonHelp we made FOUR orders via prime yesterday (Saturday) and these are the shipping estimates. What exactly are we paying Prime for? https://t.co/asjXxodj7N",
-    "gold_reference_reply": "@393307 Two-Day shipping refers to transit time in bus days after shipping. For more info please check here: https://t.co/4yTYhsgVS8 ^KH",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "1760541",
-    "customer_text": "@AmazonHelp I ordered it on October 11, expected it by November 1, it still hadn\u2019t arrived :(",
-    "gold_reference_reply": "@529871 Was this item sold by Amazon or a third-party seller? What does the latest tracking show: https://t.co/hApLpMlfHN ^VS",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "2724542",
-    "customer_text": "Amazon\u304b\u3089\u8377\u7269\u5c4a\u304b\u306a\u3044\u306a\u3042\u3002\n\u914d\u9054\u72b6\u6cc1\u306f\u914d\u9054\u5b8c\u4e86\u306b\u306a\u3063\u3066\u308b\u306e\u306b\u3002",
-    "gold_reference_reply": "@764180 \u3054\u5fc3\u914d\u3092\u304a\u304b\u3051\u3057\u3066\u304a\u308a\u307e\u3059\u3002\u914d\u9054\u5b8c\u4e86\u3067\u3082\u5546\u54c1\u672a\u7740\u306e\u5834\u5408\u3001\u4e0b\u8a18\u30d8\u30eb\u30d7\u30da\u30fc\u30b8\u306e\u5185\u5bb9\u3092\u3054\u78ba\u8a8d\u304f\u3060\u3055\u3044\u3002https://t.co/aABELyb8qu  \u89e3\u6c7a\u3057\u306a\u3044\u5834\u5408\u306f\u3001\u4ee5\u4e0b\u3088\u308a\u5f53\u30b5\u30a4\u30c8\u3078\u304a\u554f\u5408\u305b\u304f\u3060\u3055\u3044\u3002https://t.co/J6YEizo6qC  \u3000SM",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "227375",
-    "customer_text": "@115821 @115851 Worst ever service I hav to cancel order because your customer service itself is not equipped with any process to resolve delayed provision.",
-    "gold_reference_reply": "@170234 I'll surely forward your comments to the teams internally so they can look into it.(2/2)^HR",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "2379843",
-    "customer_text": "@AmazonHelp I had ordered package because it was being delivered on 14th Nov. If the order is late it's of no use for me. You guys don't understand the importance of time.",
-    "gold_reference_reply": "@123358 I understand the need for the order, Akshay. Kindly reach out to our support team here: https://t.co/2t6DQoUmNZ we'll look into it. ^AP",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "1505421",
-    "customer_text": "@115766 I keep getting an error message when trying to redeem my @115821 pre-order reward for @115786. Known issue? Fix?",
-    "gold_reference_reply": "@316227 We're sorry to hear about this! What error message are you receiving when attempting to redeem? ^TH",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "248122",
-    "customer_text": "@115850 please check what is the issue you have with amex cards. https://t.co/TChFcZizfC",
-    "gold_reference_reply": "@174950 Please don't provide your order details, we consider it personal info. Our Twitter page is visible to public. ^NR 2/2",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "142072",
-    "customer_text": "@AmazonHelp Why can I not pass some of my gift voucher balance to other people?  Want to give them to family members so they can do what they wish, but I cannot buy gift cards with them and I cannot appear to transfer them!\nThanks",
-    "gold_reference_reply": "@148059 You can find more information about Gift Card restrictions on our website  here: https://t.co/RXNDxiroDP. ^MI",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "137048",
-    "customer_text": "D\u00e9sormais chez @120533 : 1 jour ouvr\u00e9 = 3 jours ouvr\u00e9s https://t.co/IQwOxCXPWT",
-    "gold_reference_reply": "@146907 Bonjour Pierre-Alain, sachez que de nombreux facteurs ind\u00e9pendants de notre volont\u00e9 influent sur la date de livraison d'une commande : la disponibilit\u00e9 de l'article, la destination du colis...\n^ARC",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "2496063",
-    "customer_text": "@AmazonHelp That's almost my initials too.- H.D. \ud83d\ude01",
-    "gold_reference_reply": "@454317 Well, that's an amazing co-incidence! :D From one HD to another, I'm positive the order will be delivered on time! :D ^HD",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "2418984",
-    "customer_text": "In #response to this #tweet, I received a mail full with big promises and self praise. #Thank you @115850 for ur #reply full with #shit. https://t.co/XBdsg99RjW",
-    "gold_reference_reply": "@546610 Kindly reply to the email you've received and we'll be sure to help you in getting this issue resolved. ^ZH",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "709441",
-    "customer_text": "@115850 Hey, why did your customer care asks for my card detail? There is no need! What if something happens? Who's responsible?",
-    "gold_reference_reply": "@289634 Could you please confirm if you we're asked for the last 4 digits of your card number? ^NR",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "924530",
-    "customer_text": "Bonsoir @120533 il \u00e9crit sur le site que @339400 sortira le 30/03/18 alors qu'aucune date n'a \u00e9t\u00e9 annonc\u00e9e, que cela signifie-t-il ? https://t.co/5kIR6RCMDr",
-    "gold_reference_reply": "@339399 Bonsoir, c'est la date qui nous \u00e9tait communiqu\u00e9e par l'\u00e9diteur.^ Ko",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "861256",
-    "customer_text": "@115850 you ignored me Amazon.. You ignored your fan\nYou ignored your regular customer\nHow sad is this and how bad is this \ud83d\ude13\ud83d\ude2d",
-    "gold_reference_reply": "@664793 Awww... don't be disappointed. We'll have many more contests further. Better luck next time. ^NR",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "124062",
-    "customer_text": "\u30a2\u30de\u30be\u30f3\u30d7\u30e9\u30a4\u30e0\u767b\u9332\u3057\u3066\u8cb7\u3044\u7269\u3057\u305f\u3093\u3060\u3051\u3069\u983c\u3093\u3067\u304b\u308912\u6642\u9593\u3082\u7d4c\u305f\u306a\u3044\u3046\u3061\u306b\u5c4a\u3044\u3066\u9a5a\u3044\u3066\u308b",
-    "gold_reference_reply": "@143745 \u3054\u767b\u9332\u3044\u305f\u3060\u304d\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\uff01\u307e\u305f\u306e\u3054\u5229\u7528\u304a\u307e\u3061\u3057\u3066\u304a\u308a\u307e\u3059\ud83d\ude4f\u2728\u2728SK",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "410076",
-    "customer_text": "@AmazonHelp pela Amazon",
-    "gold_reference_reply": "@212811 Nesse caso, recomendo entrar em contato diretamente com o nosso SAC: https://t.co/qGpkDwGRhX ^CR",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "279425",
-    "customer_text": "@AmazonHelp That what I wanted to know, what information thebwant to activate my account ??",
-    "gold_reference_reply": "@182606 Kindly check and revert to the same. 2/2^AP",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "2767574",
-    "customer_text": "Hey @115821, is there something wrong with digital services? Can't buy any Kindle books at the moment.",
-    "gold_reference_reply": "@127027 Hey Doug, have you tried logging out an in again? ^BD",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "2769086",
-    "customer_text": "@AmazonHelp Achat de battlefront 2 sur ps4.\nCode promo SON re\u00e7u par mail.\nMais il ne fonctionne pas https://t.co/f4xP7Nbl49",
-    "gold_reference_reply": "@774213 S'agit-il d'un code bonus ? ^AR",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "2812810",
-    "customer_text": "@AmazonHelp Yeah I had 2 items that should have been delivered today. But my USPS is crap and holds my packages too long before delivering. Everything Ive ordered from anywhere has taken longer than expected to be delivered to me.",
-    "gold_reference_reply": "@784303 I'm sorry for the delay on your order! What's the most recent reading on your orders tracking information: https://t.co/3kQwjObgTc? ^GM",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "277205",
-    "customer_text": "@AmazonHelp WOULD HELP IF U COULD SELWCT THE ITEMS!!! I HAVE HAD NOTHING BUT PROBLEMS WITH AMAZION!!!!!",
-    "gold_reference_reply": "@182226 Were you able to contact us using the link provided by ^BM? If so, what were the available options offered to you? ^ME",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "160370",
-    "customer_text": "@115821 I have had money taken from my account and I can't find why",
-    "gold_reference_reply": "@152942 We'd like to look into this with you! Please reach out to us by phone or chat here: https://t.co/JzP7hlA23B so we can investigate together. ^KJ",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "2172000",
-    "customer_text": "@637013 @86116 @116089 J'aurais tellement aim\u00e9 si @120533 daignait m'envoyer ma pr\u00e9co Scorpio du 20 ao\u00fbt \ud83d\ude21\ud83d\ude21\ud83d\ude21",
-    "gold_reference_reply": "@526449 Bonjour, d\u00e9sol\u00e9e d'apprendre cela :/ le mieux serait de contacter l'\u00e9quipe en charge via ce lien  https://t.co/hgIrz98cdI ^SN",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "238896",
-    "customer_text": "@AmazonHelp Been many days, doesnt look like you guys are interested in resolving issues",
-    "gold_reference_reply": "@147145 We understand your concern. Apologies for the delay in reaching you. As we've your details, we'll work on this and assist. ^SV",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "210330",
-    "customer_text": "@AmazonHelp Meine Adresse existiert seit mehr als 1 Jahr,es ist immer wieder das gleiche.Postfiliale ist Mist, ich habe nen Job, und komme da nicht hin",
-    "gold_reference_reply": "@165782 Der Kundenservice kann gerne eine Zustellerbeschwerde aufgeben: https://t.co/ohyvGrpvrY ^BL",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "128762",
-    "customer_text": "@AmazonHelp Si la cancelo, \u00bfme reembolsa \u00e9l dinero? para volver a hacer la compra y poner \u00e9l otro nombre",
-    "gold_reference_reply": "@144966 Amazon cobra cuando el pedido es enviado, por lo que, de ver alguna transacci\u00f3n bancaria, es posible que se trate de una autorizaci\u00f3n que ser\u00eda eliminada de acuerdo con las pol\u00edticas de tu banco. M\u00e1s detalles ac\u00e1: https://t.co/F43lwUcuN3. ^JQ",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "512399",
-    "customer_text": "@AmazonHelp Sim, com sorte ele chegou completo. Mas a forma de acondicionamento do produto poderia usar uma ajuda. A caixa estava toda amassada e quase violada.\ud83d\ude16",
-    "gold_reference_reply": "@237837 Sinto muito pelo acontecido Jhosy. Agradecemos seu feedback. ^JJ",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "1486553",
-    "customer_text": "\u3093\uff1f\n\u4ffa\u306f\u30a2\u30de\u30be\u30f3\u3067\u4f55\u3082\u8cb7\u3044\u7269\u3057\u3066\u306a\u3044\u305e\uff1f https://t.co/GHZO8mOkGX",
-    "gold_reference_reply": "@465231 \u3054\u5fc3\u914d\u3092\u304a\u304b\u3051\u3057\u3066\u304a\u308a\u307e\u3059\u3002\u3054\u5bb6\u65cf\u306e\u3054\u6ce8\u6587\u3084\u3001\u304a\u77e5\u308a\u5408\u3044\u304b\u3089\u306e\u8d08\u308a\u7269\u3067\u3042\u308b\u53ef\u80fd\u6027\u306f\u3054\u3056\u3044\u307e\u305b\u3093\u3067\u3057\u3087\u3046\u304b\u3002\u3000\u304a\u5fc3\u5f53\u305f\u308a\u304c\u306a\u3044\u5834\u5408\u306f\u6587\u672b\u306e\u30ea\u30f3\u30af\u3088\u308a\u30ab\u30b9\u30bf\u30de\u30fc\u30b5\u30fc\u30d3\u30b9\u307e\u3067\u304a\u554f\u3044\u5408\u308f\u305b\u304f\u3060\u3055\u3044\u3002https://t.co/J6YEizo6qC  \u3000SM",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "648478",
-    "customer_text": "@AmazonHelp Someone has changed my delivery from my home address to a pick up location. I don't understand why you allow that to happen",
-    "gold_reference_reply": "@274101 I'm sorry to hear about this! Before the delivery address was changed, did you receive any kind of tracking update about an attempted delivery at your home address? ^TH",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "1180547",
-    "customer_text": "Listen, @115821, it's becoming less and less reliable to receive my orders in an undamaged condition. Two in two weeks is unacceptable! https://t.co/L9Xjn8MBqY",
-    "gold_reference_reply": "@397664 I'm sorry your order arrived like this. Was this sold by Amazon, or one of our sellers? Check here: https://t.co/qzd6WcsHdp ^MB",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "1421298",
-    "customer_text": "@AmazonHelp Already replied in my morning but u don't even check emails",
-    "gold_reference_reply": "@126720 If you have emailed us, our team will write back to you soon. Request you to please wait. Appreciate your patience.^SF",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "1423024",
-    "customer_text": "@115830 your own courier is shite. Attempted deliveries that we're never attempted as we were home all day yesterday. #epicfail #lazies",
-    "gold_reference_reply": "@450691 Sorry to hear this, has this happened with any of your other orders? ^KM",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "2310821",
-    "customer_text": "@AmazonHelp Intelcom Courrier Canada Inc.",
-    "gold_reference_reply": "@670189 Hi Karen. Was your order sold via a seller or Amazon directly? Please reach out - https://t.co/Q7Ftz6nj80 we'll be happy to look into your concern further. ^TP",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "1490260",
-    "customer_text": "@AmazonHelp Yes otherwise I would not be annoyed but it has happened 5 times now. I basically now know I can not count on your delivery date @115851",
-    "gold_reference_reply": "@466102 Did this happen with one carrier or multiple carriers? Please use the previously linked page to check. Thank you. ^DO",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "1131247",
-    "customer_text": "@115850 order getting delayed again and again . . . Worst service of ATS\nORDR NO.\n408-3885449-3453920",
-    "gold_reference_reply": "@386598 Please don\u2019t provide your order details as we consider them to be personal info. Our page is visible to the public. [2/2] ^NS",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "389928",
-    "customer_text": "@AmazonHelp @122232 are a disgrace! 3 orders to a BFPO address.....all 3 returned! Why do you use these jokers. #Sackthem",
-    "gold_reference_reply": "@208317 I'm sorry about the trouble. We'd like to look into the delivery issues here: https://t.co/JzP7hlA23B ^LI",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "2924604",
-    "customer_text": "@115821 I received a package just now and it came damaged. Hopefully they didn\u2019t switch out the memory cards for one with less memory or different brand and only the package came damaged... https://t.co/CiAfjDuCck",
-    "gold_reference_reply": "@766504 I'm sorry your item was received in this condition, Christian. We're here to help! Please let us know if you need a refund or replacement.  ^SE",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "2985533",
-    "customer_text": "When @115850's 'Choice' is a fake vendor.\n\nI too like \"Nastle\" chocolate. https://t.co/aRUPCQrS1s",
-    "gold_reference_reply": "@546200 Thanks for flagging this. I'll forward this issue to the concerned team internally for a review. ^KA",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "2767593",
-    "customer_text": "@AmazonHelp Et aussit\u00f4t rachet\u00e9 une coque \u00e0 la bonne taille \ud83d\ude0a",
-    "gold_reference_reply": "@668416 Bonne reception \ud83d\ude09",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "698803",
-    "customer_text": "@119625 Please stream this in USA too",
-    "gold_reference_reply": "@362389 We've responded to your query here: https://t.co/t0oYtK7xfw. ^HD",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "2318406",
-    "customer_text": "What ?? @115850  delivery boy want only Cash ?? No card else go away ?? What the Hell ?? https://t.co/36kJakl4lA",
-    "gold_reference_reply": "@134315 Apologies for the hassle, that was not intended. Please report this to our support team here: https://t.co/vlvfJr4nN9 &amp; we'll help you. Also, Please don\u2019t provide order details as we consider them to be personal info. Our Twitter page is visible to public. ^BS",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "2141325",
-    "customer_text": ". @115851, @115821 customer service used to rock...today was horrible dealing with them.",
-    "gold_reference_reply": "@629678 I'm sorry for the trouble! Without revealing personal info, could you tell us more about the experience? ^LJ",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "1529939",
-    "customer_text": "@115821 ever consider an \"undo delivered\" button for delivery drivers? Dont post items as delivered when they aren't.",
-    "gold_reference_reply": "@474833 I am so sorry, Anthony! Have you had a chance to reach out to us via phone? If so what options where you provided? ^LS",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "992344",
-    "customer_text": "@AmazonHelp WTH. What action you took on my previous response. Wasting time.",
-    "gold_reference_reply": "@210667 Kindly check the latest correspondence we sent to your registered account and respond to it, we'll reach out to you soon. ^MA",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "27837",
-    "customer_text": "@122094 @120474 Same",
-    "gold_reference_reply": "@120618 Hi, we can look into this for you: https://t.co/oGDklGgbCZ Please get in touch via the link. ^TS",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "784734",
-    "customer_text": "@115850 thanks for the quick response.Finally I came to know that how to make company responsive is by just 1 tweet .hehhehe",
-    "gold_reference_reply": "@306762 We're glad you reached us here. :) Do keep us posted if the issue remains unresolved. ^KC",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "1222617",
-    "customer_text": "@AmazonHelp hello really need your help my account ha been locked!!",
-    "gold_reference_reply": "@406888 on how to regain access to your account? Be sure to also check your junk and spam folders. ^HC (2/2)",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "2768251",
-    "customer_text": "@AmazonHelp I cannot load a return label so how am I meant to return an item?",
-    "gold_reference_reply": "@774044 I am sorry to hear this. Can I ask what options you have for the return through the link below please? https://t.co/jC8cVVU0wx. ^GA",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "2089306",
-    "customer_text": "@428606 @AmazonHelp Supposedly dispatched, but I don't understand how there is a potential 7 day delay if that's the case, but it does mean too late to cancel.",
-    "gold_reference_reply": "@179020 Hi, apologies for the delay! Please keep us posted on your delivery. ^TS",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "1899098",
-    "customer_text": "iPhone\u306eKindle\u304c\u8b0e\u3060\u3002amazon\u304b\u3089\u306e\u30d8\u30eb\u30d7\u3092\u53c2\u7167\u3057\u3066\u8a2d\u5b9a\u3057\u3066\u308b\u3093\u3060\u3051\u3069\u4ee5\u524d\u8cfc\u5165\u51fa\u6765\u305f\u672c\u306f\u30e9\u30a4\u30d6\u30e9\u30ea\u304b\u3089\u3076\u3063\u98db\u3093\u3058\u3083\u3063\u305f\u3057\u3001\u4eca\u306f\u30b5\u30f3\u30d7\u30ebDL\u3057\u3066\u3082\u30a2\u30d7\u30ea\u3067\u53cd\u6620\u3055\u308c\u306a\u3044\u3002\u56fd\u5185\u51fa\u7248\u7269\u306f\u691c\u7d22\u3057\u3066\u3082\u51fa\u3066\u3053\u306a\u3044\u3002\u3057\u3087\u3046\u304c\u306a\u304fiBook\u4f7f\u3063\u3066\u308b\u3051\u3069\u30bb\u30fc\u30eb\u4fa1\u683c\u3067\u8cb7\u3048\u306a\u304f\u3066\u3064\u3089\u3044",
-    "gold_reference_reply": "@565987 \u3054\u4e0d\u4fbf\u3092\u304a\u639b\u3051\u3057\u3066\u304a\u308a\u307e\u3059\u3002\u304a\u624b\u6570\u3067\u3059\u304c\u3001\u30a2\u30d7\u30ea\u306e\u30a2\u30f3\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\uff1e\u7aef\u672b\u518d\u8d77\u52d5\uff1e\u518d\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3092\u304a\u8a66\u3057\u304f\u3060\u3055\u3044\u3002\u6539\u5584\u3057\u306a\u3044\u5834\u5408\u306f\u8a73\u7d30\u3092\u78ba\u8a8d\u3057\u305f\u4e0a\u3067\u3054\u6848\u5185\u3055\u305b\u3066\u3044\u305f\u3060\u304d\u307e\u3059\u306e\u3067\u3001\u30ea\u30f3\u30af\u3088\u308a\u304a\u554f\u3044\u5408\u308f\u305b\u304f\u3060\u3055\u3044\u3002https://t.co/J6YEizo6qC TN",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "1262229",
-    "customer_text": "@AmazonHelp How drive it back to the post office. I work during the day so no way to refuse",
-    "gold_reference_reply": "@415650 Is it an item that needs to be signed for? ^MC",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "402558",
-    "customer_text": "@AmazonHelp do I still need to say anything 6 october was the date how long do I have to wait for a respond https://t.co/U9fAkfAUks",
-    "gold_reference_reply": "@186090 Sorry for the trouble with your order. Please write to us here: https://t.co/GIJyeYqKE0 and I'll reach out to you. ^SQ",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "234224",
-    "customer_text": "@AmazonHelp Yes Sir I've mailed my problem at your given link.",
-    "gold_reference_reply": "@171762 Thank you for confirming. You should receive an update from us soon. Keep an eye on your mailbox. ^MP",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "1238760",
-    "customer_text": "@AmazonHelp Ok, but EVERYTHING that\u2019s available with Prime is coming up as Monday/Tuesday being the earliest delivery date, not just \u201csome items\u201d. I pay for Prime because I want next day delivery, yet it\u2019s not available, which renders Prime pointless to me.",
-    "gold_reference_reply": "@227952 I can certainly understand your frustration, Laura. Please visit us here for more information: https://t.co/4kVen2bV7X ^RB",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "2269089",
-    "customer_text": "@AmazonHelp @AmazonHelp can you help me? @89304 is moving pretty slow in destiny 2. How do I make him quicker?",
-    "gold_reference_reply": "@660343 What did he have for breakfast? Its the most important meal of the day afterall ^AS",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "486658",
-    "customer_text": "@AmazonHelp Funny but I can order it now and it will arrive on Sunday yet mine which I bought on Tuesday gone won\u2019t arrive till Monday https://t.co/LFwWXZ4j6v",
-    "gold_reference_reply": "@230811 I'm sorry to hear your order isn't arriving when expected. We always aim to meet the original delivery date given in your order confirmation e-mail however, occasionally unforeseen circumstances do occur. Please keep us updated on the arrival of your order. ^KH",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "928384",
-    "customer_text": "I love when I choose 2 day shipping for my @116090 order and it still hasn\u2019t even shipped after 48 hours \ud83d\ude2c @AmazonHelp",
-    "gold_reference_reply": "@340283 I'm really sorry for the wait! Some items require additional processing, and aren't able to be shipped right away. ^WJ",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "2679469",
-    "customer_text": "@115850 Shame on you Amazon, learn something from Flipkart. I want my refund right now. I'd waited for a week and then received a cheque where the name mentioned is wrong. I've even mailed the canceled check to Amazon but no response. Refund Id-403-3693517-6045157. Hopeless!",
-    "gold_reference_reply": "@521251 Please don't provide your order details, we consider it personal information. Our Twitter page is visible to public. ^VN (2/2)",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "1637867",
-    "customer_text": "My order no. 4__credit_card__\nI don't get cash back amount \n@AmazonHelp Please look into this matter",
-    "gold_reference_reply": "@500893 our support team here : https://t.co/rS49hgaADF so that we can assist you accordingly. (2/2) ^SS",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "2018621",
-    "customer_text": "@AmazonHelp @115850 @115821 @117795 @79334\nSee how Amazon is selling broken cap deo to prime customers thru Amazon pantry with delivery charges 20 i lost around 200 INR . Amazon in In sucks. https://t.co/Uu276ahigd",
-    "gold_reference_reply": "@596984 We apologize that you have received a damaged product Sunil, we certainly did not expect this to happen. Kindly connect with our support team here: https://t.co/rS49hgaADF and we'll get this sorted. ^VH",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "1270275",
-    "customer_text": "@AmazonHelp Also I have completely given up on on.. never using it @3974 again.. also recommending all my friends to do the same. Thx",
-    "gold_reference_reply": "@183038 I get your disappointment, Piyush. We'd like to help, kindly elaborate for us to help you better. ^MP",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "1744107",
-    "customer_text": "@AmazonHelp I'm  contacting from  last month &amp; everytime your executive asked me to wait 3-4 days we will initiate your refund. &amp; Now when I connect with your Customer service (IVR) they tell me your order is not found in system. You don't care your Customer. Amazon is using my money from",
-    "gold_reference_reply": "@526003 this for you at the earliest. 2/2 ^KH",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "641770",
-    "customer_text": "@AmazonHelp N\u00e3o, fiquei com medo de embananar mais ainda o processo. Seria o procedimento mais adequado?",
-    "gold_reference_reply": "@272306 Recomendamos entrar em contato com nosso SAC, por favor acesse o seguinte link: https://t.co/qGpkDwGRhX ^HC",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "495912",
-    "customer_text": "Really annoyed @126705 refusing delivery of @115830 package because post office was full. So now returned to sender. Poor",
-    "gold_reference_reply": "@233284 I am so sorry for your poor experience! We would like to take a closer look into this issue with you. Please contact us via phone or chat here: https://t.co/JzP7hlA23B ^LS",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "1245424",
-    "customer_text": "@AmazonHelp Yes I get all the notifications as well. I am hoping it\u2019s just cancelled versus waiting for a delivery date.",
-    "gold_reference_reply": "@412164 I understand. Please reach us via phone or chat here: https://t.co/hApLpMlfHN We'd like to see what options we have for you. ^BL",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "857864",
-    "customer_text": "@AmazonHelp It didn't happen to me. Please help.",
-    "gold_reference_reply": "@185374 Once your Echo is delivered , the prime membership associated with it will automatically be renewed. ^EM",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "2419713",
-    "customer_text": "@AmazonHelp Im using a galaxy s8 &amp; none of the songs are greyed out. If i click on them, they play. Its just when I hit shuffle, every song doesnt show.",
-    "gold_reference_reply": "@695139 Hmm. That is strange! Let's troubleshoot this in real time with you here: https://t.co/hApLpMlfHN ^JZ",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
+    "tweet_id":445634,
+    "customer_text":"@AmazonHelp \u304a\u8fd4\u4e8b\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\uff01\n\u307e\u305a\u914d\u9001\u696d\u8005\u306b\u78ba\u8a8d\u3059\u308c\u3070\u826f\u3044\u306e\u3067\u3059\u306d\u3002\n\u5bfe\u51e6\u6cd5\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u308a\u3001\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3057\u305f\u3002\n[English Translation: @AmazonHelp Thank you for your reply!\nSo I should check with the delivery company first.\nThank you for telling me how to handle this.]",
+    "gold_reference_reply":"@220525 \u304a\u624b\u6570\u3092\u304a\u304b\u3051\u3044\u305f\u3057\u307e\u3059\u304c\u3001\u3069\u3046\u305e\u3088\u308d\u3057\u304f\u304a\u9858\u3044\u3044\u305f\u3057\u307e\u3059\u3002\u3054\u4e0d\u660e\u306a\u70b9\u304c\u3054\u3056\u3044\u307e\u3057\u305f\u3089\u3054\u9060\u616e\u306a\u304f\u3054\u8cea\u554f\u304f\u3060\u3055\u3044\u3002SK",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":2954491,
+    "customer_text":"@AmazonHelp No, nunca me hizo falta, tan verdad que siempre ven\u00edan en d\u00eda y hora",
+    "gold_reference_reply":"@815672 Comprendo. Fran, si desearas comunicarte con ellos en esta ocasi\u00f3n para verificar lo que ha pasado con esta entrega, te dejo el siguiente enlace con informaci\u00f3n para contactarlos: https:\/\/t.co\/SWwGj6yvRq\n^ES",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":2945615,
+    "customer_text":"@AmazonHelp I wonder if you'll do. We'll see where this goes because it seems like yet another automated response to pacify a customer, instead of actually providing any quality service.",
+    "gold_reference_reply":"@813367 I get your concern. Once you share the details, please be assured that we'll work on the issue and get back to you soon.",
+    "weak_llm_intent":"FEEDBACK_CHITCHAT",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"FEEDBACK_CHITCHAT",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"FEEDBACK_CHITCHAT",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":2288850,
+    "customer_text":"@115850 it's been 3 times and now I find it too hard to trust you on my money. I mean how hard it is to credit the cashback to my amazon pay balance, if I am eligible for it. Awful service.",
+    "gold_reference_reply":"@183234 I understand how upsetting this can be. This is certainly not the kind of experience we want our customers to have. Kindly reach out to us here: https:\/\/t.co\/vlvfJr4nN9 and we will assist you. ^AH",
+    "weak_llm_intent":"REFUND_CANCELLATION_BILLING",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"REFUND_CANCELLATION_BILLING",
+    "human_action":"ESCALATE_TO_HUMAN",
+    "gold_intent":"REFUND_CANCELLATION_BILLING",
+    "gold_action":"ESCALATE_TO_HUMAN"
+  },
+  {
+    "tweet_id":2473479,
+    "customer_text":"@120533 maintenant vous laissez vos clients sans r\u00e9ponse apr\u00e8s vous etes engag\u00e9s \u00e0 un retour sous 48h? Je vous ai connu plus soucieux de vos clients!",
+    "gold_reference_reply":"@707244 Bonjour, pouvez-vous nous expliquer davantage s'il vous pla\u00eet ? ^MA",
+    "weak_llm_intent":"NON_ENGLISH_QUERY",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"NON_ENGLISH_QUERY",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"NON_ENGLISH_QUERY",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":2240645,
+    "customer_text":"Dear @115821. In 5 days, it'll be a full year since I ordered this item and you still have NOT shipped it to me. I have contacted you many times &amp; continue to get \"your business is important to us\".  But, your actions tell me that it's not. #SendMeMyItemPlease #MomsChristmasGift https:\/\/t.co\/msVYCPEyCF",
+    "gold_reference_reply":"@653281 Hey Geoff, so sorry for the long wait. When you previously contacted us, did we provide a reason as to why it's taking so long? ^BG",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":896707,
+    "customer_text":"@AmazonHelp I've been on hold for a manager for 20 min. I received an email while on hold from someone named Van who said there is nothing they can do.",
+    "gold_reference_reply":"@332951 Uh oh! Please keep us updated on the outcome of the call so this can be researched. ^HC",
+    "weak_llm_intent":"FEEDBACK_CHITCHAT",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"FEEDBACK_CHITCHAT",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"FEEDBACK_CHITCHAT",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":805592,
+    "customer_text":"@123813 Buenas tardes, hay manera de poner esta App en pantallas Hisense o Roku?? Gracias \u270c\ufe0f\ud83d\ude00",
+    "gold_reference_reply":"@311964 Buenas tardes Alex, puedes ver los dispositivos compatibles con Prime Video en este enlace: https:\/\/t.co\/p43hj2PE1o. ^DA",
+    "weak_llm_intent":"NON_ENGLISH_QUERY",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"NON_ENGLISH_QUERY",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"NON_ENGLISH_QUERY",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":686,
+    "customer_text":"@AmazonHelp Already contacted 3-4 times in the last month. But all I got was assurance that matter is escalated &amp; new status will be provided in 1 day!",
+    "gold_reference_reply":"@115849 Please share your details here:https:\/\/t.co\/GIJyeYqKE0 and I'll get back to you. 2\/2 ^HD",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":651734,
+    "customer_text":"@115850 I am not get my subscription due today. __email__.\n\nWhen it delivered?",
+    "gold_reference_reply":"@274981 I apologize for the delay. Connect with our support team and it'll be resolved. Here's the link: https:\/\/t.co\/vlvfJr4nN9. ^SK",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":1126657,
+    "customer_text":"@AmazonHelp I've updated the email address now and shared the required details over the link",
+    "gold_reference_reply":"@385652 Thank you for keeping us posted, our support team will surely sort this for you. ^SF",
+    "weak_llm_intent":"FEEDBACK_CHITCHAT",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"FEEDBACK_CHITCHAT",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"FEEDBACK_CHITCHAT",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":490484,
+    "customer_text":"@AmazonHelp A domina\u00e7\u00e3o masculina do Bourdieu. \ud83d\ude0a",
+    "gold_reference_reply":"@231842 Opa! Interessante demais, Rossana \ud83d\ude09 O livro da Chimamanda \u00e9 maravilhoso, tamb\u00e9m \ud83d\udc96. ^LG",
+    "weak_llm_intent":"NON_ENGLISH_QUERY",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"NON_ENGLISH_QUERY",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"NON_ENGLISH_QUERY",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":801657,
+    "customer_text":"@119625 @119625 Hey, any chance of adding kannada movies? I would love to see. #KannadaMoviesOnAmazonPrime",
+    "gold_reference_reply":"@311024 Regional languages are an integral to our Indian content. Stay tuned, we'll keep adding more subtitle and audio languages. ^MS",
+    "weak_llm_intent":"FEEDBACK_CHITCHAT",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"FEEDBACK_CHITCHAT",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"FEEDBACK_CHITCHAT",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":1916339,
+    "customer_text":"@118919 third class shopping site delivery boy don't how to spk using abuse words during conversation that ph no is 8700379353 poops",
+    "gold_reference_reply":"@570797 Please don't provide your order details, we consider it personal information. Our Twitter page is visible to public. ^KS 2\/2",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":1622228,
+    "customer_text":"@AmazonHelp It says amazon carrier",
+    "gold_reference_reply":"@441237 It is standard to leave notice when a delivery has been attempted. Did we fail to do this? ^EM",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":15704,
+    "customer_text":".@115821 don't say you'll deliver the next business day then come back the same day. I won't let someone in my building I'm not expecting.",
+    "gold_reference_reply":"@119453 I'm sorry for the frustration. Who was the carrier for this delivery? You can check here: https:\/\/t.co\/Y5jpI9gRhE ^EA",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":423822,
+    "customer_text":"@AmazonHelp He had even threatened me so I have to report this",
+    "gold_reference_reply":"@206130 . Please share your details with us here: https:\/\/t.co\/GIJyeYqKE0. We'll get in touch shortly. ^CB",
+    "weak_llm_intent":"FEEDBACK_CHITCHAT",
+    "weak_llm_action":"ESCALATE_TO_HUMAN",
+    "human_intent":"FEEDBACK_CHITCHAT",
+    "human_action":"ESCALATE_TO_HUMAN",
+    "gold_intent":"FEEDBACK_CHITCHAT",
+    "gold_action":"ESCALATE_TO_HUMAN"
+  },
+  {
+    "tweet_id":1374083,
+    "customer_text":"@AmazonHelp \u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\n[English Translation: @AmazonHelp Thank you very much]",
+    "gold_reference_reply":"@439825 \u5546\u54c1\u306e\u304a\u5c4a\u3051\u3092\u5fc3\u5f85\u3061\u306b\u3044\u305f\u3060\u3044\u3066\u3044\u308b\u306b\u3082\u95a2\u308f\u3089\u305a\u3001\u304a\u5f85\u305f\u305b\u3059\u308b\u304b\u305f\u3061\u3068\u306a\u308a\u8aa0\u306b\u7533\u3057\u8a33\u3054\u3056\u3044\u307e\u305b\u3093\u3002\u304a\u624b\u6570\u3092\u304a\u304b\u3051\u3057\u307e\u3059\u304c\u3069\u3046\u305e\u3088\u308d\u3057\u304f\u304a\u9858\u3044\u3044\u305f\u3057\u307e\u3059\u3002\u3000MH",
+    "weak_llm_intent":"FEEDBACK_CHITCHAT",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"FEEDBACK_CHITCHAT",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"FEEDBACK_CHITCHAT",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":431628,
+    "customer_text":"@AmazonHelp So I need to cancel it? Wow!",
+    "gold_reference_reply":"@217613 I get your disappointment. As mentioned earlier, once the order is on its way back, we will not be able to reinstate it.  ^NK",
+    "weak_llm_intent":"REFUND_CANCELLATION_BILLING",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"REFUND_CANCELLATION_BILLING",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"REFUND_CANCELLATION_BILLING",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":605044,
+    "customer_text":"Sto facendo tutti i regali su Amazon, compresi i giochi per i miei nipoti. Credo che il corriere dovr\u00e0 prendersi una giornata solo per me.",
+    "gold_reference_reply":"@263824 Ordina pure tutto ci\u00f2 che vuoi! Abbiamo gi\u00e0 scelto un corriere speciale tutto per te! \ud83d\ude09 ^LF https:\/\/t.co\/MBYm6oGN5i",
+    "weak_llm_intent":"NON_ENGLISH_QUERY",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"NON_ENGLISH_QUERY",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"NON_ENGLISH_QUERY",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":224569,
+    "customer_text":"@AmazonHelp Whats the status AMAZON team....!!!??? Today is the last day of delivery, and still no sign of it...infact courier comp.even nt pickng call!",
+    "gold_reference_reply":"@169653 Sorry for the trouble. Kindly report this to our support team here: https:\/\/t.co\/vlvfJr4nN9 and we'll check this. ^HN",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":988115,
+    "customer_text":"@AmazonHelp 9904708447",
+    "gold_reference_reply":"@354115 as we consider it to be personal information. Our Twitter page is public.\u200b 2\/2 ^NK",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":162100,
+    "customer_text":"@AmazonHelp Ja. Komm nicht an der Info vorbei. Bei einem anderen Spiel lief es problemlos",
+    "gold_reference_reply":"@153423 Dann melde dich doch am besten mal bei uns im Kundenservice: https:\/\/t.co\/5RHhEVutwe Wir wollen ja, dass du dein Spiel rechtzeitig bekommst. ;) ^BB",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":1935112,
+    "customer_text":"Bonjour @AmazonHelp possible de discuter en DM ?",
+    "gold_reference_reply":"@575738 Oui, Vous pouvez nouc contacter en DM.",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":152203,
+    "customer_text":"@AmazonHelp Ah dommage je n'ach\u00e8terais pas alors. Vous ne savez pas si vous en aurez \u00e0 nouveau en stock ? (vu que ce sont les nouveaux ipad pro).",
+    "gold_reference_reply":"@150780 Nous n'avons malheureusement pas de visibilit\u00e9 dessus pour l'instant. Restez connect\u00e9e :) ce sera mis \u00e0 jour d\u00e8s qu'il y a du nouveau.",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":2598390,
+    "customer_text":"I bought my phone on Amazon and now i was buying a back case for it by the same account and it says the address is invalid..this has happened second time and my order is not delivered may I know y?  This is really dumb See emails below @115821 https:\/\/t.co\/PwiSEavYtD",
+    "gold_reference_reply":"@735645 Hi, sorry to hear your order has not been delivered. Can you confirm which Amazon site you ordered from, was it https:\/\/t.co\/xJXEJm9Z6c etc? ^BZ",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":825082,
+    "customer_text":"Hey @115821 I\u2019m trying to buy \u201c3 Ninjas\u201d on dvd and your app isn\u2019t allowing me too! \n\nI\u2019m unhappy!!!!",
+    "gold_reference_reply":"@316503 That's strange! Sometimes uninstalling and reinstalling the app does the trick! Let us know if you need additional help. ^KJ",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":500714,
+    "customer_text":"@AmazonHelp Le colis est finalement la ce matin. Encore un scan precose j'imagine...",
+    "gold_reference_reply":"@234609 Je suis ravie d'apprendre que votre colis a \u00e9t\u00e9 livr\u00e9 \ud83d\ude0a Votre colis est en bon \u00e9tat?^FT",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"ESCALATE_TO_HUMAN",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"ESCALATE_TO_HUMAN"
+  },
+  {
+    "tweet_id":2766984,
+    "customer_text":"@AmazonHelp First time was 6th November and then every 2 days since then",
+    "gold_reference_reply":"@773763 I'm sorry you haven't received a response. Since they haven't responded to your inquiry, you should be eligible for our A-to-z Guarantee. More information about our A-to-z Guarantee can be found here: https:\/\/t.co\/2BOMmKnn8r ^SK",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":2457818,
+    "customer_text":"@115821 https:\/\/t.co\/HutVpHsi3D  ^JC i was disappointed to find a dirty bed sheet against my order of a blanket under order id(DLI4SBK212) placed.this is happening frequently with  you, hope action against ajay sales corporation.",
+    "gold_reference_reply":"@703961 We'll certainly take a look at this issue. Could you confirm if you have reported this to our support team here: https:\/\/t.co\/vlvfJr4nN9 ? ^SY",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"ITEM_CONDITION_MISSING",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"ITEM_CONDITION_MISSING",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":326306,
+    "customer_text":"@AmazonHelp Siento verguenza pagar un servicio que me pasa 3 codigos y ninguno funciona y luego le hechan la culpa a otra empresa",
+    "gold_reference_reply":"@193738 \u00bfQu\u00e9 ha sucedido, Mr.Eevee? \u00bfQu\u00e9 informaci\u00f3n te ha brindado nuestros compa\u00f1eros de Soporte al Cliente sobre tu caso? ^LG",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":469468,
+    "customer_text":"@115850 help. Placed an order of @226787 QY7 and payment done but order not showing in My Orders. Not even received any confirmatory email.\n@115821 @AmazonHelp @115821",
+    "gold_reference_reply":"@226786 Do not worry, we'll check this for you. Please connect with our support team here: https:\/\/t.co\/vlvfJr4nN9. ^NR",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":1576291,
+    "customer_text":"@AmazonHelp I mean, I was sitting here when this false alert was sent. Like how you gonna tell me you delivered something &amp; you have not?",
+    "gold_reference_reply":"@485645 Who is the carrier listed for this package here: https:\/\/t.co\/Y5jpI9gRhE ? ^LB",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":445473,
+    "customer_text":"@AmazonHelp Looking to buy Garmin 735xt on UK site. Price changes from \u00a3245 on item to \u00a3251 at check-out (not including postage). Can you explain or correct this discrepancy please? Looking to buy today",
+    "gold_reference_reply":"@220498 HI Se\u00e1n, could you send me a link to the item listing so I can take a look at that for you? ^TI",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":2617260,
+    "customer_text":"@AmazonHelp my book I ordered came without the first 26 pages.. um what",
+    "gold_reference_reply":"@302999 I'm sorry you're missing pages from your book! Please visit us at the following link to check out our return options: https:\/\/t.co\/2s212wsmvI ^WT",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":1150906,
+    "customer_text":"@AmazonHelp Fradulent sellers or delivery boys are stealing the product before delivery! What are your safeguards against such practices?",
+    "gold_reference_reply":"@390831 Please don\u2019t provide your details, we consider it to be personal info. Our Twitter page is visible to public. 2\/2 ^MA",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":199241,
+    "customer_text":"@AmazonHelp No, it has not expired, it is up to 5th of October.Both your customer care and MI customer care are harassing us.",
+    "gold_reference_reply":"@162951 I'd like to take a closer look into this, please share your details here: https:\/\/t.co\/GIJyeYqKE0. ^AG",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":1125345,
+    "customer_text":"@115850 I Received A Fake Sennheiser From U, Requested For Pickup &amp; Refund, But Didn't Get Any Of Those, I Want My Money Back..!! #worst https:\/\/t.co\/rikeKHoBid",
+    "gold_reference_reply":"@385340 Apologies, pawan. Have you contacted our support team about this? We'll be glad to help. ^SK",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":793330,
+    "customer_text":"@AmazonHelp je viens de recevoir votre r\u00e9ponse et je vous remercie du remboursement. \nbonne continuation",
+    "gold_reference_reply":"@309164 Merci \u00e0 vous !",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":1622297,
+    "customer_text":"@AmazonHelp I should have posted it on Twitter earlier! You guys finally managed to get the delivery on track.  #HappyDiwali",
+    "gold_reference_reply":"@497044 Glad to know your package has arrived safely. Hope you enjoy it for Diwali. :) ^SA",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":2677347,
+    "customer_text":"@AmazonHelp Your people. AMZL. I emailed about this. Got a refund for the missing pkg, but not a word about the other concern.",
+    "gold_reference_reply":"@608181 So sorry for that! I'd like a member of my team to look into this issue. Please let us know more: https:\/\/t.co\/bJyxBcKF2F ^AD",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":2907853,
+    "customer_text":"@115851 @115821 can someone please explain why 3 amazon prime packages have been lost by amazon logistics, the same facility, in a weeks time and now i have to wait 2 more days for them to locate the package and redelivery. 2 day shipping has turned into 4 day shipping. Wtf",
+    "gold_reference_reply":"@553163 Oh no! I'm sorry for the trouble with the deliveries on your orders. I'd like to have a member of my team look into this with you. When you have a moment, please provide as much information as possible here: https:\/\/t.co\/SmYnr5o8R8 ^TG",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":665612,
+    "customer_text":"@AmazonHelp Hi, yes I have.  Because the Xbox is part of a bigger order and other items have been delivered it won\u2019t let me change the delivery address.",
+    "gold_reference_reply":"@278566 I'd like to have a member from our support team review any available options with you via phone: 1-866-216-1072. ^WM",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":2895952,
+    "customer_text":"@AmazonHelp The yearly renewal \ud83d\ude29\ud83d\ude29.",
+    "gold_reference_reply":"@193547 If you need it refunded you can get in touch with us here:  https:\/\/t.co\/hApLpMlfHN. Please let us know how you get on! ^HS",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":2549002,
+    "customer_text":"@115850 y u no give bookmarks with books?",
+    "gold_reference_reply":"@724275 We're constantly striving to improve our services &amp; will consider your feedback to provide a better experience. (2\/2)^YP",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":281679,
+    "customer_text":"#Amazon \u3067 #\u30cb\u30f3\u30c6\u30f3\u30c9\u30fc\u30af\u30e9\u30b7\u30c3\u30af\u30df\u30cb\u30b9\u30fc\u30d1\u30fc\u30d5\u30a1\u30df\u30b3\u30f3 \u914d\u9001\u3055\u308c\u3066\u308b\u306e\u306b\u4f4f\u6240\u304c\u6587\u5b57\u5316\u3051\u3067\u8fd4\u9001\u3060\u3063\u3066\u3088\u3002\n\u5225\u306b\u65e5\u6570\u306f\u69cb\u308f\u306a\u3044\u304b\u3089\u3001\u78ba\u5b9f\u306b\u8377\u7269\u5c4a\u3044\u3066\u304f\u308c\u306a\u3044\u304b\u306a\n[English Translation: Even though my #NintendoClassicMiniSuperFamicom was shipped on #Amazon, apparently it's being returned because the address was garbled text. I don't mind how many days it takes, I just want my package to definitely get delivered.]",
+    "gold_reference_reply":"@183112 \u3053\u306e\u305f\u3073\u306f\u3001\u3054\u8ff7\u60d1\u3092\u304a\u304b\u3051\u3057\u7533\u3057\u8a33\u3054\u3056\u3044\u307e\u305b\u3093\u3002\n\u672c\u4ef6\u306b\u3064\u3044\u3066\u3054\u6ce8\u6587\u3044\u305f\u3060\u3044\u305f\u304a\u5ba2\u69d8\u306b\u5f8c\u65e5https:\/\/t.co\/st4oU5QbhP\u3088\u308a\u3054\u9023\u7d61\u3092\u884c\u308f\u305b\u3066\u3044\u305f\u3060\u304d\u307e\u3059\u305f\u3081\u3001\u305d\u306e\u3054\u9023\u7d61\u3092\u304a\u5f85\u3061\u3044\u305f\u3060\u304d\u307e\u3059\u3088\u3046\u304a\u9858\u3044\u3044\u305f\u3057\u307e\u3059\u3002HM",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":247442,
+    "customer_text":"@AmazonHelp Please share your email ID.",
+    "gold_reference_reply":"@174795 Please drop in your details here: https:\/\/t.co\/GIJyeYqKE0 from your registered account and I'll get in touch with you.^BA",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":1263971,
+    "customer_text":"@AmazonHelp why are we still waiting for collection of something which should have been collected 2 days ago,fed up ringing you \ud83d\ude20",
+    "gold_reference_reply":"@415995 Hi, sorry to hear that. Did an agent organise the collection for you? What company is being used? ^JJ",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":2919856,
+    "customer_text":"@AmazonHelp can you add more than one google account to Alexa for calendars?",
+    "gold_reference_reply":"@236020 You can currently link one calendar from each of the supported e-mail providers. If there is another adult part of your Amazon Household, they may also link one calendar from each of the supported providers. See more information here: https:\/\/t.co\/aaEk6VBtMf ^LR",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":1332722,
+    "customer_text":"@126705 Hey @AmazonHelp any idea if it\u2019s coming as @126705 aren\u2019t answering",
+    "gold_reference_reply":"@430898 Parcels may be delivered up to 21:00. Please keep us updated on its arrival! ^ZW",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":843185,
+    "customer_text":"@AmazonHelp I have sent... Thanks for the immediate reply",
+    "gold_reference_reply":"@320516 Thanks for confirming. We'll reach out to you soon. ^SG",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":1404741,
+    "customer_text":"@115850 the world's most confused shopping site. The product has neither canceled nor delivered for the last 4 days.\nCan you please solve?",
+    "gold_reference_reply":"@446595 Please contact us here https:\/\/t.co\/00q4Sqj9zL. For further assistance. (2\/2) ^MD",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":2302565,
+    "customer_text":"I have 2 emails confirming my @115821 delivery would arrive in 2 days, I get an email today saying the item won't be here until a week later. Why?",
+    "gold_reference_reply":"@410046 I'm sorry for the wait! We don't have access to your account or order information via Twitter. If you'd like to reach us via phone or chat, we'll take a look with you and see if we can help: https:\/\/t.co\/hApLpMlfHN ^KN",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":2952194,
+    "customer_text":"@AmazonHelp Yes it does show out for delivery right now ^RO",
+    "gold_reference_reply":"@125005 We expect your item to arrive by the delivery date given. This can be until the 8 PM cutoff time. \n\n-Victoria S.",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":2221842,
+    "customer_text":"@AmazonHelp Let me reiterate, it\u2019s a new TV which we got from Amazon website. Order Number\n405-5258589-3564310",
+    "gold_reference_reply":"@191528 I would like to take a closer look into this. Please drop in your details here: - https:\/\/t.co\/beaaDm0muc. We shall get back to once we have your details. 2\/2 ^AH",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":1990247,
+    "customer_text":"Hey @115850, really interested in knowing more about these parents who buy Deftones &amp; Naruto onesies off your site. Thanks in advance!",
+    "gold_reference_reply":"@589004 I'm afraid, we wouldn't be able to share requested info. Should you face any further concern, please keep us posted. ^SV",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":2974792,
+    "customer_text":"\u30a2\u30de\u30be\u30f3\u304b\u3089\u5c4a\u304d\u307e\u3057\u305f\u308f\uff5e https:\/\/t.co\/xwjWRyT0Wp\n[English Translation: It arrived from Amazon~ https:\/\/t.co\/xwjWRyT0Wp]",
+    "gold_reference_reply":"@820430 ( \u02d8\u03c9\u02d8 ).\uff61oO(Amazon\u3092\u3054\u5229\u7528\u3044\u305f\u3060\u304d\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3057\u305f\u30fb\u30fb\u30fb\uff01)\u3000MH",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":2880535,
+    "customer_text":"Hello @120533, est ce que c est un vrai mail de vos services ou une tentative frauduleuse de r\u00e9cup\u00e9rer mes infos ? Merci ! https:\/\/t.co\/5eIo5taBEw",
+    "gold_reference_reply":"@799355 Bonjour, Cet email provient d'Amazon.fr, vous donne droit \u00e0 un code promotionnel.\n^YL",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":441862,
+    "customer_text":"@AmazonHelp merci de l\u00e9 r\u00e9ponse, je ne demande que cela mais pour communiquer il faut \u00eatre connect\u00e9 \u00e0 son compte...",
+    "gold_reference_reply":"@219785 2\/2 Tenez-nous au courant s'il vous pla\u00eet. ^SA",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":2477412,
+    "customer_text":"@AmazonHelp pronta a scatenarsi con lo shopping! https:\/\/t.co\/c9B2RdnlKg",
+    "gold_reference_reply":"@708127 Vogliamo aiutarla anche noi! Clicca qui https:\/\/t.co\/YqSLjWcfCa\u200b e compila i dati richiesti. ^MA",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":1493311,
+    "customer_text":"@AmazonHelp hi, my preorder of @115766 WW II has a arrival date of Nov 9 to 17. I have Prime, was supposed to get it on day 1. Help me!",
+    "gold_reference_reply":"@466771 Sorry to hear this! Was there any reason on the order given for this delay? ^TH",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":490508,
+    "customer_text":"First @118706 sends my @115821 package to MN instead OK, and now it\u2019s showing it\u2019s left the carrier facility in my city 3 days in a row. It was supposed to be here on the 24th. :\/",
+    "gold_reference_reply":"@231848 We'd like to take a closer look into the delivery and available options. Please contact us here: https:\/\/t.co\/hApLpMlfHN ^LI",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":490443,
+    "customer_text":". @AmazonHelp por ahorraros 4 duros en costes log\u00edsticos,ni llam\u00e1is ni intent\u00e1is una segunda entrega.Tiene cliente que molestarse buscando",
+    "gold_reference_reply":"@231831 Juan, \u00bftienes alg\u00fan pedido pendiente de entrega? ^MB",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":1469146,
+    "customer_text":"@AmazonHelp It shows a new delivery date of tomorrow or Saturday. That\u2019s rude, I\ufe0f could\u2019ve gotten it at the store. \ud83d\ude11",
+    "gold_reference_reply":"@448572 I understand. If the item doesn't arrive by the date provided, let us know and we will look into more options for you. ^QJ",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":470084,
+    "customer_text":"@AmazonHelp The point here is having someone from the call centre call me does not fix the problem.  Believe me I've tried. I was hoping contacting you would fix the problem. I don't need another meaningless assurance that the problem would be looked in to.",
+    "gold_reference_reply":"@226920 I understand your frustration, Craig. However, we do not have account access via Twitter. If you change your mind, please provide more info on the form. We would love to assist you further. ^BA",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":1041837,
+    "customer_text":"@AmazonHelp J\u00e1 aproveitei alguns sim, e espero aproveitar mais durante a semana \ud83d\ude0a",
+    "gold_reference_reply":"@154210 Que legal! Envie uma foto do seus pedidos assim eles chegarem, para dividir a felicidade! :D Abra\u00e7o! ^CR",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":226377,
+    "customer_text":"Amazon PrimeReading\u69d8\u3005\u3084\u3067\u3047(\u4eba\uff3e\u03c9\uff3e) https:\/\/t.co\/eBEYmu4qSC",
+    "gold_reference_reply":"@170038 \u304a\u6c17\u306b\u5165\u308a\u306e\u4f5c\u54c1\u304c\u3042\u3063\u3066\u3088\u304b\u3063\u305f\u3067\u3059\u3002\u3054\u582a\u80fd\u304f\u3060\u3055\u3044\u307e\u305b\uff01\u263a\ufe0f\u263a\ufe0f\u263a\ufe0fET",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":2141372,
+    "customer_text":"@AmazonHelp i read that, but no where i can find if i cant use drive anymore since i have that prime photos now. and i understand my videos go back to 5gb but i use the interface of drive for storage now. and liked to keep it that way",
+    "gold_reference_reply":"@629691 Amazon Drive requires a subscription separate from Prime Photos; for more info, please visit this link: https:\/\/t.co\/RXj7wTQA1p ^JS",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":983243,
+    "customer_text":"\u00a1Ya ha llegado! Gracias @116928 @80 \ud83d\ude0d\ud83d\ude0d #tabletagrafica #wacom https:\/\/t.co\/W41GihmvMV",
+    "gold_reference_reply":"@353105 Nos alegra mucho saber que ya recibiste tu pedido. Espero que lo disfrutes. ^VM https:\/\/t.co\/MMA3d3I1jL",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":1412341,
+    "customer_text":"@115830 Thanks for fast &amp; furious 8 dvd! Pre ordered for delivery date release and now says be with you by Wednesday! I'll go to Tesco! \ud83d\ude21",
+    "gold_reference_reply":"@448205 I'm so sorry for the delay! What was the date given at checkout and here: https:\/\/t.co\/aaDyEz1VgE? ^AG",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":483110,
+    "customer_text":"@115830 Do you deliver to Turkey?",
+    "gold_reference_reply":"@229903 I'm sorry, our UK website doesn't currently ship to Turkey. However, you may be interested in purchasing from our U.S. website: https:\/\/t.co\/dpMWnGEx0R ^RA",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":2386629,
+    "customer_text":"Amazon\u304b\u3089\u30b7\u30e7\u30fc\u30c8\u30e1\u30fc\u30eb\u304c\u5c4a\u3044\u305f\u306e\u3067\u4f55\u3060\u308d\u3046\u3068\u601d\u3063\u305f\u3089\u300c\u767b\u9332\u6599\u91d1\u672a\u7d0d\u3046\u3093\u306c\u3093\u304b\u3093\u306c\u3093\u3001\u3001\u3001\u672c\u65e5\u4e2d\u306b\u9023\u7d61\u3092\u3002\u96fb\u8a71\u756a\u53f7\u300d\u3067\u3057\u305f\u3002\u307e\u3060\u3053\u3093\u306a\u8a50\u6b3a\u306e\u624b\u53e3\u304c\u7d9a\u3044\u3066\u3044\u308b\u3093\u3067\u3059\u306d\u3002",
+    "gold_reference_reply":"@687780 Amazon\u3092\u9a19\u308bE\u30e1\u30fc\u30eb\u3084SMS\u304c\u5897\u3048\u3066\u3044\u308b\u3088\u3046\u3067\u3059\u306e\u3067\u3001\u4eca\u5f8c\u3082\u304a\u6c17\u3092\u4ed8\u3051\u304f\u3060\u3055\u3044\u307e\u305b\u3002\u306a\u304a\u3001\u5f53\u30b5\u30a4\u30c8\u304b\u3089\u306eE\u30e1\u30fc\u30eb\u304b\u3069\u3046\u304b\u306e\u8b58\u5225\u65b9\u6cd5\u306b\u3064\u3044\u3066\u3001\u3088\u308d\u3057\u3051\u308c\u3070\u3001\u30ea\u30f3\u30af\u306e\u30d8\u30eb\u30d7\u30da\u30fc\u30b8\u3092\u3054\u53c2\u7167\u304f\u3060\u3055\u3044\u3002https:\/\/t.co\/xWXio7AP2Z  SM",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":105154,
+    "customer_text":"@AmazonHelp Apparently tomorrow. The saga of Amazon Prime delivery nor non delivery.",
+    "gold_reference_reply":"@139224 Please keep us updated on the delivery of your order, we'll be here to help. ^MH",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":249900,
+    "customer_text":"@116928 tengo una duda sobre un art\u00edculo que quiero adquirir. Me pod\u00e9is ayudar?",
+    "gold_reference_reply":"@175386 Hola Andal\u00fa, \u00bfc\u00f3mo podemos ayudarte? ^LG",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":153663,
+    "customer_text":"@AmazonHelp No, en todo caso debieran ser ellos los que se pusieran en contacto si tienen problemas para entregar un pedido, pero tampoco.",
+    "gold_reference_reply":"@151174 Entiendo, @132703 pueden ayudarnos con la entrega de este pedido por favor. Gada si no recibes una respuesta del transportista por favor no dudes en contactarnos. ^NB",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":2528264,
+    "customer_text":"@AmazonHelp I didn't get any cancellation email, attached a screenshot of the last email which I got regarding my order. There were multiple reasons mentioned in that which blames issues in your system. https:\/\/t.co\/F57oNFpNEF",
+    "gold_reference_reply":"@665478 We understand your order was cancelled due to unknown reasons. Let us investigate this further and help assist. Kindly fill in your details here https:\/\/t.co\/KnBbSsruOz and we'll reach out to you for assistance. ^VM",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":287873,
+    "customer_text":"@AmazonHelp Dear @115850  Your staff is  saying that you have delivered the product to me, then what I am following with last 10 days.",
+    "gold_reference_reply":"@183542 Kindly check for our correspondence on the link provided below. You can choose to revert to the same if you feel. ^CB",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":477840,
+    "customer_text":"Amazon\u30d7\u30e9\u30a4\u30e0\u4f1a\u54e1\u306e\u304f\u305b\u306b\u60c5\u5f31\u306e\u304a\u304b\u3052\u3067\u30d7\u30e9\u30a4\u30e0\u914d\u9001\u3068\u30d7\u30e9\u30a4\u30e0\u30d3\u30c7\u30aa\u3050\u3089\u3044\u306e\u65e8\u307f\u3057\u304b\u5438\u3063\u3066\u306a\u304b\u3063\u305f....",
+    "gold_reference_reply":"@228509 \uff08\u00b4-`\uff09.\uff61oO ( \u305d\u306e\u4ed6\u306e\u7279\u5178\u3082\u3088\u308d\u3057\u3051\u308c\u3070\u305c\u3072\u30fb\u30fb\u30fb\u3000\u7279\u5178\u4e00\u89a7\u3067\u3059\u261ehttps:\/\/t.co\/JVlaJGORZx  )HM",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":812470,
+    "customer_text":"@AmazonHelp Hi. Yes I sent an email too and all sorted. Thanks !",
+    "gold_reference_reply":"@313591 We're glad to see you were helped! Have a great evening, let us know if you need anything else. ^DW",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":605207,
+    "customer_text":"@115850   worst experince ever..Your amazon transprotation service is pathetic.I dunno why some product are amazon exclusive.. Flipkart @118702 is way better for me...\nYour courier boy told that he will not come beyond certain pnt and i had to cancel all my orders",
+    "gold_reference_reply":"@263848 I'm sorry, this wasn't intended. Did you report this to our customer service team here: https:\/\/t.co\/vlvfJrlYEH? ^SI",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":2934421,
+    "customer_text":"@AmazonHelp check my account detail 8238240804.",
+    "gold_reference_reply":"@803283 We understand you are yet to receive your cashback. However, for us to assist you better, please reach us via the link provided earlier and fill in your details. We'll reach out to you as soon as we receive your information. ^VM",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":1486616,
+    "customer_text":"called amazon customer support bc the help page didn\u2019t help me and before I hung up the guy goes \u201cone last thing miss, next time try checking the help page before calling\u201d \ud83d\ude44\ud83d\ude44\ud83d\ude44",
+    "gold_reference_reply":"@465246 I'm very sorry for this experience. Please report this via the survey e-mailed post call; it's reviewed by Leadership. ^EA",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":2343945,
+    "customer_text":"@AmazonHelp God knows who the courier was, didn't even bother to knock my door or leave a note. I only knew it went to number 70 coz i had an email it was delivered and I've had plenty of deliveries without issue before not",
+    "gold_reference_reply":"@378865 We'd like to document your feedback and look into your options. Please contact us here: https:\/\/t.co\/qy3J24VGxb ^AF",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":1161689,
+    "customer_text":"@AmazonHelp we made FOUR orders via prime yesterday (Saturday) and these are the shipping estimates. What exactly are we paying Prime for? https:\/\/t.co\/asjXxodj7N",
+    "gold_reference_reply":"@393307 Two-Day shipping refers to transit time in bus days after shipping. For more info please check here: https:\/\/t.co\/4yTYhsgVS8 ^KH",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"UNKNOWN",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"UNKNOWN",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":1760541,
+    "customer_text":"@AmazonHelp I ordered it on October 11, expected it by November 1, it still hadn\u2019t arrived :(",
+    "gold_reference_reply":"@529871 Was this item sold by Amazon or a third-party seller? What does the latest tracking show: https:\/\/t.co\/hApLpMlfHN ^VS",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":2724542,
+    "customer_text":"Amazon\u304b\u3089\u8377\u7269\u5c4a\u304b\u306a\u3044\u306a\u3042\u3002\n\u914d\u9054\u72b6\u6cc1\u306f\u914d\u9054\u5b8c\u4e86\u306b\u306a\u3063\u3066\u308b\u306e\u306b\u3002",
+    "gold_reference_reply":"@764180 \u3054\u5fc3\u914d\u3092\u304a\u304b\u3051\u3057\u3066\u304a\u308a\u307e\u3059\u3002\u914d\u9054\u5b8c\u4e86\u3067\u3082\u5546\u54c1\u672a\u7740\u306e\u5834\u5408\u3001\u4e0b\u8a18\u30d8\u30eb\u30d7\u30da\u30fc\u30b8\u306e\u5185\u5bb9\u3092\u3054\u78ba\u8a8d\u304f\u3060\u3055\u3044\u3002https:\/\/t.co\/aABELyb8qu  \u89e3\u6c7a\u3057\u306a\u3044\u5834\u5408\u306f\u3001\u4ee5\u4e0b\u3088\u308a\u5f53\u30b5\u30a4\u30c8\u3078\u304a\u554f\u5408\u305b\u304f\u3060\u3055\u3044\u3002https:\/\/t.co\/J6YEizo6qC  \u3000SM",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":227375,
+    "customer_text":"@115821 @115851 Worst ever service I hav to cancel order because your customer service itself is not equipped with any process to resolve delayed provision.",
+    "gold_reference_reply":"@170234 I'll surely forward your comments to the teams internally so they can look into it.(2\/2)^HR",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":2379843,
+    "customer_text":"@AmazonHelp I had ordered package because it was being delivered on 14th Nov. If the order is late it's of no use for me. You guys don't understand the importance of time.",
+    "gold_reference_reply":"@123358 I understand the need for the order, Akshay. Kindly reach out to our support team here: https:\/\/t.co\/2t6DQoUmNZ we'll look into it. ^AP",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":1505421,
+    "customer_text":"@115766 I keep getting an error message when trying to redeem my @115821 pre-order reward for @115786. Known issue? Fix?",
+    "gold_reference_reply":"@316227 We're sorry to hear about this! What error message are you receiving when attempting to redeem? ^TH",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":248122,
+    "customer_text":"@115850 please check what is the issue you have with amex cards. https:\/\/t.co\/TChFcZizfC",
+    "gold_reference_reply":"@174950 Please don't provide your order details, we consider it personal info. Our Twitter page is visible to public. ^NR 2\/2",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":142072,
+    "customer_text":"@AmazonHelp Why can I not pass some of my gift voucher balance to other people?  Want to give them to family members so they can do what they wish, but I cannot buy gift cards with them and I cannot appear to transfer them!\nThanks",
+    "gold_reference_reply":"@148059 You can find more information about Gift Card restrictions on our website  here: https:\/\/t.co\/RXNDxiroDP. ^MI",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":137048,
+    "customer_text":"D\u00e9sormais chez @120533 : 1 jour ouvr\u00e9 = 3 jours ouvr\u00e9s https:\/\/t.co\/IQwOxCXPWT",
+    "gold_reference_reply":"@146907 Bonjour Pierre-Alain, sachez que de nombreux facteurs ind\u00e9pendants de notre volont\u00e9 influent sur la date de livraison d'une commande : la disponibilit\u00e9 de l'article, la destination du colis...\n^ARC",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":2496063,
+    "customer_text":"@AmazonHelp That's almost my initials too.- H.D. \ud83d\ude01",
+    "gold_reference_reply":"@454317 Well, that's an amazing co-incidence! :D From one HD to another, I'm positive the order will be delivered on time! :D ^HD",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":2418984,
+    "customer_text":"In #response to this #tweet, I received a mail full with big promises and self praise. #Thank you @115850 for ur #reply full with #shit. https:\/\/t.co\/XBdsg99RjW",
+    "gold_reference_reply":"@546610 Kindly reply to the email you've received and we'll be sure to help you in getting this issue resolved. ^ZH",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"REFUND_RETURN_INQUIRY",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"REFUND_RETURN_INQUIRY",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":709441,
+    "customer_text":"@115850 Hey, why did your customer care asks for my card detail? There is no need! What if something happens? Who's responsible?",
+    "gold_reference_reply":"@289634 Could you please confirm if you we're asked for the last 4 digits of your card number? ^NR",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":924530,
+    "customer_text":"Bonsoir @120533 il \u00e9crit sur le site que @339400 sortira le 30\/03\/18 alors qu'aucune date n'a \u00e9t\u00e9 annonc\u00e9e, que cela signifie-t-il ? https:\/\/t.co\/5kIR6RCMDr",
+    "gold_reference_reply":"@339399 Bonsoir, c'est la date qui nous \u00e9tait communiqu\u00e9e par l'\u00e9diteur.^ Ko",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":861256,
+    "customer_text":"@115850 you ignored me Amazon.. You ignored your fan\nYou ignored your regular customer\nHow sad is this and how bad is this \ud83d\ude13\ud83d\ude2d",
+    "gold_reference_reply":"@664793 Awww... don't be disappointed. We'll have many more contests further. Better luck next time. ^NR",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"ITEM_CONDITION_MISSING",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"ITEM_CONDITION_MISSING",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":124062,
+    "customer_text":"\u30a2\u30de\u30be\u30f3\u30d7\u30e9\u30a4\u30e0\u767b\u9332\u3057\u3066\u8cb7\u3044\u7269\u3057\u305f\u3093\u3060\u3051\u3069\u983c\u3093\u3067\u304b\u308912\u6642\u9593\u3082\u7d4c\u305f\u306a\u3044\u3046\u3061\u306b\u5c4a\u3044\u3066\u9a5a\u3044\u3066\u308b",
+    "gold_reference_reply":"@143745 \u3054\u767b\u9332\u3044\u305f\u3060\u304d\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\uff01\u307e\u305f\u306e\u3054\u5229\u7528\u304a\u307e\u3061\u3057\u3066\u304a\u308a\u307e\u3059\ud83d\ude4f\u2728\u2728SK",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":410076,
+    "customer_text":"@AmazonHelp pela Amazon",
+    "gold_reference_reply":"@212811 Nesse caso, recomendo entrar em contato diretamente com o nosso SAC: https:\/\/t.co\/qGpkDwGRhX ^CR",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"ACCOUNT_PAYMENT_ISSUE",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"ACCOUNT_PAYMENT_ISSUE",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":279425,
+    "customer_text":"@AmazonHelp That what I wanted to know, what information thebwant to activate my account ??",
+    "gold_reference_reply":"@182606 Kindly check and revert to the same. 2\/2^AP",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":2767574,
+    "customer_text":"Hey @115821, is there something wrong with digital services? Can't buy any Kindle books at the moment.",
+    "gold_reference_reply":"@127027 Hey Doug, have you tried logging out an in again? ^BD",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":2769086,
+    "customer_text":"@AmazonHelp Achat de battlefront 2 sur ps4.\nCode promo SON re\u00e7u par mail.\nMais il ne fonctionne pas https:\/\/t.co\/f4xP7Nbl49",
+    "gold_reference_reply":"@774213 S'agit-il d'un code bonus ? ^AR",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":2812810,
+    "customer_text":"@AmazonHelp Yeah I had 2 items that should have been delivered today. But my USPS is crap and holds my packages too long before delivering. Everything Ive ordered from anywhere has taken longer than expected to be delivered to me.",
+    "gold_reference_reply":"@784303 I'm sorry for the delay on your order! What's the most recent reading on your orders tracking information: https:\/\/t.co\/3kQwjObgTc? ^GM",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":277205,
+    "customer_text":"@AmazonHelp WOULD HELP IF U COULD SELWCT THE ITEMS!!! I HAVE HAD NOTHING BUT PROBLEMS WITH AMAZION!!!!!",
+    "gold_reference_reply":"@182226 Were you able to contact us using the link provided by ^BM? If so, what were the available options offered to you? ^ME",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":160370,
+    "customer_text":"@115821 I have had money taken from my account and I can't find why",
+    "gold_reference_reply":"@152942 We'd like to look into this with you! Please reach out to us by phone or chat here: https:\/\/t.co\/JzP7hlA23B so we can investigate together. ^KJ",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":2172000,
+    "customer_text":"@637013 @86116 @116089 J'aurais tellement aim\u00e9 si @120533 daignait m'envoyer ma pr\u00e9co Scorpio du 20 ao\u00fbt \ud83d\ude21\ud83d\ude21\ud83d\ude21",
+    "gold_reference_reply":"@526449 Bonjour, d\u00e9sol\u00e9e d'apprendre cela :\/ le mieux serait de contacter l'\u00e9quipe en charge via ce lien  https:\/\/t.co\/hgIrz98cdI ^SN",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":238896,
+    "customer_text":"@AmazonHelp Been many days, doesnt look like you guys are interested in resolving issues",
+    "gold_reference_reply":"@147145 We understand your concern. Apologies for the delay in reaching you. As we've your details, we'll work on this and assist. ^SV",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":210330,
+    "customer_text":"@AmazonHelp Meine Adresse existiert seit mehr als 1 Jahr,es ist immer wieder das gleiche.Postfiliale ist Mist, ich habe nen Job, und komme da nicht hin",
+    "gold_reference_reply":"@165782 Der Kundenservice kann gerne eine Zustellerbeschwerde aufgeben: https:\/\/t.co\/ohyvGrpvrY ^BL",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":128762,
+    "customer_text":"@AmazonHelp Si la cancelo, \u00bfme reembolsa \u00e9l dinero? para volver a hacer la compra y poner \u00e9l otro nombre",
+    "gold_reference_reply":"@144966 Amazon cobra cuando el pedido es enviado, por lo que, de ver alguna transacci\u00f3n bancaria, es posible que se trate de una autorizaci\u00f3n que ser\u00eda eliminada de acuerdo con las pol\u00edticas de tu banco. M\u00e1s detalles ac\u00e1: https:\/\/t.co\/F43lwUcuN3. ^JQ",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":512399,
+    "customer_text":"@AmazonHelp Sim, com sorte ele chegou completo. Mas a forma de acondicionamento do produto poderia usar uma ajuda. A caixa estava toda amassada e quase violada.\ud83d\ude16",
+    "gold_reference_reply":"@237837 Sinto muito pelo acontecido Jhosy. Agradecemos seu feedback. ^JJ",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"ACCOUNT_PAYMENT_ISSUE",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"ACCOUNT_PAYMENT_ISSUE",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":1486553,
+    "customer_text":"\u3093\uff1f\n\u4ffa\u306f\u30a2\u30de\u30be\u30f3\u3067\u4f55\u3082\u8cb7\u3044\u7269\u3057\u3066\u306a\u3044\u305e\uff1f https:\/\/t.co\/GHZO8mOkGX",
+    "gold_reference_reply":"@465231 \u3054\u5fc3\u914d\u3092\u304a\u304b\u3051\u3057\u3066\u304a\u308a\u307e\u3059\u3002\u3054\u5bb6\u65cf\u306e\u3054\u6ce8\u6587\u3084\u3001\u304a\u77e5\u308a\u5408\u3044\u304b\u3089\u306e\u8d08\u308a\u7269\u3067\u3042\u308b\u53ef\u80fd\u6027\u306f\u3054\u3056\u3044\u307e\u305b\u3093\u3067\u3057\u3087\u3046\u304b\u3002\u3000\u304a\u5fc3\u5f53\u305f\u308a\u304c\u306a\u3044\u5834\u5408\u306f\u6587\u672b\u306e\u30ea\u30f3\u30af\u3088\u308a\u30ab\u30b9\u30bf\u30de\u30fc\u30b5\u30fc\u30d3\u30b9\u307e\u3067\u304a\u554f\u3044\u5408\u308f\u305b\u304f\u3060\u3055\u3044\u3002https:\/\/t.co\/J6YEizo6qC  \u3000SM",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":648478,
+    "customer_text":"@AmazonHelp Someone has changed my delivery from my home address to a pick up location. I don't understand why you allow that to happen",
+    "gold_reference_reply":"@274101 I'm sorry to hear about this! Before the delivery address was changed, did you receive any kind of tracking update about an attempted delivery at your home address? ^TH",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":1180547,
+    "customer_text":"Listen, @115821, it's becoming less and less reliable to receive my orders in an undamaged condition. Two in two weeks is unacceptable! https:\/\/t.co\/L9Xjn8MBqY",
+    "gold_reference_reply":"@397664 I'm sorry your order arrived like this. Was this sold by Amazon, or one of our sellers? Check here: https:\/\/t.co\/qzd6WcsHdp ^MB",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":1421298,
+    "customer_text":"@AmazonHelp Already replied in my morning but u don't even check emails",
+    "gold_reference_reply":"@126720 If you have emailed us, our team will write back to you soon. Request you to please wait. Appreciate your patience.^SF",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"ESCALATE_TO_HUMAN",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"ESCALATE_TO_HUMAN"
+  },
+  {
+    "tweet_id":1423024,
+    "customer_text":"@115830 your own courier is shite. Attempted deliveries that we're never attempted as we were home all day yesterday. #epicfail #lazies",
+    "gold_reference_reply":"@450691 Sorry to hear this, has this happened with any of your other orders? ^KM",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":2310821,
+    "customer_text":"@AmazonHelp Intelcom Courrier Canada Inc.",
+    "gold_reference_reply":"@670189 Hi Karen. Was your order sold via a seller or Amazon directly? Please reach out - https:\/\/t.co\/Q7Ftz6nj80 we'll be happy to look into your concern further. ^TP",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":1490260,
+    "customer_text":"@AmazonHelp Yes otherwise I would not be annoyed but it has happened 5 times now. I basically now know I can not count on your delivery date @115851",
+    "gold_reference_reply":"@466102 Did this happen with one carrier or multiple carriers? Please use the previously linked page to check. Thank you. ^DO",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":1131247,
+    "customer_text":"@115850 order getting delayed again and again . . . Worst service of ATS\nORDR NO.\n408-3885449-3453920",
+    "gold_reference_reply":"@386598 Please don\u2019t provide your order details as we consider them to be personal info. Our page is visible to the public. [2\/2] ^NS",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":389928,
+    "customer_text":"@AmazonHelp @122232 are a disgrace! 3 orders to a BFPO address.....all 3 returned! Why do you use these jokers. #Sackthem",
+    "gold_reference_reply":"@208317 I'm sorry about the trouble. We'd like to look into the delivery issues here: https:\/\/t.co\/JzP7hlA23B ^LI",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":2924604,
+    "customer_text":"@115821 I received a package just now and it came damaged. Hopefully they didn\u2019t switch out the memory cards for one with less memory or different brand and only the package came damaged... https:\/\/t.co\/CiAfjDuCck",
+    "gold_reference_reply":"@766504 I'm sorry your item was received in this condition, Christian. We're here to help! Please let us know if you need a refund or replacement.  ^SE",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":2985533,
+    "customer_text":"When @115850's 'Choice' is a fake vendor.\n\nI too like \"Nastle\" chocolate. https:\/\/t.co\/aRUPCQrS1s",
+    "gold_reference_reply":"@546200 Thanks for flagging this. I'll forward this issue to the concerned team internally for a review. ^KA",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":2767593,
+    "customer_text":"@AmazonHelp Et aussit\u00f4t rachet\u00e9 une coque \u00e0 la bonne taille \ud83d\ude0a",
+    "gold_reference_reply":"@668416 Bonne reception \ud83d\ude09",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":698803,
+    "customer_text":"@119625 Please stream this in USA too",
+    "gold_reference_reply":"@362389 We've responded to your query here: https:\/\/t.co\/t0oYtK7xfw. ^HD",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"ESCALATE_TO_HUMAN",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"ESCALATE_TO_HUMAN"
+  },
+  {
+    "tweet_id":2318406,
+    "customer_text":"What ?? @115850  delivery boy want only Cash ?? No card else go away ?? What the Hell ?? https:\/\/t.co\/36kJakl4lA",
+    "gold_reference_reply":"@134315 Apologies for the hassle, that was not intended. Please report this to our support team here: https:\/\/t.co\/vlvfJr4nN9 &amp; we'll help you. Also, Please don\u2019t provide order details as we consider them to be personal info. Our Twitter page is visible to public. ^BS",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":2141325,
+    "customer_text":". @115851, @115821 customer service used to rock...today was horrible dealing with them.",
+    "gold_reference_reply":"@629678 I'm sorry for the trouble! Without revealing personal info, could you tell us more about the experience? ^LJ",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":1529939,
+    "customer_text":"@115821 ever consider an \"undo delivered\" button for delivery drivers? Dont post items as delivered when they aren't.",
+    "gold_reference_reply":"@474833 I am so sorry, Anthony! Have you had a chance to reach out to us via phone? If so what options where you provided? ^LS",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"UNKNOWN",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"UNKNOWN",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":992344,
+    "customer_text":"@AmazonHelp WTH. What action you took on my previous response. Wasting time.",
+    "gold_reference_reply":"@210667 Kindly check the latest correspondence we sent to your registered account and respond to it, we'll reach out to you soon. ^MA",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":27837,
+    "customer_text":"@122094 @120474 Same",
+    "gold_reference_reply":"@120618 Hi, we can look into this for you: https:\/\/t.co\/oGDklGgbCZ Please get in touch via the link. ^TS",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":784734,
+    "customer_text":"@115850 thanks for the quick response.Finally I came to know that how to make company responsive is by just 1 tweet .hehhehe",
+    "gold_reference_reply":"@306762 We're glad you reached us here. :) Do keep us posted if the issue remains unresolved. ^KC",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":1222617,
+    "customer_text":"@AmazonHelp hello really need your help my account ha been locked!!",
+    "gold_reference_reply":"@406888 on how to regain access to your account? Be sure to also check your junk and spam folders. ^HC (2\/2)",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":2768251,
+    "customer_text":"@AmazonHelp I cannot load a return label so how am I meant to return an item?",
+    "gold_reference_reply":"@774044 I am sorry to hear this. Can I ask what options you have for the return through the link below please? https:\/\/t.co\/jC8cVVU0wx. ^GA",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"UNKNOWN",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"UNKNOWN",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":2089306,
+    "customer_text":"@428606 @AmazonHelp Supposedly dispatched, but I don't understand how there is a potential 7 day delay if that's the case, but it does mean too late to cancel.",
+    "gold_reference_reply":"@179020 Hi, apologies for the delay! Please keep us posted on your delivery. ^TS",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":1899098,
+    "customer_text":"iPhone\u306eKindle\u304c\u8b0e\u3060\u3002amazon\u304b\u3089\u306e\u30d8\u30eb\u30d7\u3092\u53c2\u7167\u3057\u3066\u8a2d\u5b9a\u3057\u3066\u308b\u3093\u3060\u3051\u3069\u4ee5\u524d\u8cfc\u5165\u51fa\u6765\u305f\u672c\u306f\u30e9\u30a4\u30d6\u30e9\u30ea\u304b\u3089\u3076\u3063\u98db\u3093\u3058\u3083\u3063\u305f\u3057\u3001\u4eca\u306f\u30b5\u30f3\u30d7\u30ebDL\u3057\u3066\u3082\u30a2\u30d7\u30ea\u3067\u53cd\u6620\u3055\u308c\u306a\u3044\u3002\u56fd\u5185\u51fa\u7248\u7269\u306f\u691c\u7d22\u3057\u3066\u3082\u51fa\u3066\u3053\u306a\u3044\u3002\u3057\u3087\u3046\u304c\u306a\u304fiBook\u4f7f\u3063\u3066\u308b\u3051\u3069\u30bb\u30fc\u30eb\u4fa1\u683c\u3067\u8cb7\u3048\u306a\u304f\u3066\u3064\u3089\u3044",
+    "gold_reference_reply":"@565987 \u3054\u4e0d\u4fbf\u3092\u304a\u639b\u3051\u3057\u3066\u304a\u308a\u307e\u3059\u3002\u304a\u624b\u6570\u3067\u3059\u304c\u3001\u30a2\u30d7\u30ea\u306e\u30a2\u30f3\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\uff1e\u7aef\u672b\u518d\u8d77\u52d5\uff1e\u518d\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb\u3092\u304a\u8a66\u3057\u304f\u3060\u3055\u3044\u3002\u6539\u5584\u3057\u306a\u3044\u5834\u5408\u306f\u8a73\u7d30\u3092\u78ba\u8a8d\u3057\u305f\u4e0a\u3067\u3054\u6848\u5185\u3055\u305b\u3066\u3044\u305f\u3060\u304d\u307e\u3059\u306e\u3067\u3001\u30ea\u30f3\u30af\u3088\u308a\u304a\u554f\u3044\u5408\u308f\u305b\u304f\u3060\u3055\u3044\u3002https:\/\/t.co\/J6YEizo6qC TN",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":1262229,
+    "customer_text":"@AmazonHelp How drive it back to the post office. I work during the day so no way to refuse",
+    "gold_reference_reply":"@415650 Is it an item that needs to be signed for? ^MC",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":402558,
+    "customer_text":"@AmazonHelp do I still need to say anything 6 october was the date how long do I have to wait for a respond https:\/\/t.co\/U9fAkfAUks",
+    "gold_reference_reply":"@186090 Sorry for the trouble with your order. Please write to us here: https:\/\/t.co\/GIJyeYqKE0 and I'll reach out to you. ^SQ",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":234224,
+    "customer_text":"@AmazonHelp Yes Sir I've mailed my problem at your given link.",
+    "gold_reference_reply":"@171762 Thank you for confirming. You should receive an update from us soon. Keep an eye on your mailbox. ^MP",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":1238760,
+    "customer_text":"@AmazonHelp Ok, but EVERYTHING that\u2019s available with Prime is coming up as Monday\/Tuesday being the earliest delivery date, not just \u201csome items\u201d. I pay for Prime because I want next day delivery, yet it\u2019s not available, which renders Prime pointless to me.",
+    "gold_reference_reply":"@227952 I can certainly understand your frustration, Laura. Please visit us here for more information: https:\/\/t.co\/4kVen2bV7X ^RB",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":2269089,
+    "customer_text":"@AmazonHelp @AmazonHelp can you help me? @89304 is moving pretty slow in destiny 2. How do I make him quicker?",
+    "gold_reference_reply":"@660343 What did he have for breakfast? Its the most important meal of the day afterall ^AS",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":486658,
+    "customer_text":"@AmazonHelp Funny but I can order it now and it will arrive on Sunday yet mine which I bought on Tuesday gone won\u2019t arrive till Monday https:\/\/t.co\/LFwWXZ4j6v",
+    "gold_reference_reply":"@230811 I'm sorry to hear your order isn't arriving when expected. We always aim to meet the original delivery date given in your order confirmation e-mail however, occasionally unforeseen circumstances do occur. Please keep us updated on the arrival of your order. ^KH",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":928384,
+    "customer_text":"I love when I choose 2 day shipping for my @116090 order and it still hasn\u2019t even shipped after 48 hours \ud83d\ude2c @AmazonHelp",
+    "gold_reference_reply":"@340283 I'm really sorry for the wait! Some items require additional processing, and aren't able to be shipped right away. ^WJ",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":2679469,
+    "customer_text":"@115850 Shame on you Amazon, learn something from Flipkart. I want my refund right now. I'd waited for a week and then received a cheque where the name mentioned is wrong. I've even mailed the canceled check to Amazon but no response. Refund Id-403-3693517-6045157. Hopeless!",
+    "gold_reference_reply":"@521251 Please don't provide your order details, we consider it personal information. Our Twitter page is visible to public. ^VN (2\/2)",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":1637867,
+    "customer_text":"My order no. 4__credit_card__\nI don't get cash back amount \n@AmazonHelp Please look into this matter",
+    "gold_reference_reply":"@500893 our support team here : https:\/\/t.co\/rS49hgaADF so that we can assist you accordingly. (2\/2) ^SS",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":2018621,
+    "customer_text":"@AmazonHelp @115850 @115821 @117795 @79334\nSee how Amazon is selling broken cap deo to prime customers thru Amazon pantry with delivery charges 20 i lost around 200 INR . Amazon in In sucks. https:\/\/t.co\/Uu276ahigd",
+    "gold_reference_reply":"@596984 We apologize that you have received a damaged product Sunil, we certainly did not expect this to happen. Kindly connect with our support team here: https:\/\/t.co\/rS49hgaADF and we'll get this sorted. ^VH",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":1270275,
+    "customer_text":"@AmazonHelp Also I have completely given up on on.. never using it @3974 again.. also recommending all my friends to do the same. Thx",
+    "gold_reference_reply":"@183038 I get your disappointment, Piyush. We'd like to help, kindly elaborate for us to help you better. ^MP",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":1744107,
+    "customer_text":"@AmazonHelp I'm  contacting from  last month &amp; everytime your executive asked me to wait 3-4 days we will initiate your refund. &amp; Now when I connect with your Customer service (IVR) they tell me your order is not found in system. You don't care your Customer. Amazon is using my money from",
+    "gold_reference_reply":"@526003 this for you at the earliest. 2\/2 ^KH",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":641770,
+    "customer_text":"@AmazonHelp N\u00e3o, fiquei com medo de embananar mais ainda o processo. Seria o procedimento mais adequado?",
+    "gold_reference_reply":"@272306 Recomendamos entrar em contato com nosso SAC, por favor acesse o seguinte link: https:\/\/t.co\/qGpkDwGRhX ^HC",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":495912,
+    "customer_text":"Really annoyed @126705 refusing delivery of @115830 package because post office was full. So now returned to sender. Poor",
+    "gold_reference_reply":"@233284 I am so sorry for your poor experience! We would like to take a closer look into this issue with you. Please contact us via phone or chat here: https:\/\/t.co\/JzP7hlA23B ^LS",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":1245424,
+    "customer_text":"@AmazonHelp Yes I get all the notifications as well. I am hoping it\u2019s just cancelled versus waiting for a delivery date.",
+    "gold_reference_reply":"@412164 I understand. Please reach us via phone or chat here: https:\/\/t.co\/hApLpMlfHN We'd like to see what options we have for you. ^BL",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":857864,
+    "customer_text":"@AmazonHelp It didn't happen to me. Please help.",
+    "gold_reference_reply":"@185374 Once your Echo is delivered , the prime membership associated with it will automatically be renewed. ^EM",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
+  },
+  {
+    "tweet_id":2419713,
+    "customer_text":"@AmazonHelp Im using a galaxy s8 &amp; none of the songs are greyed out. If i click on them, they play. Its just when I hit shuffle, every song doesnt show.",
+    "gold_reference_reply":"@695139 Hmm. That is strange! Let's troubleshoot this in real time with you here: https:\/\/t.co\/hApLpMlfHN ^JZ",
+    "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
+    "weak_llm_action":"AUTO_HANDLE",
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
   }
 ]

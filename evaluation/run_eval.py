@@ -33,15 +33,15 @@ def preflight_and_select_models(fast_path=False):
     except Exception as e:
         raise RuntimeError(f"Failed to fetch Groq models: {e}")
         
-    preferred_groq = ["openai/gpt-oss-120b", "llama-3.3-70b-versatile", "llama3-70b-8192", "mixtral-8x7b-32768", "llama3-8b-8192"]
-    selected_groq = next((p for p in preferred_groq if p in groq_models), None)
+    preferred_groq = ["openai/gpt-oss-20b", "llama-3.3-70b-versatile", "llama3-70b-8192", "mixtral-8x7b-32768", "llama3-8b-8192"]
+    selected_groq = settings.llm_model
             
     if not selected_groq:
         raise RuntimeError(f"No suitable Groq model found. Available: {groq_models}")
         
     gemini_client = genai.Client(api_key=gemini_api_key)
     
-    selected_gemini = "gemini-3.6-flash"
+    selected_gemini = settings.judge_model
     try:
         gemini_client.models.generate_content(
             model=selected_gemini,
@@ -49,7 +49,7 @@ def preflight_and_select_models(fast_path=False):
         )
     except Exception as e:
         if "404" in str(e):
-            selected_gemini = "gemini-3.6-flash"
+            selected_gemini = settings.judge_model
             
     assert "gemini" in selected_gemini and "groq" not in selected_gemini, "Judge must be different provider!"
     

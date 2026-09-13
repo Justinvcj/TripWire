@@ -1,4 +1,4 @@
-﻿llm_model: openai/gpt-oss-120b
+﻿llm_model: openai/gpt-oss-20b
 judge_model: gemini-3.6-flash
 confidence_threshold: 0.75
 similarity_threshold: 0.6

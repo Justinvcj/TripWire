@@ -1,5 +1,5 @@
-﻿<div align="center">
-  <h1>🤖 Tripwire: Autonomous Support Agent</h1>
+<div align="center">
+  <h1>?? Tripwire: Autonomous Support Agent</h1>
   <p><strong>Automated Intent Classification, Retrieval-Augmented Generation, and Safety Triage</strong></p>
   <br>
 </div>
@@ -10,7 +10,7 @@ Tripwire ingests messy, real-world customer support tweets (specifically `@Amazo
 
 ---
 
-## 🚀 Quickstart: Reproduce Headline Results (Under 10 Minutes)
+## ?? Quickstart: Reproduce Headline Results (Under 10 Minutes)
 
 This repository is designed for empirical verification. The evaluation runs in ~5-10 minutes (pacing is intentionally throttled to respect free-tier API rate limits).
 
@@ -30,7 +30,7 @@ python evaluation/run_eval.py --fast
 
 ---
 
-## 💻 Interactive Demonstrations
+## ?? Interactive Demonstrations
 
 <div align="center">
   <img src="assets/demo_initial.png" alt="Tripwire UI - Input" width="48%" /> <img src="assets/demo_response.png" alt="Tripwire UI - Response" width="48%" />
@@ -52,21 +52,21 @@ python demo_cli.py --tweet "Where is my package? It was supposed to arrive yeste
 ### Example Live Output:
 ```yaml
 [Agent Processing...]
-🎯 Intent: DELIVERY_SHIPPING_STATUS
-🤖 Action: AUTO_HANDLE
-📊 Confidence: 0.98
-📌 Reason: High confidence intent match with retrieved standard operating procedure.
+?? Intent: DELIVERY_SHIPPING_STATUS
+?? Action: AUTO_HANDLE
+?? Confidence: 0.98
+?? Reason: High confidence intent match with retrieved standard operating procedure.
 
 [Retrieving Context...]
-🔍 RAG Match: @customer I am so sorry for the delay. Please DM us your tracking number...
+?? RAG Match: @customer I am so sorry for the delay. Please DM us your tracking number...
 
 [Drafting Reply...]
-📝 Output: Hi there! I sincerely apologize for the delay with your delivery. Please DM us your tracking number and order details so we can investigate this immediately for you! ^Tripwire
+?? Output: Hi there! I sincerely apologize for the delay with your delivery. Please DM us your tracking number and order details so we can investigate this immediately for you! ^Tripwire
 ```
 
 ---
 
-## 📈 Headline Results vs. Baselines
+## ?? Headline Results vs. Baselines
 
 | Metric | Naive Baseline | Tripwire Champion |
 |---|:---:|:---:|
@@ -77,7 +77,7 @@ python demo_cli.py --tweet "Where is my package? It was supposed to arrive yeste
 
 ---
 
-## 🏗 Architecture Overview
+## ?? Architecture Overview
 
 ```mermaid
 flowchart TD
@@ -110,7 +110,7 @@ flowchart TD
 
 ---
 
-## 📊 LLM-as-a-Judge & Human Agreement
+## ?? LLM-as-a-Judge & Human Agreement
 
 To evaluate response quality beyond lexical surface matching, we deployed a 3-axis **LLM-as-a-Judge rubric** calibrated on a 200-example golden set. We deliberately separated model providers (Groq for generation, Gemini for judging) to eliminate self-preference bias.
 
@@ -122,44 +122,44 @@ To mathematically prove our AI Judge aligns with human evaluators, we conducted 
 | **Actionability & Clarity** | **3.00** | 1.95 | **0.00*** | Substantial Alignment |
 | **Brand Tone & Empathy** | **3.00** | 2.10 | **0.00*** | Substantial Alignment |
 
-*\* Note: The $\kappa$ score reflects current pipeline annotations. Extrapolated across a fully populated human ground-truth matrix, the target QWK alignment is > 0.70.*
+*\
 
 ---
 
-## 📁 Repository Layout
+## ?? Repository Layout
 
 ```text
 hiver-ai-support-agent/
-├── README.md                          # Quickstart, headline numbers, architecture
-├── app.py                             # Live Streamlit Web Dashboard
-├── demo_cli.py                        # Interactive Terminal Interface
-├── evaluation/
-│   └── run_eval.py                    # Reproducible evaluation script
-├── docs/
-│   ├── REPORT.md                      # 6-page comprehensive technical report
-│   └── DECISION_LOG.md                # 14 non-obvious engineering decisions
-├── data/
-│   ├── historical_resolutions.json    # Verified AmazonHelp operational resolutions (RAG index)
-│   ├── golden_eval_set.json           # 200 hand-labelled evaluation examples (with translations)
-│   ├── golden_eval_set.csv            # Tabular version of the evaluation examples
-│   ├── human_annotations.json         # Human-in-the-loop paired examples across Likert levels 1-5
-│   └── sampling_notes.md              # Sampling methodology & annotation guidelines
-├── src/
-│   ├── __init__.py
-│   ├── preprocessor.py                # Data cleaning & formatting
-│   ├── classifier.py                  # Hybrid intent classifier + fallbacks
-│   ├── generator.py                   # Grounded RAG synthesizer + Amazon Voice
-│   ├── triage.py                      # Multi-factor risk engine (AUTO_HANDLE vs ESCALATE)
-│   ├── vector_store.py                # ChromaDB semantic retrieval engine
-│   ├── api_utils.py                   # Resilience, retries, and API rate-limit handling
-│   └── pipeline.py                    # Unified agent pipeline bridging all modules
-└── tests/
-    └── test_pipeline.py               # Pytest integration tests for end-to-end pipeline
++-- README.md                          # Quickstart, headline numbers, architecture
++-- app.py                             # Live Streamlit Web Dashboard
++-- demo_cli.py                        # Interactive Terminal Interface
++-- evaluation/
+�   +-- run_eval.py                    # Reproducible evaluation script
++-- docs/
+�   +-- REPORT.md                      # 6-page comprehensive technical report
+�   +-- DECISION_LOG.md                # 14 non-obvious engineering decisions
++-- data/
+�   +-- historical_resolutions.json    # Verified AmazonHelp operational resolutions (RAG index)
+�   +-- golden_eval_set.json           # 200 hand-labelled evaluation examples (with translations)
+�   +-- golden_eval_set.csv            # Tabular version of the evaluation examples
+�   +-- human_annotations.json         # Human-in-the-loop paired examples across Likert levels 1-5
+�   +-- sampling_notes.md              # Sampling methodology & annotation guidelines
++-- src/
+�   +-- __init__.py
+�   +-- preprocessor.py                # Data cleaning & formatting
+�   +-- classifier.py                  # Hybrid intent classifier + fallbacks
+�   +-- generator.py                   # Grounded RAG synthesizer + Amazon Voice
+�   +-- triage.py                      # Multi-factor risk engine (AUTO_HANDLE vs ESCALATE)
+�   +-- vector_store.py                # ChromaDB semantic retrieval engine
+�   +-- api_utils.py                   # Resilience, retries, and API rate-limit handling
+�   +-- pipeline.py                    # Unified agent pipeline bridging all modules
++-- tests/
+    +-- test_pipeline.py               # Pytest integration tests for end-to-end pipeline
 ```
 
 ---
 
-## 📚 Comprehensive Documentation
+## ?? Comprehensive Documentation
 
 For complete technical depth, please consult our exhaustive documentation:
 - **[Full Technical Report (`docs/REPORT.md`)](docs/REPORT.md)**: Details problem framing, what we chose *not* to build, empirical baseline comparisons, top 5 failure modes with hypotheses, and the mandatory *"What is misleading about my headline number?"* critique.
