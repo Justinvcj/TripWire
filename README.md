@@ -32,6 +32,11 @@ python evaluation/run_eval.py --fast
 
 ## 💻 Interactive Demonstrations
 
+<div align="center">
+  <img src="assets/demo_screenshot.png" alt="Tripwire UI" width="800"/>
+</div>
+
+
 We provide both a terminal interface and a web dashboard to test the pipeline live.
 
 **1. Streamlit Web Dashboard**
