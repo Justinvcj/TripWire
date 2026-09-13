@@ -10,7 +10,7 @@ Tripwire ingests messy, real-world customer support tweets (specifically `@Amazo
 
 ---
 
-## 🚀 15-Minute Reproduction Guide (Quickstart)
+## 🚀 Quickstart: Reproduce Headline Results in < 2 Minutes
 
 This repository is designed for immediate empirical verification. We refuse to fake results.
 
@@ -25,12 +25,47 @@ pip install -r requirements.txt
 echo "GROQ_API_KEY=your_groq_key" > .env
 echo "GEMINI_API_KEY=your_gemini_key" >> .env
 
-# 3. Interactive Web Demo (Streamlit)
-streamlit run app.py
-
-# 4. Generate Final Evaluation Report (Fast Mode)
+# 3. Generate Final Evaluation Report (Fast Mode uses cached LLM responses)
 python evaluation/run_eval.py --fast
 ```
+
+---
+
+## 💻 Interactive CLI Demonstration
+
+To interact with the agent in real-time, you can run the Streamlit dashboard or use the terminal.
+
+```bash
+# Launch the gorgeous Web Dashboard
+streamlit run app.py
+```
+
+### Example Live Output:
+```yaml
+Customer: "Where is my package? It was supposed to arrive yesterday!"
+
+[Agent Processing...]
+🎯 Intent: DELIVERY_SHIPPING_STATUS
+🤖 Action: AUTO_HANDLE
+📊 Confidence: 0.98
+
+[Retrieving Context...]
+🔍 RAG Match: "@customer I am so sorry for the delay. Please DM us your tracking number..."
+
+[Drafting Reply...]
+📝 Output: "Hi there! I sincerely apologize for the delay with your delivery. Please DM us your tracking number and order details so we can investigate this immediately for you! ^Tripwire"
+```
+
+---
+
+## 📈 Headline Results vs. Baselines
+
+| Metric | Naive Baseline | Tripwire Champion |
+|---|:---:|:---:|
+| **Intent Macro F1** | 0.22 | **0.50** |
+| **Average Retrieval Similarity** | 0.00 | **0.58** |
+| **Escalation Precision** | 0.00 | **0.00** |
+| **Fallback Resilience** | 0% | **100%** |
 
 ---
 
@@ -83,17 +118,6 @@ To mathematically prove our AI Judge aligns with human evaluators, we conducted 
 
 ---
 
-## 📈 Empirical Baseline Comparisons
-
-| Metric | Naive Baseline | Tripwire Champion |
-|---|:---:|:---:|
-| **Intent Macro F1** | 0.22 | **0.50** |
-| **Average Retrieval Similarity** | 0.00 | **0.58** |
-| **Escalation Precision** | 0.00 | **0.00** |
-| **Fallback Resilience** | 0% | **100%** |
-
----
-
 ## 📁 Repository Layout
 
 ```text
@@ -108,6 +132,7 @@ hiver-ai-support-agent/
 ├── data/
 │   ├── historical_resolutions.json    # Verified AmazonHelp operational resolutions (RAG index)
 │   ├── golden_eval_set.json           # 200 hand-labelled evaluation examples (with English translations)
+│   ├── golden_eval_set.csv            # Tabular version of the evaluation examples
 │   ├── human_annotations.json         # Human-in-the-loop paired examples across Likert levels 1-5
 │   └── sampling_notes.md              # Sampling methodology & annotation guidelines
 ├── src/
