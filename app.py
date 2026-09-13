@@ -3,6 +3,7 @@ import os
 import time
 from dotenv import load_dotenv
 
+load_dotenv()
 st.set_page_config(page_title="Hiver AI Support Agent", layout="wide")
 
 st.markdown("""
@@ -37,16 +38,25 @@ with col1:
             st.warning("Please enter a tweet first.")
         else:
             with st.spinner("Classifying Intent & Retrieving Context..."):
-                time.sleep(1) # simulate work
-                # We mock the response to avoid hitting the actual Groq API rate limit
-                # and to ensure the demo is absolutely flawless for a LinkedIn screen recording
-                st.success("Message Processed Successfully!")
+                from src.pipeline import TripwirePipeline
                 
-                st.markdown("#### 🎯 Intent & Triage")
-                st.code(f"Intent: DELIVERY_SHIPPING_STATUS\nAction: AUTO_HANDLE\nConfidence: 0.98", language="yaml")
-                
-                st.markdown("#### 🔍 RAG Context Retrieved")
-                st.info("Historical Match: '@customer I am so sorry for the delay. Please DM us your tracking number so we can check on your package immediately.'")
-                
-                st.markdown("#### 📝 Draft AI Response")
-                st.success("Hi there! I sincerely apologize for the delay with your delivery. Please DM us your tracking number and order details so we can investigate this immediately for you! ^Tripwire")
+                try:
+                    pipeline = TripwirePipeline()
+                    result = pipeline.process_ticket(tweet_id="DEMO_TWEET", raw_text=tweet_input)
+                    
+                    st.success("Message Processed Successfully!")
+                    
+                    st.markdown("#### 🎯 Intent & Triage")
+                    st.code(f"Intent: {result.intent}\nAction: {result.action}\nConfidence: {result.confidence}\nReason: {result.reason}", language="yaml")
+                    
+                    st.markdown("#### 🔍 RAG Context Retrieved")
+                    rag_docs = "\n\n".join(result.retrieved_docs)
+                    if not rag_docs:
+                        rag_docs = "No direct historical match found."
+                    st.info(f"Historical Match:\n{rag_docs}")
+                    
+                    st.markdown("#### 📝 Draft AI Response")
+                    st.success(result.draft_reply)
+                    
+                except Exception as e:
+                    st.error(f"Error processing tweet: {e}")
