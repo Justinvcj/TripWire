@@ -1,4 +1,4 @@
-﻿import json
+import json
 import os
 
 def run_grading():
@@ -11,7 +11,7 @@ def run_grading():
         data = json.load(f)
         
     for i, item in enumerate(data):
-        if item.get("human_groundedness") is not None:
+        if item.get("human_groundedness") is not None and item.get("human_groundedness") > 0:
             continue
             
         print("-" * 50)
