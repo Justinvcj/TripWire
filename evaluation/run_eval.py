@@ -7,7 +7,7 @@ from src.judge import LLMJudge
 from src.schemas import Intent, Action
 
 def run():
-    print("Running Evaluation Harness on Holdout Slice...")
+    print("Running Evaluation Harness on Holdout Slice (with rate-limit throttling)...")
     with open(settings.holdout_slice_path, "r", encoding="utf-8-sig") as f:
         holdout = json.load(f)
         
@@ -32,17 +32,20 @@ def run():
             y_true_intent.append(item['gold_intent'])
             y_pred_intent.append(res.intent.value)
             
-            # Action string
             y_true_escalation.append(1 if item['gold_action'] == "ESCALATE_TO_HUMAN" else 0)
             y_pred_escalation.append(1 if res.action.value == "ESCALATE_TO_HUMAN" else 0)
             
             if res.action.value == "AUTO_HANDLE" and res.draft_reply:
-                # evaluate draft quality
                 eval_res = judge.evaluate_reply(item['customer_text'], res.draft_reply, item.get('gold_reference_reply', ''))
                 judge_scores.append(eval_res.get('score', 3))
+                
         except Exception as e:
             print(f"Error processing {item['tweet_id']}: {e}")
             continue
+            
+        # Throttling to respect Free Tier API Limits (Groq TPM and Gemini RPM)
+        print("Sleeping for 5 seconds to avoid API Rate Limits (429 errors)...")
+        time.sleep(5)
             
     intent_acc = accuracy_score(y_true_intent, y_pred_intent) if y_true_intent else 0
     esc_prec = precision_score(y_true_escalation, y_pred_escalation, zero_division=0) if y_true_escalation else 0
@@ -59,13 +62,6 @@ def run():
     print("\nLLM-as-judge evaluation:")
     print("Model used:", settings.judge_model)
     print(f"Average Reply Quality Score (1-5): {avg_score:.2f}")
-    
-    with open("data/evaluation_results.txt", "w") as f:
-        f.write(f"Intent Classification Accuracy: {intent_acc:.2%}\n")
-        f.write(f"Escalation Precision: {esc_prec:.2%}\n")
-        f.write(f"Escalation Recall: {esc_rec:.2%}\n")
-        f.write(f"Judge Model: {settings.judge_model}\n")
-        f.write(f"Average Reply Quality Score (1-5): {avg_score:.2f}\n")
 
 if __name__ == "__main__":
     run()
