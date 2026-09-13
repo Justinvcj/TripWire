@@ -79,7 +79,7 @@ def run():
     from src.config import settings
     from src.pipeline import Pipeline
     from src.judge import LLMJudge
-    from src.classifier import TfidfLogRegClassifier
+    from src.baseline import SimpleBaselineClassifier
     
     with open(settings.holdout_slice_path, "r", encoding="utf-8-sig") as f:
         holdout = json.load(f)
@@ -103,7 +103,7 @@ def run():
     judge = LLMJudge()
     
     try:
-        b2_classifier = TfidfLogRegClassifier()
+        b2_classifier = SimpleBaselineClassifier("data/golden_eval_set.csv")
     except:
         b2_classifier = None
     
