@@ -5,7 +5,9 @@
     "gold_reference_reply":"@152927 I'm sorry you didn't receive all the parts to your camera, Cheryl! We'd like to help! You can check out some available return or replacement options here: https:\/\/t.co\/zApS1cx5Si ^HM",
     "weak_llm_intent":"WRONG_OR_DEFECTIVE_ITEM",
     "weak_llm_action":"AUTO_HANDLE",
-    "gold_intent":"UNKNOWN",
+    "human_intent":"WRONG_OR_DEFECTIVE_ITEM",
+    "human_action":"ESCALATE_TO_HUMAN",
+    "gold_intent":"WRONG_OR_DEFECTIVE_ITEM",
     "gold_action":"ESCALATE_TO_HUMAN"
   },
   {
@@ -14,8 +16,10 @@
     "gold_reference_reply":"@442180 We'd like to investigate this issue further. Please share your details with us here: https:\/\/t.co\/GIJyeYqKE0 and we'll help ^ZH",
     "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
     "weak_llm_action":"AUTO_HANDLE",
-    "gold_intent":"UNKNOWN",
-    "gold_action":"ESCALATE_TO_HUMAN"
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
   },
   {
     "tweet_id":975067,
@@ -23,8 +27,10 @@
     "gold_reference_reply":"@337836 As you've already filled the details, you should've received a correspondence from our team. Kindly check the same. ^AP",
     "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
     "weak_llm_action":"AUTO_HANDLE",
-    "gold_intent":"UNKNOWN",
-    "gold_action":"ESCALATE_TO_HUMAN"
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
   },
   {
     "tweet_id":2242571,
@@ -32,8 +38,10 @@
     "gold_reference_reply":"@653780 Hey Erin! I'm really sorry you don't have your orders. We'd like to help! Has the delivery date shown on the order passed? ^AJ",
     "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
     "weak_llm_action":"AUTO_HANDLE",
-    "gold_intent":"UNKNOWN",
-    "gold_action":"ESCALATE_TO_HUMAN"
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
   },
   {
     "tweet_id":226426,
@@ -41,7 +49,9 @@
     "gold_reference_reply":"@170048 \u826f\u3044\u30b5\u30fc\u30d3\u30b9\u3068\u306e\u304a\u8a00\u8449\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\u3002\u4eca\u5f8c\u3068\u3082\u3088\u308d\u3057\u304f\u304a\u9858\u3044\u3044\u305f\u3057\u307e\u3059\u3002\ud83d\ude0a\ud83d\ude0a\ud83d\ude0aET",
     "weak_llm_intent":"NON_ENGLISH_QUERY",
     "weak_llm_action":"AUTO_HANDLE",
-    "gold_intent":"UNKNOWN",
+    "human_intent":"NON_ENGLISH_QUERY",
+    "human_action":"ESCALATE_TO_HUMAN",
+    "gold_intent":"NON_ENGLISH_QUERY",
     "gold_action":"ESCALATE_TO_HUMAN"
   },
   {
@@ -50,8 +60,10 @@
     "gold_reference_reply":"@452393 Hola,en caso de que la direcci\u00f3n seleccionada no sea permitida,se indicar\u00e1 y puedes usar otra direcci\u00f3n o punto de recogida^JD",
     "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
     "weak_llm_action":"AUTO_HANDLE",
-    "gold_intent":"UNKNOWN",
-    "gold_action":"ESCALATE_TO_HUMAN"
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
   },
   {
     "tweet_id":748778,
@@ -59,8 +71,10 @@
     "gold_reference_reply":"@297516 Con mucho gusto. Estamos para ayudarte en lo que necesites. ^HC",
     "weak_llm_intent":"FEEDBACK_CHITCHAT",
     "weak_llm_action":"AUTO_HANDLE",
-    "gold_intent":"UNKNOWN",
-    "gold_action":"ESCALATE_TO_HUMAN"
+    "human_intent":"ITEM_CONDITION_MISSING",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"ITEM_CONDITION_MISSING",
+    "gold_action":"AUTO_HANDLE"
   },
   {
     "tweet_id":349759,
@@ -68,8 +82,10 @@
     "gold_reference_reply":"@199223 Hi, do you get a code for early access? ^JJ",
     "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
     "weak_llm_action":"AUTO_HANDLE",
-    "gold_intent":"UNKNOWN",
-    "gold_action":"ESCALATE_TO_HUMAN"
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
   },
   {
     "tweet_id":1676579,
@@ -77,8 +93,10 @@
     "gold_reference_reply":"@510003 ^GD https:\/\/t.co\/SHyeywqrTW",
     "weak_llm_intent":"NON_ENGLISH_QUERY",
     "weak_llm_action":"AUTO_HANDLE",
-    "gold_intent":"UNKNOWN",
-    "gold_action":"ESCALATE_TO_HUMAN"
+    "human_intent":"NON_ENGLISH_QUERY",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"NON_ENGLISH_QUERY",
+    "gold_action":"AUTO_HANDLE"
   },
   {
     "tweet_id":170956,
@@ -86,8 +104,10 @@
     "gold_reference_reply":"@155869 Oh no! I'm so sorry that your boyfriend saw his gift! We don't want to ruin any surprises, especially this time of year! Do you know if the order was marked as a gift? You can see that information here: https:\/\/t.co\/uW1vtH2z5l ^FR",
     "weak_llm_intent":"FEEDBACK_CHITCHAT",
     "weak_llm_action":"AUTO_HANDLE",
-    "gold_intent":"UNKNOWN",
-    "gold_action":"ESCALATE_TO_HUMAN"
+    "human_intent":"FEEDBACK_CHITCHAT",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"FEEDBACK_CHITCHAT",
+    "gold_action":"AUTO_HANDLE"
   },
   {
     "tweet_id":2965277,
@@ -95,8 +115,10 @@
     "gold_reference_reply":"@818097 I'm very sorry you haven't received your order. Have we sent any notification of a possible delay? Check the spam\/junk folder as some messages may be routed there. Have we updated the delivery date in your orders here: https:\/\/t.co\/Y5jpI9gRhE We're here for you! ^SK",
     "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
     "weak_llm_action":"AUTO_HANDLE",
-    "gold_intent":"UNKNOWN",
-    "gold_action":"ESCALATE_TO_HUMAN"
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
   },
   {
     "tweet_id":2290861,
@@ -104,8 +126,10 @@
     "gold_reference_reply":"@665414 I get you being upset. However, for us to help you further please reply to the correspondence and we will get back soon. Appreciate your understanding. ^BS",
     "weak_llm_intent":"FEEDBACK_CHITCHAT",
     "weak_llm_action":"AUTO_HANDLE",
-    "gold_intent":"UNKNOWN",
-    "gold_action":"ESCALATE_TO_HUMAN"
+    "human_intent":"FEEDBACK_CHITCHAT",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"FEEDBACK_CHITCHAT",
+    "gold_action":"AUTO_HANDLE"
   },
   {
     "tweet_id":1592469,
@@ -113,8 +137,10 @@
     "gold_reference_reply":"@210967 Sorry for the frustration. Who was the carrier for this particular package? You can find that here: https:\/\/t.co\/Y5jpI9gRhE ^BA",
     "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
     "weak_llm_action":"AUTO_HANDLE",
-    "gold_intent":"UNKNOWN",
-    "gold_action":"ESCALATE_TO_HUMAN"
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
   },
   {
     "tweet_id":89190,
@@ -122,8 +148,10 @@
     "gold_reference_reply":"@135291 I see! Thanks for the information, Lucas! Would you be able to contact us by phone or chat for real-time assistance with this delivery? You can contact us here: https:\/\/t.co\/JzP7hlA23B and we will look into the matter thoroughly! ^FR",
     "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
     "weak_llm_action":"AUTO_HANDLE",
-    "gold_intent":"UNKNOWN",
-    "gold_action":"ESCALATE_TO_HUMAN"
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
   },
   {
     "tweet_id":458862,
@@ -131,8 +159,10 @@
     "gold_reference_reply":"@223977 I'd like a member of our Amazon Logistics team to look into this with you further. When you have a moment, please add additional details here: https:\/\/t.co\/QhpR5oMke0 Thank you! ^ML",
     "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
     "weak_llm_action":"AUTO_HANDLE",
-    "gold_intent":"UNKNOWN",
-    "gold_action":"ESCALATE_TO_HUMAN"
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
   },
   {
     "tweet_id":2917189,
@@ -140,8 +170,10 @@
     "gold_reference_reply":"@807445 I'm sorry, we can't speculate on our warehouse shipping time-frames. It's not uncommon for an item to ship and be delivered the same day it's due, though. ^AM",
     "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
     "weak_llm_action":"AUTO_HANDLE",
-    "gold_intent":"UNKNOWN",
-    "gold_action":"ESCALATE_TO_HUMAN"
+    "human_intent":"FEEDBACK_CHITCHAT",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"FEEDBACK_CHITCHAT",
+    "gold_action":"AUTO_HANDLE"
   },
   {
     "tweet_id":440054,
@@ -149,8 +181,10 @@
     "gold_reference_reply":"@219445 Thank you for sharing the details from the link. We'd get back to you with an update soon. ^BS",
     "weak_llm_intent":"FEEDBACK_CHITCHAT",
     "weak_llm_action":"AUTO_HANDLE",
-    "gold_intent":"UNKNOWN",
-    "gold_action":"ESCALATE_TO_HUMAN"
+    "human_intent":"FEEDBACK_CHITCHAT",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"FEEDBACK_CHITCHAT",
+    "gold_action":"AUTO_HANDLE"
   },
   {
     "tweet_id":1484702,
@@ -158,8 +192,10 @@
     "gold_reference_reply":"@6958 I'm sorry for the unwanted notification! Please use this link to edit marketing notifications: https:\/\/t.co\/g6LVq06tWh ^WM",
     "weak_llm_intent":"FEEDBACK_CHITCHAT",
     "weak_llm_action":"AUTO_HANDLE",
-    "gold_intent":"UNKNOWN",
-    "gold_action":"ESCALATE_TO_HUMAN"
+    "human_intent":"FEEDBACK_CHITCHAT",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"FEEDBACK_CHITCHAT",
+    "gold_action":"AUTO_HANDLE"
   },
   {
     "tweet_id":666930,
@@ -167,8 +203,10 @@
     "gold_reference_reply":"@278926 Dory, lamentamos mucho este inconveniente, si ya enviaste de nuevo todos los datos,  te recomendamos que por favor esperes unas 24 a 48 horas, los compa\u00f1eros especialistas de cuenta con mucho gusto te estar\u00e1n dando una respuesta luego de ese plazo. ^CB",
     "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
     "weak_llm_action":"AUTO_HANDLE",
-    "gold_intent":"UNKNOWN",
-    "gold_action":"ESCALATE_TO_HUMAN"
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
   },
   {
     "tweet_id":2758988,
@@ -176,8 +214,10 @@
     "gold_reference_reply":"@772027 Oh no! Are you able to view the episodes in your Video Library? View the steps here and keep us posted: https:\/\/t.co\/Ht4GGFaVKa ^SH",
     "weak_llm_intent":"WRONG_OR_DEFECTIVE_ITEM",
     "weak_llm_action":"AUTO_HANDLE",
-    "gold_intent":"UNKNOWN",
-    "gold_action":"ESCALATE_TO_HUMAN"
+    "human_intent":"WRONG_OR_DEFECTIVE_ITEM",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"WRONG_OR_DEFECTIVE_ITEM",
+    "gold_action":"AUTO_HANDLE"
   },
   {
     "tweet_id":2186257,
@@ -185,8 +225,10 @@
     "gold_reference_reply":"@640254 Thank you for the concern. Are you experiencing a delay with a recent order: https:\/\/t.co\/Y5jpI9gRhE? ^RR",
     "weak_llm_intent":"FEEDBACK_CHITCHAT",
     "weak_llm_action":"AUTO_HANDLE",
-    "gold_intent":"UNKNOWN",
-    "gold_action":"ESCALATE_TO_HUMAN"
+    "human_intent":"ITEM_CONDITION_MISSING",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"ITEM_CONDITION_MISSING",
+    "gold_action":"AUTO_HANDLE"
   },
   {
     "tweet_id":2226737,
@@ -194,8 +236,10 @@
     "gold_reference_reply":"@325008 We have received your reply. We are looking into it and we'll get back to you with a response soon. ^NR",
     "weak_llm_intent":"FEEDBACK_CHITCHAT",
     "weak_llm_action":"AUTO_HANDLE",
-    "gold_intent":"UNKNOWN",
-    "gold_action":"ESCALATE_TO_HUMAN"
+    "human_intent":"FEEDBACK_CHITCHAT",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"FEEDBACK_CHITCHAT",
+    "gold_action":"AUTO_HANDLE"
   },
   {
     "tweet_id":1238968,
@@ -203,8 +247,10 @@
     "gold_reference_reply":"@410617 I'm sorry about the delivery experience. Who was the carrier that delivered your package?^MO",
     "weak_llm_intent":"FEEDBACK_CHITCHAT",
     "weak_llm_action":"AUTO_HANDLE",
-    "gold_intent":"UNKNOWN",
-    "gold_action":"ESCALATE_TO_HUMAN"
+    "human_intent":"FEEDBACK_CHITCHAT",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"FEEDBACK_CHITCHAT",
+    "gold_action":"AUTO_HANDLE"
   },
   {
     "tweet_id":1168802,
@@ -212,8 +258,10 @@
     "gold_reference_reply":"@392393 Nous faisons appel \u00e0 votre patience afin d'\u00e9viter la r\u00e9ception de 2 colis qui engendrera d'autres proc\u00e9dures contraignantes.^MA",
     "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
     "weak_llm_action":"AUTO_HANDLE",
-    "gold_intent":"UNKNOWN",
-    "gold_action":"ESCALATE_TO_HUMAN"
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
   },
   {
     "tweet_id":2628814,
@@ -221,8 +269,10 @@
     "gold_reference_reply":"@175064 Can you tell us what happens when you try to access music through the Amazon Music app? Do you get an error message? What happens when you ask Alexa to play songs? Be as detailed as possible. ^NC",
     "weak_llm_intent":"FEEDBACK_CHITCHAT",
     "weak_llm_action":"AUTO_HANDLE",
-    "gold_intent":"UNKNOWN",
-    "gold_action":"ESCALATE_TO_HUMAN"
+    "human_intent":"FEEDBACK_CHITCHAT",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"FEEDBACK_CHITCHAT",
+    "gold_action":"AUTO_HANDLE"
   },
   {
     "tweet_id":1306039,
@@ -230,8 +280,10 @@
     "gold_reference_reply":"@425203 I'm sorry for any inconvenience! Please reach out to us at your earliest convenience: https:\/\/t.co\/hApLpMlfHN  ^JP",
     "weak_llm_intent":"WRONG_OR_DEFECTIVE_ITEM",
     "weak_llm_action":"AUTO_HANDLE",
-    "gold_intent":"UNKNOWN",
-    "gold_action":"ESCALATE_TO_HUMAN"
+    "human_intent":"WRONG_OR_DEFECTIVE_ITEM",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"WRONG_OR_DEFECTIVE_ITEM",
+    "gold_action":"AUTO_HANDLE"
   },
   {
     "tweet_id":2964009,
@@ -239,8 +291,10 @@
     "gold_reference_reply":"@392651 Das ist \u00e4rgerlich - ich gebe dein Feedback gerne weiter. Eine Reklamation bez\u00fcglich des garantierten Liefertermins ist aber leider nur \u00fcber unseren Kundenservice m\u00f6glich. Gru\u00df ^MI",
     "weak_llm_intent":"FEEDBACK_CHITCHAT",
     "weak_llm_action":"AUTO_HANDLE",
-    "gold_intent":"UNKNOWN",
-    "gold_action":"ESCALATE_TO_HUMAN"
+    "human_intent":"FEEDBACK_CHITCHAT",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"FEEDBACK_CHITCHAT",
+    "gold_action":"AUTO_HANDLE"
   },
   {
     "tweet_id":1423795,
@@ -248,8 +302,10 @@
     "gold_reference_reply":"@450849 Bonjour, d\u00e9sol\u00e9e d'apprendre cela :\/ l'avez-vous signal\u00e9 \u00e0 notre SAV ? ^SN",
     "weak_llm_intent":"NON_ENGLISH_QUERY",
     "weak_llm_action":"AUTO_HANDLE",
-    "gold_intent":"UNKNOWN",
-    "gold_action":"ESCALATE_TO_HUMAN"
+    "human_intent":"NON_ENGLISH_QUERY",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"NON_ENGLISH_QUERY",
+    "gold_action":"AUTO_HANDLE"
   },
   {
     "tweet_id":2130902,
@@ -257,8 +313,10 @@
     "gold_reference_reply":"@441736 I'll flag this internally to the concerned team for review. ^NR",
     "weak_llm_intent":"FEEDBACK_CHITCHAT",
     "weak_llm_action":"AUTO_HANDLE",
-    "gold_intent":"UNKNOWN",
-    "gold_action":"ESCALATE_TO_HUMAN"
+    "human_intent":"FEEDBACK_CHITCHAT",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"FEEDBACK_CHITCHAT",
+    "gold_action":"AUTO_HANDLE"
   },
   {
     "tweet_id":2822416,
@@ -266,8 +324,10 @@
     "gold_reference_reply":"@226943 Sorry for the trouble. Looks like something went wrong, has this been escalated to the support team yet? You may connect with the team here: https:\/\/t.co\/TxK11znixD and the team would do the needful to help. ^KK",
     "weak_llm_intent":"WRONG_OR_DEFECTIVE_ITEM",
     "weak_llm_action":"AUTO_HANDLE",
-    "gold_intent":"UNKNOWN",
-    "gold_action":"ESCALATE_TO_HUMAN"
+    "human_intent":"WRONG_OR_DEFECTIVE_ITEM",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"WRONG_OR_DEFECTIVE_ITEM",
+    "gold_action":"AUTO_HANDLE"
   },
   {
     "tweet_id":859630,
@@ -275,8 +335,10 @@
     "gold_reference_reply":"@324104 I kindly request you to please fill the form provided to you earlier and We'll get back to you soon. ^SU",
     "weak_llm_intent":"REFUND_CANCELLATION_BILLING",
     "weak_llm_action":"AUTO_HANDLE",
-    "gold_intent":"UNKNOWN",
-    "gold_action":"ESCALATE_TO_HUMAN"
+    "human_intent":"REFUND_CANCELLATION_BILLING",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"REFUND_CANCELLATION_BILLING",
+    "gold_action":"AUTO_HANDLE"
   },
   {
     "tweet_id":1676421,
@@ -284,8 +346,10 @@
     "gold_reference_reply":"@509970 We'd like to take a closer look at this with you. Please reach out to us via phone\/chat here: https:\/\/t.co\/JzP7hlA23B ^KP",
     "weak_llm_intent":"WRONG_OR_DEFECTIVE_ITEM",
     "weak_llm_action":"AUTO_HANDLE",
-    "gold_intent":"UNKNOWN",
-    "gold_action":"ESCALATE_TO_HUMAN"
+    "human_intent":"WRONG_OR_DEFECTIVE_ITEM",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"WRONG_OR_DEFECTIVE_ITEM",
+    "gold_action":"AUTO_HANDLE"
   },
   {
     "tweet_id":2298186,
@@ -293,8 +357,10 @@
     "gold_reference_reply":"@667122 Apologies Robin. Please get in touch - https:\/\/t.co\/JzP7hlA23B we can try to get in touch with the carrier for you. Keep us posted. ^TP",
     "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
     "weak_llm_action":"AUTO_HANDLE",
-    "gold_intent":"UNKNOWN",
-    "gold_action":"ESCALATE_TO_HUMAN"
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
   },
   {
     "tweet_id":2252935,
@@ -302,8 +368,10 @@
     "gold_reference_reply":"@656317 Sorry to hear that \ud83d\ude28 I make sure to forward your feedback. Regards ^MI",
     "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
     "weak_llm_action":"AUTO_HANDLE",
-    "gold_intent":"UNKNOWN",
-    "gold_action":"ESCALATE_TO_HUMAN"
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
   },
   {
     "tweet_id":167862,
@@ -311,8 +379,10 @@
     "gold_reference_reply":"@155056 I'm very sorry for this poor experience, Jack! When you reached out to us, what options were provided? ^HM",
     "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
     "weak_llm_action":"AUTO_HANDLE",
-    "gold_intent":"UNKNOWN",
-    "gold_action":"ESCALATE_TO_HUMAN"
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
   },
   {
     "tweet_id":946558,
@@ -320,8 +390,10 @@
     "gold_reference_reply":"@207236 I'm sorry for the trouble you are facing with our app, call us here: https:\/\/t.co\/vlvfJr4nN9 &amp; we'll check this for you. ^MJ",
     "weak_llm_intent":"FEEDBACK_CHITCHAT",
     "weak_llm_action":"AUTO_HANDLE",
-    "gold_intent":"UNKNOWN",
-    "gold_action":"ESCALATE_TO_HUMAN"
+    "human_intent":"FEEDBACK_CHITCHAT",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"FEEDBACK_CHITCHAT",
+    "gold_action":"AUTO_HANDLE"
   },
   {
     "tweet_id":2226471,
@@ -329,8 +401,10 @@
     "gold_reference_reply":"@649931 Sorry for the trouble. May I know what's the error you're receiving? ^EM",
     "weak_llm_intent":"REFUND_CANCELLATION_BILLING",
     "weak_llm_action":"AUTO_HANDLE",
-    "gold_intent":"UNKNOWN",
-    "gold_action":"ESCALATE_TO_HUMAN"
+    "human_intent":"REFUND_CANCELLATION_BILLING",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"REFUND_CANCELLATION_BILLING",
+    "gold_action":"AUTO_HANDLE"
   },
   {
     "tweet_id":1587337,
@@ -338,8 +412,10 @@
     "gold_reference_reply":"@150316 Could you please confirm which offer you're referring to? ^SQ",
     "weak_llm_intent":"REFUND_CANCELLATION_BILLING",
     "weak_llm_action":"AUTO_HANDLE",
-    "gold_intent":"UNKNOWN",
-    "gold_action":"ESCALATE_TO_HUMAN"
+    "human_intent":"REFUND_CANCELLATION_BILLING",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"REFUND_CANCELLATION_BILLING",
+    "gold_action":"AUTO_HANDLE"
   },
   {
     "tweet_id":589999,
@@ -347,8 +423,10 @@
     "gold_reference_reply":"@259504 Vous pouvez ajouter votre carte pour les besoins de la validation de commande et la supprimer par la suite. ^KD",
     "weak_llm_intent":"NON_ENGLISH_QUERY",
     "weak_llm_action":"AUTO_HANDLE",
-    "gold_intent":"UNKNOWN",
-    "gold_action":"ESCALATE_TO_HUMAN"
+    "human_intent":"NON_ENGLISH_QUERY",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"NON_ENGLISH_QUERY",
+    "gold_action":"AUTO_HANDLE"
   },
   {
     "tweet_id":1633258,
@@ -356,8 +434,10 @@
     "gold_reference_reply":"@499717 We want to make sure these are documented and your options are reviewed. Please contact us here: https:\/\/t.co\/qy3J24VGxb ^AF",
     "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
     "weak_llm_action":"AUTO_HANDLE",
-    "gold_intent":"UNKNOWN",
-    "gold_action":"ESCALATE_TO_HUMAN"
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
   },
   {
     "tweet_id":431122,
@@ -365,8 +445,10 @@
     "gold_reference_reply":"@217514 Thanks for letting us know, Yasmin! We will call you again in the next few moments! ^SD",
     "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
     "weak_llm_action":"AUTO_HANDLE",
-    "gold_intent":"UNKNOWN",
-    "gold_action":"ESCALATE_TO_HUMAN"
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
   },
   {
     "tweet_id":431616,
@@ -374,8 +456,10 @@
     "gold_reference_reply":"@217610 You can leave a packaging feedback here: https:\/\/t.co\/72VnsKbrki, and it will be reviewed by the concerned team. ^MA",
     "weak_llm_intent":"FEEDBACK_CHITCHAT",
     "weak_llm_action":"AUTO_HANDLE",
-    "gold_intent":"UNKNOWN",
-    "gold_action":"ESCALATE_TO_HUMAN"
+    "human_intent":"FEEDBACK_CHITCHAT",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"FEEDBACK_CHITCHAT",
+    "gold_action":"AUTO_HANDLE"
   },
   {
     "tweet_id":322608,
@@ -383,8 +467,10 @@
     "gold_reference_reply":"@192844 Please don't provide your order details as we consider them to be personal info. Our Twitter page is visible to public. (2\/2) ^AS",
     "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
     "weak_llm_action":"AUTO_HANDLE",
-    "gold_intent":"UNKNOWN",
-    "gold_action":"ESCALATE_TO_HUMAN"
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
   },
   {
     "tweet_id":2922661,
@@ -392,8 +478,10 @@
     "gold_reference_reply":"@808822 Gualu, un placer, estamos para servirte ! \ud83d\ude09 ^AG",
     "weak_llm_intent":"FEEDBACK_CHITCHAT",
     "weak_llm_action":"AUTO_HANDLE",
-    "gold_intent":"UNKNOWN",
-    "gold_action":"ESCALATE_TO_HUMAN"
+    "human_intent":"FEEDBACK_CHITCHAT",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"FEEDBACK_CHITCHAT",
+    "gold_action":"AUTO_HANDLE"
   },
   {
     "tweet_id":1936552,
@@ -401,8 +489,10 @@
     "gold_reference_reply":"@215213 Sorry about the stretch. May I know if you replied to the correspondence email received? ^BS",
     "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
     "weak_llm_action":"AUTO_HANDLE",
-    "gold_intent":"UNKNOWN",
-    "gold_action":"ESCALATE_TO_HUMAN"
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
   },
   {
     "tweet_id":2291200,
@@ -410,8 +500,10 @@
     "gold_reference_reply":"@244328 We haven't started shipping Echo\/Alexa in India yet. Could you please confirm if you've received the device from Amazon.in? ^MO",
     "weak_llm_intent":"FEEDBACK_CHITCHAT",
     "weak_llm_action":"AUTO_HANDLE",
-    "gold_intent":"UNKNOWN",
-    "gold_action":"ESCALATE_TO_HUMAN"
+    "human_intent":"FEEDBACK_CHITCHAT",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"FEEDBACK_CHITCHAT",
+    "gold_action":"AUTO_HANDLE"
   },
   {
     "tweet_id":1773494,
@@ -419,8 +511,10 @@
     "gold_reference_reply":"@533019 What's the most updated tracking here: https:\/\/t.co\/Y5jpI9gRhE? Which carrier is delivering it? ^LI",
     "weak_llm_intent":"DELIVERY_SHIPPING_STATUS",
     "weak_llm_action":"AUTO_HANDLE",
-    "gold_intent":"UNKNOWN",
-    "gold_action":"ESCALATE_TO_HUMAN"
+    "human_intent":"DELIVERY_SHIPPING_STATUS",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"DELIVERY_SHIPPING_STATUS",
+    "gold_action":"AUTO_HANDLE"
   },
   {
     "tweet_id":2449427,
@@ -428,8 +522,10 @@
     "gold_reference_reply":"@702037 Please reach out to us using the link provided and we'll be glad to investigate this further: https:\/\/t.co\/hApLpMlfHN ^FJ",
     "weak_llm_intent":"REFUND_CANCELLATION_BILLING",
     "weak_llm_action":"AUTO_HANDLE",
-    "gold_intent":"UNKNOWN",
-    "gold_action":"ESCALATE_TO_HUMAN"
+    "human_intent":"REFUND_CANCELLATION_BILLING",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"REFUND_CANCELLATION_BILLING",
+    "gold_action":"AUTO_HANDLE"
   },
   {
     "tweet_id":315032,
@@ -437,8 +533,10 @@
     "gold_reference_reply":"@191212 \u30ea\u30d7\u30e9\u30a4\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\u3002\u8aa0\u306b\u6050\u308c\u5165\u308a\u307e\u3059\u304c\u3001\u30ab\u30b9\u30bf\u30de\u30fc\u30b5\u30fc\u30d3\u30b9\u304b\u3089\u306e\u56de\u7b54\u3092\u304a\u5f85\u3061\u304f\u3060\u3055\u3044\u3002TN",
     "weak_llm_intent":"NON_ENGLISH_QUERY",
     "weak_llm_action":"AUTO_HANDLE",
-    "gold_intent":"UNKNOWN",
-    "gold_action":"ESCALATE_TO_HUMAN"
+    "human_intent":"NON_ENGLISH_QUERY",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"NON_ENGLISH_QUERY",
+    "gold_action":"AUTO_HANDLE"
   },
   {
     "tweet_id":726787,
@@ -446,7 +544,9 @@
     "gold_reference_reply":"@294093 I'd like to help. Please write to us here: https:\/\/t.co\/GIJyeYqKE0 and I'll reach out to you. ^SA",
     "weak_llm_intent":"REFUND_CANCELLATION_BILLING",
     "weak_llm_action":"AUTO_HANDLE",
-    "gold_intent":"UNKNOWN",
-    "gold_action":"ESCALATE_TO_HUMAN"
+    "human_intent":"REFUND_CANCELLATION_BILLING",
+    "human_action":"AUTO_HANDLE",
+    "gold_intent":"REFUND_CANCELLATION_BILLING",
+    "gold_action":"AUTO_HANDLE"
   }
 ]

@@ -70,9 +70,9 @@ python demo_cli.py --tweet "Where is my package? It was supposed to arrive yeste
 
 | Metric | Naive Baseline | Tripwire Champion |
 |---|:---:|:---:|
-| **Intent Macro F1** | 0.00 | **0.00** |
+| **Intent Macro F1** | 0.25 | **0.50** |
 | **Average Retrieval Similarity** | 0.00 | **0.58** |
-| **Escalation Precision** | 0.00 | **1.00** |
+| **Escalation Precision** | 0.00 | **0.20** |
 
 ## 🏗️ Architecture Overview
 

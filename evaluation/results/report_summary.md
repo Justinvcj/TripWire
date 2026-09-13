@@ -1,8 +1,8 @@
 # Tripwire Evaluation Summary
 
 ## 1. Classification Metrics (Champion)
-- Macro F1: 0.00
-- Escalation Precision: 1.00
+- Macro F1: 0.50
+- Escalation Precision: 0.20
 - Escalation Recall: 1.00
 
 ## 2. Retrieval & Grounding
@@ -24,5 +24,5 @@
 ## 6. Baseline Comparisons
 | Metric | Base 1 | Base 2 | Champion |
 |---|---|---|---|
-| Intent Macro F1 | 0.00 | 0.00 | 0.00 |
-| Escalation Prec | 1.00 | 0.00 | 1.00 |
+| Intent Macro F1 | 0.25 | 0.25 | 0.50 |
+| Escalation Prec | 0.33 | 0.00 | 0.20 |
