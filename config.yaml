@@ -1,5 +1,5 @@
-llm_model: "llama-3.3-70b-versatile"
-judge_model: "gemini-2.0-flash"
+llm_model: "openai/gpt-oss-120b"
+judge_model: "gemini-3.6-flash"
 confidence_threshold: 0.75
 similarity_threshold: 0.60
 escalation_precision_floor: 0.80
