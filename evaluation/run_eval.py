@@ -211,6 +211,9 @@ def generate_report(results_file, holdout_data):
         print("No successful results found.")
         return
 
+    from sklearn.metrics import confusion_matrix, classification_report
+    import pandas as pd
+    
     f1 = f1_score(y_true_intent, y_pred_intent, average='macro', zero_division=0)
     prec_esc = precision_score(y_true_esc, y_pred_esc, zero_division=0)
     rec_esc = recall_score(y_true_esc, y_pred_esc, zero_division=0)
@@ -220,6 +223,20 @@ def generate_report(results_file, holdout_data):
     
     f1_b2 = f1_score(y_true_intent, y_b2_intent, average='macro', zero_division=0)
     prec_b2 = precision_score(y_true_esc, y_b2_esc, zero_division=0)
+
+    # Cost Function: 5 for False Auto (Gold=Escalate, Pred=Auto), 1 for False Escalate (Gold=Auto, Pred=Escalate)
+    def calc_cost(y_t, y_p):
+        cost = 0
+        for yt, yp in zip(y_t, y_p):
+            if yt == 1 and yp == 0:
+                cost += 5
+            elif yt == 0 and yp == 1:
+                cost += 1
+        return cost
+
+    cost_champ = calc_cost(y_true_esc, y_pred_esc)
+    cost_b1 = calc_cost(y_true_esc, y_b1_esc)
+    cost_b2 = calc_cost(y_true_esc, y_b2_esc)
     
     avg_g = sum(g_scores)/len(g_scores) if g_scores else 0
     avg_a = sum(a_scores)/len(a_scores) if a_scores else 0
@@ -227,9 +244,14 @@ def generate_report(results_file, holdout_data):
     
     avg_sim = sum(sim_scores)/len(sim_scores) if sim_scores else 0
     
+    # Per-Intent breakdown
+    class_report = classification_report(y_true_intent, y_pred_intent, zero_division=0)
     
-    
-    
+    # Confusion Matrix
+    labels = sorted(list(set(y_true_intent) | set(y_pred_intent)))
+    cm = confusion_matrix(y_true_intent, y_pred_intent, labels=labels)
+    cm_df = pd.DataFrame(cm, index=labels, columns=labels)
+    cm_str = cm_df.to_markdown()
     
     # Check human annotations
     kappa_msg = "- AWAITING HUMAN LABELS. Please populate `data/human_annotations.json` with 50 scored examples."
@@ -251,7 +273,7 @@ def generate_report(results_file, holdout_data):
             a_arr = []
             
             for h in hum_data:
-                tid = h["tweet_id"]
+                tid = str(h["tweet_id"])
                 if h.get("human_groundedness") is not None and h.get("human_groundedness") > 0:
                     if tid in ai_scores and ai_scores[tid].get("groundedness") is not None:
                         h_arr.append(h["human_groundedness"])
@@ -270,27 +292,43 @@ def generate_report(results_file, holdout_data):
 - Escalation Precision: {prec_esc:.2f}
 - Escalation Recall: {rec_esc:.2f}
 
-## 2. Retrieval & Grounding
+## 2. Routing Cost Optimization (Lower is Better)
+*Cost weights: False Auto-Handle = 5, False Escalation = 1*
+| System | Total Expected Cost |
+|---|---|
+| Baseline 1 (Majority) | {cost_b1} |
+| Baseline 2 (TF-IDF) | {cost_b2} |
+| **TripWire Champion** | **{cost_champ}** |
+
+## 3. Retrieval & Grounding
 - Average Retrieval Similarity: {avg_sim:.2f}
 
-## 3. LLM-as-Judge
+## 4. LLM-as-Judge
 - Groundedness (1-5): {avg_g:.2f}
 - Actionability (1-5): {avg_a:.2f}
 - Tone (1-5): {avg_t:.2f}
 
-## 4. Verifier Tracking
+## 5. Verifier Tracking
 - Passed on first try: {verifier_passes}
 - Passed after retry: {verifier_retries}
 - Escalated (Verification Failed): {verifier_fails}
 
-## 5. Human Agreement (Cohen's Kappa)
+## 6. Human Agreement (Cohen's Kappa)
 {kappa_msg}
 
-## 6. Baseline Comparisons
+## 7. Baseline Comparisons
 | Metric | Base 1 | Base 2 | Champion |
 |---|---|---|---|
 | Intent Macro F1 | {f1_b1:.2f} | {f1_b2:.2f} | {f1:.2f} |
 | Escalation Prec | {prec_b1:.2f} | {prec_b2:.2f} | {prec_esc:.2f} |
+
+## 8. Per-Intent F1 Classification Report
+```text
+{class_report}
+```
+
+## 9. Confusion Matrix
+{cm_str}
 """
 
     with open("evaluation/results/report_summary.md", "w", encoding="utf-8") as f:
