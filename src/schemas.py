@@ -1,4 +1,4 @@
-﻿from enum import Enum
+from enum import Enum
 from pydantic import BaseModel
 from typing import Optional, List
 
@@ -31,3 +31,4 @@ class TicketResult(BaseModel):
     draft_reply: Optional[str] = None
     verifier_retries: int = 0
     retrieval_scores: List[float] = []
+    retrieved_docs: List[str] = []

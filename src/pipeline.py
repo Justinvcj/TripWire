@@ -1,4 +1,4 @@
-﻿from src.schemas import TicketResult, EscalationReason, Action, Intent
+from src.schemas import TicketResult, EscalationReason, Action, Intent
 from src.preprocessor import Preprocessor
 from src.classifier import LLMClassifier
 from src.vector_store import VectorStore
@@ -57,5 +57,6 @@ class Pipeline:
             escalation_reason=reason,
             draft_reply=draft,
             verifier_retries=verifier_retries,
-            retrieval_scores=similarity_scores
+            retrieval_scores=similarity_scores,
+            retrieved_docs=context
         )
