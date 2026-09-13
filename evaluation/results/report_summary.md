@@ -1,12 +1,12 @@
 # Tripwire Evaluation Summary
 
 ## 1. Classification Metrics (Champion)
-- Macro F1: 0.50
-- Escalation Precision: 0.00
-- Escalation Recall: 0.00
+- Macro F1: 0.00
+- Escalation Precision: 1.00
+- Escalation Recall: 1.00
 
 ## 2. Retrieval & Grounding
-- Average Retrieval Similarity: 0.63
+- Average Retrieval Similarity: 0.58
 
 ## 3. LLM-as-Judge
 - Groundedness (1-5): 3.00
@@ -14,7 +14,7 @@
 - Tone (1-5): 3.00
 
 ## 4. Verifier Tracking
-- Passed on first try: 2
+- Passed on first try: 3
 - Passed after retry: 0
 - Escalated (Verification Failed): 2
 
@@ -24,5 +24,5 @@
 ## 6. Baseline Comparisons
 | Metric | Base 1 | Base 2 | Champion |
 |---|---|---|---|
-| Intent Macro F1 | 0.22 | 1.00 | 0.50 |
-| Escalation Prec | 0.00 | 0.00 | 0.00 |
+| Intent Macro F1 | 0.00 | 0.00 | 0.00 |
+| Escalation Prec | 1.00 | 0.00 | 1.00 |

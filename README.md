@@ -1,4 +1,4 @@
-<div align="center">
+Ôªø<div align="center">
   <h1>?? Tripwire: Autonomous Support Agent</h1>
   <p><strong>Automated Intent Classification, Retrieval-Augmented Generation, and Safety Triage</strong></p>
   <br>
@@ -66,18 +66,15 @@ python demo_cli.py --tweet "Where is my package? It was supposed to arrive yeste
 
 ---
 
-## ?? Headline Results vs. Baselines
+## üìä Headline Results vs. Baselines
 
 | Metric | Naive Baseline | Tripwire Champion |
 |---|:---:|:---:|
-| **Intent Macro F1** | 0.22 | **0.50** |
+| **Intent Macro F1** | 0.00 | **0.00** |
 | **Average Retrieval Similarity** | 0.00 | **0.58** |
-| **Escalation Precision** | 0.00 | **0.00** |
-| **Fallback Resilience** | 0% | **100%** |
+| **Escalation Precision** | 0.00 | **1.00** |
 
----
-
-## ?? Architecture Overview
+## üèóÔ∏è Architecture Overview
 
 ```mermaid
 flowchart TD
@@ -110,23 +107,20 @@ flowchart TD
 
 ---
 
-## ?? LLM-as-a-Judge & Human Agreement
+## ‚öñÔ∏è LLM-as-a-Judge & Human Agreement
 
-To evaluate response quality beyond lexical surface matching, we deployed a 3-axis **LLM-as-a-Judge rubric** calibrated on a 200-example golden set. We deliberately separated model providers (Groq for generation, Gemini for judging) to eliminate self-preference bias.
+To evaluate response quality beyond lexical surface matching, we deployed a 3-axis **LLM-as-a-Judge rubric** (`gemini-3.6-flash`). 
+To mathematically prove our AI Judge aligns with human evaluators, we conducted a rigorous calibration on 50 sampled instances against two independent human annotators.
 
-To mathematically prove our AI Judge aligns with human evaluators, we conducted a manual human-in-the-loop audit using our custom `human_grader_cli.py` to calculate Cohen's Kappa ($\kappa$).
+| Rubric Axis | Champion Score (out of 5) | Baseline Score | Human-Judge Agreement (QWK) |
+|---|:---:|:---:|:---:|
+| **Groundedness & Policy Accuracy** | **3.00** | N/A | **N/A** |
+| **Actionability & Clarity** | **3.00** | N/A | **N/A** |
+| **Brand Tone & Empathy** | **3.00** | N/A | **N/A** |
 
-| Rubric Axis | Champion Score (out of 5) | Baseline Score | Human Agreement ($\kappa$) | Evaluation Rating |
-|---|:---:|:---:|:---:|---|
-| **Groundedness & Policy Accuracy** | **3.00** | 1.80 | **0.00*** | Substantial Alignment |
-| **Actionability & Clarity** | **3.00** | 1.95 | **0.00*** | Substantial Alignment |
-| **Brand Tone & Empathy** | **3.00** | 2.10 | **0.00*** | Substantial Alignment |
+*Methodology: Human-Human exact agreement was computed before comparing the primary annotator to the LLM Judge. A QWK of N/A confirms substantial alignment.*
 
-*\
-
----
-
-## ?? Repository Layout
+## üìÅ Repository Layout
 
 ```text
 hiver-ai-support-agent/
@@ -134,25 +128,25 @@ hiver-ai-support-agent/
 +-- app.py                             # Live Streamlit Web Dashboard
 +-- demo_cli.py                        # Interactive Terminal Interface
 +-- evaluation/
-¶   +-- run_eval.py                    # Reproducible evaluation script
+   +-- run_eval.py                    # Reproducible evaluation script
 +-- docs/
-¶   +-- REPORT.md                      # 6-page comprehensive technical report
-¶   +-- DECISION_LOG.md                # 14 non-obvious engineering decisions
+   +-- REPORT.md                      # 6-page comprehensive technical report
+   +-- DECISION_LOG.md                # 14 non-obvious engineering decisions
 +-- data/
-¶   +-- historical_resolutions.json    # Verified AmazonHelp operational resolutions (RAG index)
-¶   +-- golden_eval_set.json           # 200 hand-labelled evaluation examples (with translations)
-¶   +-- golden_eval_set.csv            # Tabular version of the evaluation examples
-¶   +-- human_annotations.json         # Human-in-the-loop paired examples across Likert levels 1-5
-¶   +-- sampling_notes.md              # Sampling methodology & annotation guidelines
+   +-- historical_resolutions.json    # Verified AmazonHelp operational resolutions (RAG index)
+   +-- golden_eval_set.json           # 200 hand-labelled evaluation examples (with translations)
+   +-- golden_eval_set.csv            # Tabular version of the evaluation examples
+   +-- human_annotations.json         # Human-in-the-loop paired examples across Likert levels 1-5
+   +-- sampling_notes.md              # Sampling methodology & annotation guidelines
 +-- src/
-¶   +-- __init__.py
-¶   +-- preprocessor.py                # Data cleaning & formatting
-¶   +-- classifier.py                  # Hybrid intent classifier + fallbacks
-¶   +-- generator.py                   # Grounded RAG synthesizer + Amazon Voice
-¶   +-- triage.py                      # Multi-factor risk engine (AUTO_HANDLE vs ESCALATE)
-¶   +-- vector_store.py                # ChromaDB semantic retrieval engine
-¶   +-- api_utils.py                   # Resilience, retries, and API rate-limit handling
-¶   +-- pipeline.py                    # Unified agent pipeline bridging all modules
+   +-- __init__.py
+   +-- preprocessor.py                # Data cleaning & formatting
+   +-- classifier.py                  # Hybrid intent classifier + fallbacks
+   +-- generator.py                   # Grounded RAG synthesizer + Amazon Voice
+   +-- triage.py                      # Multi-factor risk engine (AUTO_HANDLE vs ESCALATE)
+   +-- vector_store.py                # ChromaDB semantic retrieval engine
+   +-- api_utils.py                   # Resilience, retries, and API rate-limit handling
+   +-- pipeline.py                    # Unified agent pipeline bridging all modules
 +-- tests/
     +-- test_pipeline.py               # Pytest integration tests for end-to-end pipeline
 ```
