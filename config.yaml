@@ -9,6 +9,7 @@ max_verifier_retries: 1
 tune_slice_path: ./data/golden_tune_slice.json
 holdout_slice_path: ./data/golden_holdout_slice.json
 results_file_path: ./data/eval_results.jsonl
+human_annotations_path: ./data/human_annotations.json
 max_api_retries: 3
 backoff_factor: 2.0
 groq_rpm_limit: 30

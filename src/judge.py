@@ -12,23 +12,23 @@ class LLMJudge:
 
     def evaluate_reply(self, customer_text: str, drafted_reply: str, reference_reply: str) -> dict:
         prompt = f"""You are an expert QA evaluator for customer support.
-Evaluate the drafted reply against the customer's query and the historical reference reply.
+Evaluate the drafted reply against the customer's query and the historical reference reply on three separate axes.
 
 Customer Query: "{customer_text}"
 Reference Reply (Historical): "{reference_reply}"
 Drafted Reply: "{drafted_reply}"
 
-Score the drafted reply on a scale of 1 to 5, where:
-1 - Unhelpful, hallucinated, or actively harmful.
-2 - Poor, misses the main point or has incorrect tone.
-3 - Acceptable, but lacks clarity or grounding.
-4 - Good, accurate and polite.
-5 - Excellent, fully resolves the issue with perfect tone and grounding.
+Score each axis from 1 to 5:
+- groundedness: Is the reply factual and supported by policy/reference? (1=hallucinated, 5=perfectly grounded)
+- actionability: Does it give the user clear next steps? (1=useless, 5=clear resolution path)
+- tone: Is it polite, empathetic, and on-brand? (1=rude/robotic, 5=perfect empathy)
 
 Respond in JSON exactly as follows:
 {{
-  "score": <int>,
-  "reasoning": "<short string explaining the score>"
+  "groundedness": <int>,
+  "actionability": <int>,
+  "tone": <int>,
+  "reasoning": "<short explanation for the scores>"
 }}
 """
         def _call():
@@ -44,6 +44,12 @@ Respond in JSON exactly as follows:
             
         try:
             res_str = with_retry_and_pacing(gemini_limiter, 400, _call)
-            return json.loads(res_str)
+            data = json.loads(res_str)
+            return {
+                "groundedness": data.get("groundedness", 3),
+                "actionability": data.get("actionability", 3),
+                "tone": data.get("tone", 3),
+                "reasoning": data.get("reasoning", "")
+            }
         except Exception:
-            return {"score": 3, "reasoning": "Failed to parse judge output."}
+            return {"groundedness": 3, "actionability": 3, "tone": 3, "reasoning": "Failed to parse judge output."}

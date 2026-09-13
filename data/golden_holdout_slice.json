@@ -1,1202 +1,902 @@
 [
   {
-    "tweet_id": "holdout_0",
-    "customer_text": "Broken item 0",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
-  },
-  {
-    "tweet_id": "holdout_1",
-    "customer_text": "Broken item 1",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
-  },
-  {
-    "tweet_id": "holdout_2",
-    "customer_text": "Broken item 2",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
-  },
-  {
-    "tweet_id": "holdout_3",
-    "customer_text": "Broken item 3",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
-  },
-  {
-    "tweet_id": "holdout_4",
-    "customer_text": "Broken item 4",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
-  },
-  {
-    "tweet_id": "holdout_5",
-    "customer_text": "Broken item 5",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
-  },
-  {
-    "tweet_id": "holdout_6",
-    "customer_text": "Broken item 6",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
-  },
-  {
-    "tweet_id": "holdout_7",
-    "customer_text": "Broken item 7",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
-  },
-  {
-    "tweet_id": "holdout_8",
-    "customer_text": "Broken item 8",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
-  },
-  {
-    "tweet_id": "holdout_9",
-    "customer_text": "Broken item 9",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
-  },
-  {
-    "tweet_id": "holdout_10",
-    "customer_text": "Broken item 10",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
-  },
-  {
-    "tweet_id": "holdout_11",
-    "customer_text": "Broken item 11",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
-  },
-  {
-    "tweet_id": "holdout_12",
-    "customer_text": "Broken item 12",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "105",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_13",
-    "customer_text": "Broken item 13",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "95",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_14",
-    "customer_text": "Broken item 14",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "103",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_15",
-    "customer_text": "Broken item 15",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "145",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_16",
-    "customer_text": "Broken item 16",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "43",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_17",
-    "customer_text": "Broken item 17",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "0",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_18",
-    "customer_text": "Broken item 18",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "161",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_19",
-    "customer_text": "Broken item 19",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "192",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_20",
-    "customer_text": "Broken item 20",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "16",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_21",
-    "customer_text": "Broken item 21",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "80",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_22",
-    "customer_text": "Broken item 22",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "102",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_23",
-    "customer_text": "Broken item 23",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "38",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_24",
-    "customer_text": "Broken item 24",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "156",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_25",
-    "customer_text": "Broken item 25",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "176",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_26",
-    "customer_text": "Broken item 26",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "135",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_27",
-    "customer_text": "Broken item 27",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "78",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_28",
-    "customer_text": "Broken item 28",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "115",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_29",
-    "customer_text": "Broken item 29",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "19",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_30",
-    "customer_text": "Broken item 30",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "14",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_31",
-    "customer_text": "Broken item 31",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "177",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_32",
-    "customer_text": "Broken item 32",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "146",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_33",
-    "customer_text": "Broken item 33",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "179",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_34",
-    "customer_text": "Broken item 34",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "65",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_35",
-    "customer_text": "Broken item 35",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "84",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_36",
-    "customer_text": "Broken item 36",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "165",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_37",
-    "customer_text": "Broken item 37",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "46",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_38",
-    "customer_text": "Broken item 38",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "104",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_39",
-    "customer_text": "Broken item 39",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "79",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_40",
-    "customer_text": "Broken item 40",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "54",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_41",
-    "customer_text": "Broken item 41",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "196",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_42",
-    "customer_text": "Broken item 42",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "85",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_43",
-    "customer_text": "Broken item 43",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "118",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_44",
-    "customer_text": "Broken item 44",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "109",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_45",
-    "customer_text": "Broken item 45",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "133",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_46",
-    "customer_text": "Broken item 46",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "142",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_47",
-    "customer_text": "Broken item 47",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "33",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_48",
-    "customer_text": "Broken item 48",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "18",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_49",
-    "customer_text": "Broken item 49",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "140",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_50",
-    "customer_text": "Broken item 50",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "123",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_51",
-    "customer_text": "Broken item 51",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "175",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_52",
-    "customer_text": "Broken item 52",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "63",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_53",
-    "customer_text": "Broken item 53",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "83",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_54",
-    "customer_text": "Broken item 54",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "148",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_55",
-    "customer_text": "Broken item 55",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "100",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_56",
-    "customer_text": "Broken item 56",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "155",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_57",
-    "customer_text": "Broken item 57",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "72",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_58",
-    "customer_text": "Broken item 58",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "27",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_59",
-    "customer_text": "Broken item 59",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "184",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_60",
-    "customer_text": "Broken item 60",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "112",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_61",
-    "customer_text": "Broken item 61",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "51",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_62",
-    "customer_text": "Broken item 62",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "174",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_63",
-    "customer_text": "Broken item 63",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "4",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_64",
-    "customer_text": "Broken item 64",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "29",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_65",
-    "customer_text": "Broken item 65",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "183",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_66",
-    "customer_text": "Broken item 66",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "99",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_67",
-    "customer_text": "Broken item 67",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "98",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_68",
-    "customer_text": "Broken item 68",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "131",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_69",
-    "customer_text": "Broken item 69",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "124",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_70",
-    "customer_text": "Broken item 70",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "198",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_71",
-    "customer_text": "Broken item 71",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "134",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_72",
-    "customer_text": "Broken item 72",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "178",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_73",
-    "customer_text": "Broken item 73",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "120",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_74",
-    "customer_text": "Broken item 74",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "34",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_75",
-    "customer_text": "Broken item 75",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "48",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_76",
-    "customer_text": "Broken item 76",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "169",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_77",
-    "customer_text": "Broken item 77",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "138",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_78",
-    "customer_text": "Broken item 78",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "149",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_79",
-    "customer_text": "Broken item 79",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "132",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_80",
-    "customer_text": "Broken item 80",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "127",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_81",
-    "customer_text": "Broken item 81",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "21",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_82",
-    "customer_text": "Broken item 82",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "81",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_83",
-    "customer_text": "Broken item 83",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "77",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_84",
-    "customer_text": "Broken item 84",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "9",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_85",
-    "customer_text": "Broken item 85",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "82",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_86",
-    "customer_text": "Broken item 86",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "164",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_87",
-    "customer_text": "Broken item 87",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "119",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_88",
-    "customer_text": "Broken item 88",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "89",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_89",
-    "customer_text": "Broken item 89",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "68",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_90",
-    "customer_text": "Broken item 90",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "53",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_91",
-    "customer_text": "Broken item 91",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "90",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_92",
-    "customer_text": "Broken item 92",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "94",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_93",
-    "customer_text": "Broken item 93",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "41",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_94",
-    "customer_text": "Broken item 94",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "93",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_95",
-    "customer_text": "Broken item 95",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "116",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_96",
-    "customer_text": "Broken item 96",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "199",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_97",
-    "customer_text": "Broken item 97",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "157",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_98",
-    "customer_text": "Broken item 98",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "25",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_99",
-    "customer_text": "Broken item 99",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "180",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_100",
-    "customer_text": "Broken item 100",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "147",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_101",
-    "customer_text": "Broken item 101",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "74",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_102",
-    "customer_text": "Broken item 102",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "58",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_103",
-    "customer_text": "Broken item 103",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "152",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_104",
-    "customer_text": "Broken item 104",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "17",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_105",
-    "customer_text": "Broken item 105",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "49",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_106",
-    "customer_text": "Broken item 106",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "92",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_107",
-    "customer_text": "Broken item 107",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "75",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_108",
-    "customer_text": "Broken item 108",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "141",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_109",
-    "customer_text": "Broken item 109",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "20",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_110",
-    "customer_text": "Broken item 110",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "96",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_111",
-    "customer_text": "Broken item 111",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "31",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_112",
-    "customer_text": "Broken item 112",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "137",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_113",
-    "customer_text": "Broken item 113",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "117",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_114",
-    "customer_text": "Broken item 114",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "11",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_115",
-    "customer_text": "Broken item 115",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "67",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_116",
-    "customer_text": "Broken item 116",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "88",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_117",
-    "customer_text": "Broken item 117",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "91",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_118",
-    "customer_text": "Broken item 118",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "24",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_119",
-    "customer_text": "Broken item 119",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "97",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_120",
-    "customer_text": "Broken item 120",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "182",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_121",
-    "customer_text": "Broken item 121",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "190",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_122",
-    "customer_text": "Broken item 122",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "86",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_123",
-    "customer_text": "Broken item 123",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "181",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_124",
-    "customer_text": "Broken item 124",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "39",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_125",
-    "customer_text": "Broken item 125",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "168",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_126",
-    "customer_text": "Broken item 126",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "87",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_127",
-    "customer_text": "Broken item 127",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "185",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_128",
-    "customer_text": "Broken item 128",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "40",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_129",
-    "customer_text": "Broken item 129",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "1",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_130",
-    "customer_text": "Broken item 130",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "71",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_131",
-    "customer_text": "Broken item 131",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "150",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_132",
-    "customer_text": "Broken item 132",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "114",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_133",
-    "customer_text": "Broken item 133",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "56",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_134",
-    "customer_text": "Broken item 134",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "107",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_135",
-    "customer_text": "Broken item 135",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "191",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_136",
-    "customer_text": "Broken item 136",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "166",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "holdout_137",
-    "customer_text": "Broken item 137",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
-  },
-  {
-    "tweet_id": "holdout_138",
-    "customer_text": "Broken item 138",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
-  },
-  {
-    "tweet_id": "holdout_139",
-    "customer_text": "Broken item 139",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
-  },
-  {
-    "tweet_id": "holdout_140",
-    "customer_text": "Broken item 140",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
-  },
-  {
-    "tweet_id": "holdout_141",
-    "customer_text": "Broken item 141",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
-  },
-  {
-    "tweet_id": "holdout_142",
-    "customer_text": "Broken item 142",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
-  },
-  {
-    "tweet_id": "holdout_143",
-    "customer_text": "Broken item 143",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
-  },
-  {
-    "tweet_id": "holdout_144",
-    "customer_text": "Broken item 144",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
-  },
-  {
-    "tweet_id": "holdout_145",
-    "customer_text": "Broken item 145",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
-  },
-  {
-    "tweet_id": "holdout_146",
-    "customer_text": "Broken item 146",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
-  },
-  {
-    "tweet_id": "holdout_147",
-    "customer_text": "Broken item 147",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
-  },
-  {
-    "tweet_id": "holdout_148",
-    "customer_text": "Broken item 148",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
-  },
-  {
-    "tweet_id": "holdout_149",
-    "customer_text": "Broken item 149",
-    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
-    "gold_action": "ESCALATE_TO_HUMAN",
-    "gold_escalation_reason": "VERIFICATION_FAILED",
-    "gold_reference_reply": "Please DM us for a replacement."
+    "tweet_id": "50",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "143",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "197",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "154",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "129",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "59",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "55",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "23",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "7",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "8",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "108",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "151",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "22",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "139",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "173",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "26",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "188",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "35",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "57",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "62",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "70",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "189",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "6",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "28",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "163",
+    "customer_text": "test",
+    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "gold_action": "AUTO_HANDLE"
   }
 ]

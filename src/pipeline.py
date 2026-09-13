@@ -1,10 +1,10 @@
-﻿from src.preprocessor import Preprocessor
+﻿from src.schemas import TicketResult, EscalationReason, Action, Intent
+from src.preprocessor import Preprocessor
 from src.classifier import LLMClassifier
 from src.vector_store import VectorStore
 from src.generator import ReplyGenerator
 from src.verifier import SelfVerifier
 from src.triage import TriageEngine
-from src.schemas import TicketResult, Intent
 from src.config import settings
 
 class Pipeline:
@@ -14,35 +14,48 @@ class Pipeline:
         self.vector_store = VectorStore()
         self.generator = ReplyGenerator()
         self.verifier = SelfVerifier()
-        self.triage = TriageEngine(settings.confidence_threshold)
+        self.triage = TriageEngine(confidence_threshold=settings.confidence_threshold)
 
-    def process_ticket(self, tweet_id: str, customer_text: str) -> TicketResult:
-        # 1. Clean
-        cleaned_text = self.preprocessor.clean_text(customer_text)
+    def process_ticket(self, tweet_id: str, raw_text: str) -> TicketResult:
+        cleaned_text = self.preprocessor.clean_text(raw_text)
         
-        # 2. Classify
-        classification = self.classifier.predict(cleaned_text)
-        intent = Intent(classification['intent'])
-        confidence = float(classification['confidence'])
+        class_res = self.classifier.predict(cleaned_text)
+        intent = Intent(class_res['intent'])
+        confidence = class_res['confidence']
         
-        # 3. Retrieve
-        retrieved_docs = self.vector_store.retrieve(cleaned_text)
-        context = retrieved_docs['documents'][0] if retrieved_docs['documents'] else []
+        retrieval = self.vector_store.retrieve(cleaned_text)
+        context = retrieval.get("documents", [[]])[0]
+        distances = retrieval.get("distances", [[]])[0]
+        # Convert L2 distance roughly to similarity score (higher is better) for tracking
+        similarity_scores = [max(0.0, 1.0 - d) for d in distances]
         
-        # 4. Generate
-        draft = self.generator.generate(cleaned_text, intent, context)
+        draft = ""
+        is_grounded = False
+        verifier_retries = 0
         
-        # 5. Verify
-        is_grounded = self.verifier.verify(cleaned_text, draft, context)
+        # Action/Triage based on intent & confidence first
+        action, reason = self.triage.evaluate(cleaned_text, intent, confidence, is_grounded=True)
         
-        # 6. Triage
-        action, reason = self.triage.evaluate(cleaned_text, intent, confidence, is_grounded)
-        
+        if action == Action.AUTO_HANDLE:
+            draft = self.generator.generate(cleaned_text, intent.value, context)
+            is_grounded = self.verifier.verify(cleaned_text, draft, context)
+            
+            while not is_grounded and verifier_retries < settings.max_verifier_retries:
+                verifier_retries += 1
+                draft = self.generator.generate(cleaned_text, intent.value, context)
+                is_grounded = self.verifier.verify(cleaned_text, draft, context)
+                
+            if not is_grounded:
+                action = Action.ESCALATE_TO_HUMAN
+                reason = EscalationReason.VERIFICATION_FAILED
+                
         return TicketResult(
             tweet_id=tweet_id,
             intent=intent,
             intent_confidence=confidence,
             action=action,
             escalation_reason=reason,
-            draft_reply=draft if action == "AUTO_HANDLE" else None
+            draft_reply=draft,
+            verifier_retries=verifier_retries,
+            retrieval_scores=similarity_scores
         )

@@ -20,8 +20,10 @@ class VectorStore:
             metadatas=metadatas
         )
 
-    def retrieve(self, query: str, k: int = None) -> list[dict]:
-        k = k or settings.retrieval_k
+    def retrieve(self, query: str, k: int = None) -> dict:
+        k = k if k is not None else settings.retrieval_k
+        if k <= 0:
+            return {"documents": [[]], "distances": [[]]}
         results = self.collection.query(
             query_texts=[query],
             n_results=k

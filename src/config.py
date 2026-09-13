@@ -17,6 +17,7 @@ class Settings(BaseSettings):
     tune_slice_path: str
     holdout_slice_path: str
     results_file_path: str
+    human_annotations_path: str
     max_api_retries: int
     backoff_factor: float
     groq_rpm_limit: int
@@ -44,6 +45,5 @@ def update_config_models(llm_model: str, judge_model: str):
     with open('config.yaml', 'w', encoding='utf-8-sig') as f:
         yaml.dump(data, f, sort_keys=False)
     
-    # Reload settings in memory
     settings.llm_model = llm_model
     settings.judge_model = judge_model

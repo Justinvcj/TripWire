@@ -14,10 +14,10 @@ class RateLimiter:
         self.rpd_limit = rpd_limit
         
         self.request_timestamps = []
-        self.token_timestamps = [] # list of (timestamp, tokens)
+        self.token_timestamps = []
         self.daily_requests = 0
         
-        # 80% pacing target
+        # Exact strict pacing at 80% capacity
         self.target_rpm = max(1, int(self.rpm_limit * 0.8))
         self.min_delay_between_requests = 60.0 / self.target_rpm if self.target_rpm > 0 else 0
         self.last_request_time = 0
@@ -39,6 +39,7 @@ class RateLimiter:
             
         # RPD Check
         if self.rpd_limit and self.daily_requests >= self.rpd_limit:
+            logger.error("Daily request limit reached. Provider halted.")
             raise Exception("Daily request limit reached. Cannot proceed today.")
             
         # TPM Check
@@ -49,8 +50,9 @@ class RateLimiter:
                 sleep_time = 60 - (now - self.token_timestamps[0][0]) + 1
                 logger.warning(f"TPM pacing: Sleeping {sleep_time:.1f}s to respect limits.")
                 time.sleep(max(0, sleep_time))
+                now = time.time()
                 
-        self.last_request_time = time.time()
+        self.last_request_time = now
         self.request_timestamps.append(self.last_request_time)
         if self.tpm_limit:
             self.token_timestamps.append((self.last_request_time, estimated_tokens))
@@ -72,9 +74,8 @@ def with_retry_and_pacing(limiter: RateLimiter, estimated_tokens: int, func: Cal
                     logger.error(f"Max retries reached. Error: {e}")
                     raise e
                 
-                # Exponential backoff with jitter
                 delay = (settings.backoff_factor ** retries) + random.uniform(0, 1)
-                logger.warning(f"Rate limit hit. Retrying in {delay:.2f}s... (Attempt {retries+1}/{settings.max_api_retries})")
+                logger.warning(f"Rate limit hit despite pacing. Backing off for {delay:.2f}s... (Attempt {retries+1}/{settings.max_api_retries})")
                 time.sleep(delay)
                 retries += 1
             else:

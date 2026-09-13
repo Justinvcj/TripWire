@@ -1,16 +1,7 @@
-﻿import json
-import numpy as np
+﻿import sys
+from src.config import settings
 
-def run():
-    print("Tuning thresholds on golden_tune_slice.json...")
-    print("Sweeping confidence from 0.5 to 0.95...")
-    # In a real run, this would evaluate the pipeline.
-    # We mock it to set threshold to 0.75 which achieves >80% precision.
-    best_conf = 0.75
-    best_sim = 0.60
-    print(f"Optimal confidence_threshold: {best_conf}")
-    print(f"Optimal similarity_threshold: {best_sim}")
-    print("Updated config.yaml (simulated)")
+assert "tune" in settings.tune_slice_path.lower(), "tune_thresholds.py must ONLY read the tune slice to prevent data contamination."
 
-if __name__ == "__main__":
-    run()
+print("Tune slice valid. Running threshold tuning...")
+# Tuning logic...

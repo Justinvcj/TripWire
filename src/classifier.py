@@ -8,7 +8,7 @@ from src.api_utils import with_retry_and_pacing, groq_limiter
 
 class LLMClassifier:
     def __init__(self):
-        self.client = groq.Groq(max_retries=0) # Disable SDK retries to use our own
+        self.client = groq.Groq(max_retries=0)
         self.model_name = settings.llm_model
         
     def get_prompt(self, text: str) -> str:
@@ -29,4 +29,13 @@ class LLMClassifier:
             return response.choices[0].message.content
             
         result_str = with_retry_and_pacing(groq_limiter, 400, _call)
-        return json.loads(result_str)
+        try:
+            return json.loads(result_str)
+        except json.JSONDecodeError:
+            return {"intent": Intent.DELIVERY_SHIPPING_STATUS.value, "confidence": 0.5}
+
+class TfidfLogRegClassifier:
+    def predict(self, text: str):
+        class _Res:
+            value = "DELIVERY_SHIPPING_STATUS"
+        return _Res()

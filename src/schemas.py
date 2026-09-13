@@ -1,6 +1,6 @@
 ﻿from enum import Enum
 from pydantic import BaseModel
-from typing import Optional
+from typing import Optional, List
 
 class Intent(str, Enum):
     DELIVERY_SHIPPING_STATUS = "DELIVERY_SHIPPING_STATUS"
@@ -29,3 +29,5 @@ class TicketResult(BaseModel):
     action: Action
     escalation_reason: EscalationReason
     draft_reply: Optional[str] = None
+    verifier_retries: int = 0
+    retrieval_scores: List[float] = []
