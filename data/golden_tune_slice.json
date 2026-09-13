@@ -1,302 +1,352 @@
 [
   {
-    "tweet_id": "66",
-    "customer_text": "test",
+    "tweet_id": "160271",
+    "customer_text": "@115830 bought a camera from you and there is no user manual or warranty, can you please help? https://t.co/g6R58QZ7CG",
+    "gold_reference_reply": "@152927 I'm sorry you didn't receive all the parts to your camera, Cheryl! We'd like to help! You can check out some available return or replacement options here: https://t.co/zApS1cx5Si ^HM",
+    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "1384463",
+    "customer_text": "@AmazonHelp @115850 horrible customer experience through your great indian festival. I have absltely no clue abt my pckg now!! already 48hrs delayed",
+    "gold_reference_reply": "@442180 We'd like to investigate this issue further. Please share your details with us here: https://t.co/GIJyeYqKE0 and we'll help ^ZH",
     "gold_intent": "DELIVERY_SHIPPING_STATUS",
     "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "187",
-    "customer_text": "test",
+    "tweet_id": "975067",
+    "customer_text": "@AmazonHelp hw mny times i need to do this?? i hv done it ystdy. pls chk befr syng anythg...",
+    "gold_reference_reply": "@337836 As you've already filled the details, you should've received a correspondence from our team. Kindly check the same. ^AP",
     "gold_intent": "DELIVERY_SHIPPING_STATUS",
     "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "101",
-    "customer_text": "test",
+    "tweet_id": "2242571",
+    "customer_text": "I love it when I purchase something from Amazon and it doesn\u2019t arrive. Twice. @115821 @AmazonHelp",
+    "gold_reference_reply": "@653780 Hey Erin! I'm really sorry you don't have your orders. We'd like to help! Has the delivery date shown on the order passed? ^AJ",
     "gold_intent": "DELIVERY_SHIPPING_STATUS",
     "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "193",
-    "customer_text": "test",
+    "tweet_id": "226426",
+    "customer_text": "Prime Reading\u3059\u3054\u3044\u306a\u3002\nkindle\u306e\u8ca9\u4fc3\u306b\u3082\u306a\u308b\u3057\u3001\u826f\u3044\u30b5\u30fc\u30d3\u30b9\u59cb\u307e\u3063\u305f\u611f\u3058\u3002",
+    "gold_reference_reply": "@170048 \u826f\u3044\u30b5\u30fc\u30d3\u30b9\u3068\u306e\u304a\u8a00\u8449\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\u3002\u4eca\u5f8c\u3068\u3082\u3088\u308d\u3057\u304f\u304a\u9858\u3044\u3044\u305f\u3057\u307e\u3059\u3002\ud83d\ude0a\ud83d\ude0a\ud83d\ude0aET",
+    "gold_intent": "NON_ENGLISH_QUERY",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "1431418",
+    "customer_text": "Hola @115821 quiero preguntar, hay entregas a domicilio en todo M\u00e9xico? porque quiero comprar unos lentes PRIV\u00c9 REVAUX \u201cThe Alchemist\u201d",
+    "gold_reference_reply": "@452393 Hola,en caso de que la direcci\u00f3n seleccionada no sea permitida,se indicar\u00e1 y puedes usar otra direcci\u00f3n o punto de recogida^JD",
     "gold_intent": "DELIVERY_SHIPPING_STATUS",
     "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "111",
-    "customer_text": "test",
+    "tweet_id": "748778",
+    "customer_text": "@AmazonHelp Perfecto, much\u00edsimas gracias. \ud83d\ude0a",
+    "gold_reference_reply": "@297516 Con mucho gusto. Estamos para ayudarte en lo que necesites. ^HC",
+    "gold_intent": "FEEDBACK_CHITCHAT",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "349759",
+    "customer_text": "@AmazonHelp i pre ordered wwe 2k18 deluxe which has a 3 day early access but it still says delivery for friday. Why? @115830",
+    "gold_reference_reply": "@199223 Hi, do you get a code for early access? ^JJ",
     "gold_intent": "DELIVERY_SHIPPING_STATUS",
     "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "121",
-    "customer_text": "test",
+    "tweet_id": "1676579",
+    "customer_text": "@510004 @AmazonHelp #amazon ti vuole bene! Ora, dopo tutti questi complimenti, ce lo date un buono sconto? \ud83d\ude02",
+    "gold_reference_reply": "@510003 ^GD https://t.co/SHyeywqrTW",
+    "gold_intent": "NON_ENGLISH_QUERY",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "170956",
+    "customer_text": "Every time I order from @115821 I get an Amazon box.  The one day my boyfriend answers the door for a delivery he sees his @155870 Christmas gift a month early, because they decided to send it over in the manufacturer's box only. Surprise ruined :(",
+    "gold_reference_reply": "@155869 Oh no! I'm so sorry that your boyfriend saw his gift! We don't want to ruin any surprises, especially this time of year! Do you know if the order was marked as a gift? You can see that information here: https://t.co/uW1vtH2z5l ^FR",
+    "gold_intent": "FEEDBACK_CHITCHAT",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "2965277",
+    "customer_text": "@115821 I placed an order on 11/19, which is supposed to be delivered by @118706 today by 8pm. The mail already ran - it's not here. @118706 shows that pre-shipment info sent and awaiting item. @115821 only one that shows it due today. 11 days is a long wait.",
+    "gold_reference_reply": "@818097 I'm very sorry you haven't received your order. Have we sent any notification of a possible delay? Check the spam/junk folder as some messages may be routed there. Have we updated the delivery date in your orders here: https://t.co/Y5jpI9gRhE We're here for you! ^SK",
     "gold_intent": "DELIVERY_SHIPPING_STATUS",
     "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "13",
-    "customer_text": "test",
+    "tweet_id": "2290861",
+    "customer_text": "@AmazonHelp Not anymore - I am NOT going to write an email to your specialist ! It appears as if I am writing to a government office for some aid or alms !",
+    "gold_reference_reply": "@665414 I get you being upset. However, for us to help you further please reply to the correspondence and we will get back soon. Appreciate your understanding. ^BS",
+    "gold_intent": "FEEDBACK_CHITCHAT",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "1592469",
+    "customer_text": "@AmazonHelp I have never ordered from the same carrier once.  I even bought something straight from Amazon and its still late",
+    "gold_reference_reply": "@210967 Sorry for the frustration. Who was the carrier for this particular package? You can find that here: https://t.co/Y5jpI9gRhE ^BA",
     "gold_intent": "DELIVERY_SHIPPING_STATUS",
     "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "2",
-    "customer_text": "test",
+    "tweet_id": "89190",
+    "customer_text": "@AmazonHelp I already emailed and got a copy paste response also listed the wrong product and then credited with \u00a35, all i wanna know is where my package is.",
+    "gold_reference_reply": "@135291 I see! Thanks for the information, Lucas! Would you be able to contact us by phone or chat for real-time assistance with this delivery? You can contact us here: https://t.co/JzP7hlA23B and we will look into the matter thoroughly! ^FR",
     "gold_intent": "DELIVERY_SHIPPING_STATUS",
     "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "64",
-    "customer_text": "test",
+    "tweet_id": "458862",
+    "customer_text": "@AmazonHelp Both packages in this order are late. One with UPS, and the more important one with Amazon Logistics",
+    "gold_reference_reply": "@223977 I'd like a member of our Amazon Logistics team to look into this with you further. When you have a moment, please add additional details here: https://t.co/QhpR5oMke0 Thank you! ^ML",
     "gold_intent": "DELIVERY_SHIPPING_STATUS",
     "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "44",
-    "customer_text": "test",
+    "tweet_id": "2917189",
+    "customer_text": "@AmazonHelp I just want to know what time it would leave the warehouse. No one is assuring me it's going to actually leave the warehouse today. That's my concern. The last time this happened, you guys were actually out of stock.",
+    "gold_reference_reply": "@807445 I'm sorry, we can't speculate on our warehouse shipping time-frames. It's not uncommon for an item to ship and be delivered the same day it's due, though. ^AM",
     "gold_intent": "DELIVERY_SHIPPING_STATUS",
     "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "136",
-    "customer_text": "test",
+    "tweet_id": "440054",
+    "customer_text": "@AmazonHelp Done !! Now could you please contact?",
+    "gold_reference_reply": "@219445 Thank you for sharing the details from the link. We'd get back to you with an update soon. ^BS",
+    "gold_intent": "FEEDBACK_CHITCHAT",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "1484702",
+    "customer_text": "Hello @116090. We don't have a dog and have *never* searched for anything dog related. Please stop. #fail https://t.co/LVWpQYqxvm",
+    "gold_reference_reply": "@6958 I'm sorry for the unwanted notification! Please use this link to edit marketing notifications: https://t.co/g6LVq06tWh ^WM",
+    "gold_intent": "FEEDBACK_CHITCHAT",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "666930",
+    "customer_text": "@AmazonHelp Hice una compra del buen fin, despu\u00e9s me dijeron que se retras\u00f3 el env\u00edo, despu\u00e9s que cancelaron mi cuenta y que ten\u00eda que verificarla, despu\u00e9s que la info que envi\u00e9 est\u00e1 borrosa, la acabo de volver a subirla, pero sigo sin poder obtener mi producto.",
+    "gold_reference_reply": "@278926 Dory, lamentamos mucho este inconveniente, si ya enviaste de nuevo todos los datos,  te recomendamos que por favor esperes unas 24 a 48 horas, los compa\u00f1eros especialistas de cuenta con mucho gusto te estar\u00e1n dando una respuesta luego de ese plazo. ^CB",
     "gold_intent": "DELIVERY_SHIPPING_STATUS",
     "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "170",
-    "customer_text": "test",
+    "tweet_id": "2758988",
+    "customer_text": "@AmazonHelp I started buying individual episodes of season 6 of Homeland yesterday to stream and today none of season 6 episodes are showing up at all. Help",
+    "gold_reference_reply": "@772027 Oh no! Are you able to view the episodes in your Video Library? View the steps here and keep us posted: https://t.co/Ht4GGFaVKa ^SH",
+    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "2186257",
+    "customer_text": "ontrac is not the one for you. dump him sweetie. @117795",
+    "gold_reference_reply": "@640254 Thank you for the concern. Are you experiencing a delay with a recent order: https://t.co/Y5jpI9gRhE? ^RR",
+    "gold_intent": "FEEDBACK_CHITCHAT",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "2226737",
+    "customer_text": "@AmazonHelp Now you are also not replying great",
+    "gold_reference_reply": "@325008 We have received your reply. We are looking into it and we'll get back to you with a response soon. ^NR",
+    "gold_intent": "FEEDBACK_CHITCHAT",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "1238968",
+    "customer_text": "@115821 Go to the trouble to do that yet can't climb the 4 steps on my porch to knock?! Geez.",
+    "gold_reference_reply": "@410617 I'm sorry about the delivery experience. Who was the carrier that delivered your package?^MO",
+    "gold_intent": "FEEDBACK_CHITCHAT",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "1168802",
+    "customer_text": "@115821 France votre service s'est consid\u00e9rablement d\u00e9grad\u00e9 vous ne savez plus o\u00f9 vous envoyez vos colis et vous demandez aux clients https://t.co/DKuVhhjQYJ",
+    "gold_reference_reply": "@392393 Nous faisons appel \u00e0 votre patience afin d'\u00e9viter la r\u00e9ception de 2 colis qui engendrera d'autres proc\u00e9dures contraignantes.^MA",
     "gold_intent": "DELIVERY_SHIPPING_STATUS",
     "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "128",
-    "customer_text": "test",
+    "tweet_id": "2628814",
+    "customer_text": "@AmazonHelp I can\u2019t stream music on my Echos or via phone app in London UK. Been down all day. Is there an outage??",
+    "gold_reference_reply": "@175064 Can you tell us what happens when you try to access music through the Amazon Music app? Do you get an error message? What happens when you ask Alexa to play songs? Be as detailed as possible. ^NC",
+    "gold_intent": "FEEDBACK_CHITCHAT",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "1306039",
+    "customer_text": "for fucks sake. I finally got the DNA test for Max and the code on the box is defective AND product has been used wtf amazon.",
+    "gold_reference_reply": "@425203 I'm sorry for any inconvenience! Please reach out to us at your earliest convenience: https://t.co/hApLpMlfHN  ^JP",
+    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "2964009",
+    "customer_text": "Geht mir das so auf den Zeiger! Und daf\u00fcr zahlt man  \"Prime\"  und nein will nicht den Kundendienst kontaktieren,  bringt nix und mal nen Bonus f\u00fcrs ewige verz\u00f6gern bekommt man auch nicht!  @116316 https://t.co/TLGDb1sTzV",
+    "gold_reference_reply": "@392651 Das ist \u00e4rgerlich - ich gebe dein Feedback gerne weiter. Eine Reklamation bez\u00fcglich des garantierten Liefertermins ist aber leider nur \u00fcber unseren Kundenservice m\u00f6glich. Gru\u00df ^MI",
+    "gold_intent": "FEEDBACK_CHITCHAT",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "1423795",
+    "customer_text": "Hahaha @115821 qui me verrouille mon compte et me dit de me connecter pour d\u00e9verrouiller mais qui ne me laisse pas me connecter.",
+    "gold_reference_reply": "@450849 Bonjour, d\u00e9sol\u00e9e d'apprendre cela :/ l'avez-vous signal\u00e9 \u00e0 notre SAV ? ^SN",
+    "gold_intent": "NON_ENGLISH_QUERY",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "2130902",
+    "customer_text": "@AmazonHelp You're missing the point. Amazon is not letting anyone review Echo products. Clicking the \"Review\" button takes me to other products I have purchased. Echo is missing, and as you can see no one has reviewed it yet. What does that mean? https://t.co/EOBEN0GLHE",
+    "gold_reference_reply": "@441736 I'll flag this internally to the concerned team for review. ^NR",
+    "gold_intent": "FEEDBACK_CHITCHAT",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "2822416",
+    "customer_text": "@115850 i just bought lenovo k8 note....u gave me wrong information regarding the schemes came wd this phone....i call it cheating",
+    "gold_reference_reply": "@226943 Sorry for the trouble. Looks like something went wrong, has this been escalated to the support team yet? You may connect with the team here: https://t.co/TxK11znixD and the team would do the needful to help. ^KK",
+    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "859630",
+    "customer_text": "@115821 Sir u HV delivered my order to 3rd person , ur cust care good for nothing , u pl arrange to initiate refund on urgent basis..",
+    "gold_reference_reply": "@324104 I kindly request you to please fill the form provided to you earlier and We'll get back to you soon. ^SU",
+    "gold_intent": "REFUND_CANCELLATION_BILLING",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "1676421",
+    "customer_text": "@AmazonHelp This one https://t.co/4UBK9WvHl3",
+    "gold_reference_reply": "@509970 We'd like to take a closer look at this with you. Please reach out to us via phone/chat here: https://t.co/JzP7hlA23B ^KP",
+    "gold_intent": "WRONG_OR_DEFECTIVE_ITEM",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "2298186",
+    "customer_text": "@AmazonHelp Had a next day delivery for a parcel (today) but @122232 have said they tried today. No card left. No one buzzed. Looks like DPD are taking about 22 hours to reply to tweets and no way to call them. Any help much appreciated.",
+    "gold_reference_reply": "@667122 Apologies Robin. Please get in touch - https://t.co/JzP7hlA23B we can try to get in touch with the carrier for you. Keep us posted. ^TP",
     "gold_intent": "DELIVERY_SHIPPING_STATUS",
     "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "76",
-    "customer_text": "test",
+    "tweet_id": "2252935",
+    "customer_text": "Preordered @118062 new CD &amp; was promised delivery today. Now @115821 @116316 says sorry it'll arrive some day. #NotGoodEnough",
+    "gold_reference_reply": "@656317 Sorry to hear that \ud83d\ude28 I make sure to forward your feedback. Regards ^MI",
     "gold_intent": "DELIVERY_SHIPPING_STATUS",
     "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "158",
-    "customer_text": "test",
+    "tweet_id": "167862",
+    "customer_text": "@AmazonHelp I placed order to which the driver said i refused but said he would deliver next day so waited for it to then have to ring you 8 times finally and told a different thing each time",
+    "gold_reference_reply": "@155056 I'm very sorry for this poor experience, Jack! When you reached out to us, what options were provided? ^HM",
     "gold_intent": "DELIVERY_SHIPPING_STATUS",
     "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "167",
-    "customer_text": "test",
+    "tweet_id": "946558",
+    "customer_text": "@AmazonHelp It's slow as hell &amp; the stream becomes choppy every ten minutes. The problem isn't hardware based or connection based coz Netflix runs fine",
+    "gold_reference_reply": "@207236 I'm sorry for the trouble you are facing with our app, call us here: https://t.co/vlvfJr4nN9 &amp; we'll check this for you. ^MJ",
+    "gold_intent": "FEEDBACK_CHITCHAT",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "2226471",
+    "customer_text": "@115850.... I couldn\u2019t proceed to checkout from my cart..could u help me out???",
+    "gold_reference_reply": "@649931 Sorry for the trouble. May I know what's the error you're receiving? ^EM",
+    "gold_intent": "REFUND_CANCELLATION_BILLING",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "1587337",
+    "customer_text": "@115850 I'm planning to buy the one plus 5 but the offer seems to have vanished! \nAnd till when is the no cost emi available? Urgent! Need",
+    "gold_reference_reply": "@150316 Could you please confirm which offer you're referring to? ^SQ",
+    "gold_intent": "REFUND_CANCELLATION_BILLING",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "589999",
+    "customer_text": "@AmazonHelp Le soucis c'est que c'est urgent et que je ne peux pas t\u00e9l\u00e9phoner \u00e0 ce moment m\u00eame :/",
+    "gold_reference_reply": "@259504 Vous pouvez ajouter votre carte pour les besoins de la validation de commande et la supprimer par la suite. ^KD",
+    "gold_intent": "NON_ENGLISH_QUERY",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "1633258",
+    "customer_text": "@AmazonHelp A previous one has been Royal Mail, the one that\u2019s late today is Hermes!",
+    "gold_reference_reply": "@499717 We want to make sure these are documented and your options are reviewed. Please contact us here: https://t.co/qy3J24VGxb ^AF",
     "gold_intent": "DELIVERY_SHIPPING_STATUS",
     "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "45",
-    "customer_text": "test",
+    "tweet_id": "431122",
+    "customer_text": "@AmazonHelp sorry i was outside! you can call again now and it should be fine",
+    "gold_reference_reply": "@217514 Thanks for letting us know, Yasmin! We will call you again in the next few moments! ^SD",
     "gold_intent": "DELIVERY_SHIPPING_STATUS",
     "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "130",
-    "customer_text": "test",
+    "tweet_id": "431616",
+    "customer_text": "#AmazonIndia use some logic pls in packing. A tube of cream doesn\u2019t need lots of padding but colour pencils definitely do.",
+    "gold_reference_reply": "@217610 You can leave a packaging feedback here: https://t.co/72VnsKbrki, and it will be reviewed by the concerned team. ^MA",
+    "gold_intent": "FEEDBACK_CHITCHAT",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "322608",
+    "customer_text": "@AmazonHelp @115850 Am sorry the portal link shared is not accessible. Please advise.                                       Order# 402-7304771-1258725 https://t.co/i9NSPiTxUA",
+    "gold_reference_reply": "@192844 Please don't provide your order details as we consider them to be personal info. Our Twitter page is visible to public. (2/2) ^AS",
     "gold_intent": "DELIVERY_SHIPPING_STATUS",
     "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "30",
-    "customer_text": "test",
+    "tweet_id": "2922661",
+    "customer_text": "@AmazonHelp Ok excelente. Muchas gracias! :)",
+    "gold_reference_reply": "@808822 Gualu, un placer, estamos para servirte ! \ud83d\ude09 ^AG",
+    "gold_intent": "FEEDBACK_CHITCHAT",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "1936552",
+    "customer_text": "Day 14th waiting for my product to be delivered by @115850. Highly disappointed by the service but nt a single call from amazon for update",
+    "gold_reference_reply": "@215213 Sorry about the stretch. May I know if you replied to the correspondence email received? ^BS",
     "gold_intent": "DELIVERY_SHIPPING_STATUS",
     "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "3",
-    "customer_text": "test",
+    "tweet_id": "2291200",
+    "customer_text": "@AmazonHelp Doubt if they will even add support for non-English Indian languages. Even Alexa's inbuilt translate 'Skill' doesn't recognise Kannada.",
+    "gold_reference_reply": "@244328 We haven't started shipping Echo/Alexa in India yet. Could you please confirm if you've received the device from Amazon.in? ^MO",
+    "gold_intent": "FEEDBACK_CHITCHAT",
+    "gold_action": "AUTO_HANDLE"
+  },
+  {
+    "tweet_id": "1773494",
+    "customer_text": "@AmazonHelp Yeah it\u2019s said November 7th by 8pm it\u2019s 10",
+    "gold_reference_reply": "@533019 What's the most updated tracking here: https://t.co/Y5jpI9gRhE? Which carrier is delivering it? ^LI",
     "gold_intent": "DELIVERY_SHIPPING_STATUS",
     "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "159",
-    "customer_text": "test",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "tweet_id": "2449427",
+    "customer_text": "@AmazonHelp nope. Not my orders. Not purchased from my wishlist. Hence the creepy!",
+    "gold_reference_reply": "@702037 Please reach out to us using the link provided and we'll be glad to investigate this further: https://t.co/hApLpMlfHN ^FJ",
+    "gold_intent": "REFUND_CANCELLATION_BILLING",
     "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "15",
-    "customer_text": "test",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "tweet_id": "315032",
+    "customer_text": "@AmazonHelp \u30d5\u30a9\u30ed\u30ef\u30fc\u6570\u304c\u51c4\u307e\u3058\u3044\u2026\u672c\u7269\uff1f\n\u3068\u308a\u3042\u3048\u305a\u3001Amazon\u306b\u306f\u554f\u3044\u5408\u308f\u305b\u306e\u30e1\u30fc\u30eb\u3092\u9001\u3063\u305f\u306e\u3067\u5bfe\u5fdc\u3057\u3066\u9802\u3051\u308b\u3068\u52a9\u304b\u308a\u307e\u3059\u3002",
+    "gold_reference_reply": "@191212 \u30ea\u30d7\u30e9\u30a4\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\u3002\u8aa0\u306b\u6050\u308c\u5165\u308a\u307e\u3059\u304c\u3001\u30ab\u30b9\u30bf\u30de\u30fc\u30b5\u30fc\u30d3\u30b9\u304b\u3089\u306e\u56de\u7b54\u3092\u304a\u5f85\u3061\u304f\u3060\u3055\u3044\u3002TN",
+    "gold_intent": "NON_ENGLISH_QUERY",
     "gold_action": "AUTO_HANDLE"
   },
   {
-    "tweet_id": "42",
-    "customer_text": "test",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "126",
-    "customer_text": "test",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "186",
-    "customer_text": "test",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "162",
-    "customer_text": "test",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "47",
-    "customer_text": "test",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "110",
-    "customer_text": "test",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "5",
-    "customer_text": "test",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "194",
-    "customer_text": "test",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "37",
-    "customer_text": "test",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "122",
-    "customer_text": "test",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "12",
-    "customer_text": "test",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "36",
-    "customer_text": "test",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "153",
-    "customer_text": "test",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "69",
-    "customer_text": "test",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "61",
-    "customer_text": "test",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "195",
-    "customer_text": "test",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "32",
-    "customer_text": "test",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "172",
-    "customer_text": "test",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "171",
-    "customer_text": "test",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "60",
-    "customer_text": "test",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "10",
-    "customer_text": "test",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "144",
-    "customer_text": "test",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "160",
-    "customer_text": "test",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "52",
-    "customer_text": "test",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "125",
-    "customer_text": "test",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "106",
-    "customer_text": "test",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "73",
-    "customer_text": "test",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
-    "gold_action": "AUTO_HANDLE"
-  },
-  {
-    "tweet_id": "113",
-    "customer_text": "test",
-    "gold_intent": "DELIVERY_SHIPPING_STATUS",
+    "tweet_id": "726787",
+    "customer_text": "@115850 your chat person left the chat and accepted their fault.. no action taken still..feeling absolutely cheated.",
+    "gold_reference_reply": "@294093 I'd like to help. Please write to us here: https://t.co/GIJyeYqKE0 and I'll reach out to you. ^SA",
+    "gold_intent": "REFUND_CANCELLATION_BILLING",
     "gold_action": "AUTO_HANDLE"
   }
 ]
