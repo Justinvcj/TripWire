@@ -108,7 +108,7 @@ def run():
         b2_classifier = None
     
     for i, item in enumerate(holdout):
-        t_id = item['tweet_id']
+        t_id = str(item['tweet_id'])
         if t_id in completed_ids:
             continue
             
