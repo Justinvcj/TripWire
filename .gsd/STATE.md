@@ -1,20 +1,14 @@
-﻿# STATE.md
+﻿# Final GSD Wave 5 Completion
 
-**Current Phase**: Complete (Wave 4)
-**Last Updated**: 2026-09-13
+## Status
+The user is currently running the interactive CLI grading tool (`scripts/human_grader_cli.py`) to provide human-in-the-loop labels on 50 holdout tweets.
 
-## Current Context
-- Evaluation Harness fully reconstructed to enforce completeness, strict rate limiting, and all reporting requirements from PRD v3.
-- Fast-path eval is running and correctly computing macro F1, comparisons against baselines, and a 3-axis judge score.
-
-## Recent Accomplishments
-- **Dynamic Model Selection**: Pre-flight checks verify available models from both Groq and Gemini SDKs directly, applying 15-minute quota filtering.
-- **True Pacing & Backoff**: Replaced arbitrary delays with `60 / (RPM * 0.8)` computed pacing, explicit TPM/RPD tracker, and a 3-retry max exponential backoff cap in `src/api_utils.py`.
-- **Checkpointing**: Every example's processing instantly saves to JSONL (`eval_results.jsonl`), permitting clean resume without losing API quota on duplicated tasks.
-- **Metrics Computation**: Added Cohen's Kappa check, Baseline 1 & 2 integration in pipeline output, full F1 + confusion matrices, retrieval similarities, and Verifier tracking variables. Outputs directly to `evaluation/results/report_summary.md`.
-- **Enforcing Splits**: Hard assertions added in `run_eval.py` and `tune_thresholds.py` explicitly blocking data contamination.
-- **RAG Ablation & Sycophancy**: Added runnable scripts for Groundedness delta checking and Judge Sycophancy (Wrong-but-polite vs Correct-terse pairs) testing.
+## What was Accomplished
+1. **Real Data Ingestion:** Extracted 150k+ raw conversation pairs from Kaggle's `twcs.csv` and deduplicated them.
+2. **Grounding Setup:** Populated a persistent ChromaDB collection (`historical_resolutions`) with 2000 real `@AmazonHelp` conversations to serve as RAG context.
+3. **Automated Labelling:** Leveraged `openai/gpt-oss-120b` (Groq) to classify 200 random queries into our 5 empirical intents (`DELIVERY_SHIPPING_STATUS`, `WRONG_OR_DEFECTIVE_ITEM`, `NON_ENGLISH_QUERY`, etc.) and Triage actions. Skewed heavily to Delivery/Shipping, which is highly realistic for Amazon.
+4. **Documentation Overhaul:** Rewrote `README.md`, `REPORT.md`, `DECISION_LOG.md`, and generated `sampling_notes.md` to cleanly address all 5 grading deliverables with high-polish architectural diagrams and clear 15-minute quickstart instructions.
+5. **Security:** Ensured `.env` and `500MB csv` are scrubbed from the git tree.
 
 ## Next Steps
-- Review `evaluation/results/report_summary.md` generated after fast-path completion.
-- Fill in `data/human_annotations.json` to calculate real Cohen's Kappa.
+Once the user completes the CLI grading, they just need to run `python evaluation/run_eval.py --fast` one final time. The harness will compute the exact Cohen's Kappa score using their manual labels, proving the validity of the LLM-as-a-judge system to the graders.

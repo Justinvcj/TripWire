@@ -3,400 +3,400 @@
     "tweet_id": "445634",
     "customer_text": "@AmazonHelp \u304a\u8fd4\u4e8b\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059\uff01\n\u307e\u305a\u914d\u9001\u696d\u8005\u306b\u78ba\u8a8d\u3059\u308c\u3070\u826f\u3044\u306e\u3067\u3059\u306d\u3002\n\u5bfe\u51e6\u6cd5\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u308a\u3001\u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3057\u305f\u3002",
     "draft_reply_to_judge": "@220525 \u304a\u624b\u6570\u3092\u304a\u304b\u3051\u3044\u305f\u3057\u307e\u3059\u304c\u3001\u3069\u3046\u305e\u3088\u308d\u3057\u304f\u304a\u9858\u3044\u3044\u305f\u3057\u307e\u3059\u3002\u3054\u4e0d\u660e\u306a\u70b9\u304c\u3054\u3056\u3044\u307e\u3057\u305f\u3089\u3054\u9060\u616e\u306a\u304f\u3054\u8cea\u554f\u304f\u3060\u3055\u3044\u3002SK",
-    "human_groundedness": null,
-    "human_actionability": null,
-    "human_tone": null
+    "human_groundedness": 0,
+    "human_actionability": 0,
+    "human_tone": 0
   },
   {
     "tweet_id": "2954491",
     "customer_text": "@AmazonHelp No, nunca me hizo falta, tan verdad que siempre ven\u00edan en d\u00eda y hora",
     "draft_reply_to_judge": "@815672 Comprendo. Fran, si desearas comunicarte con ellos en esta ocasi\u00f3n para verificar lo que ha pasado con esta entrega, te dejo el siguiente enlace con informaci\u00f3n para contactarlos: https://t.co/SWwGj6yvRq\n^ES",
-    "human_groundedness": null,
-    "human_actionability": null,
-    "human_tone": null
+    "human_groundedness": 0,
+    "human_actionability": 0,
+    "human_tone": 0
   },
   {
     "tweet_id": "2945615",
     "customer_text": "@AmazonHelp I wonder if you'll do. We'll see where this goes because it seems like yet another automated response to pacify a customer, instead of actually providing any quality service.",
     "draft_reply_to_judge": "@813367 I get your concern. Once you share the details, please be assured that we'll work on the issue and get back to you soon.",
-    "human_groundedness": null,
-    "human_actionability": null,
-    "human_tone": null
+    "human_groundedness": 4,
+    "human_actionability": 3,
+    "human_tone": 5
   },
   {
     "tweet_id": "2288850",
     "customer_text": "@115850 it's been 3 times and now I find it too hard to trust you on my money. I mean how hard it is to credit the cashback to my amazon pay balance, if I am eligible for it. Awful service.",
     "draft_reply_to_judge": "@183234 I understand how upsetting this can be. This is certainly not the kind of experience we want our customers to have. Kindly reach out to us here: https://t.co/vlvfJr4nN9 and we will assist you. ^AH",
-    "human_groundedness": null,
-    "human_actionability": null,
-    "human_tone": null
+    "human_groundedness": 5,
+    "human_actionability": 1,
+    "human_tone": 3
   },
   {
     "tweet_id": "2473479",
     "customer_text": "@120533 maintenant vous laissez vos clients sans r\u00e9ponse apr\u00e8s vous etes engag\u00e9s \u00e0 un retour sous 48h? Je vous ai connu plus soucieux de vos clients!",
     "draft_reply_to_judge": "@707244 Bonjour, pouvez-vous nous expliquer davantage s'il vous pla\u00eet ? ^MA",
-    "human_groundedness": null,
-    "human_actionability": null,
-    "human_tone": null
+    "human_groundedness": 0,
+    "human_actionability": 0,
+    "human_tone": 0
   },
   {
     "tweet_id": "2240645",
     "customer_text": "Dear @115821. In 5 days, it'll be a full year since I ordered this item and you still have NOT shipped it to me. I have contacted you many times &amp; continue to get \"your business is important to us\".  But, your actions tell me that it's not. #SendMeMyItemPlease #MomsChristmasGift https://t.co/msVYCPEyCF",
     "draft_reply_to_judge": "@653281 Hey Geoff, so sorry for the long wait. When you previously contacted us, did we provide a reason as to why it's taking so long? ^BG",
-    "human_groundedness": null,
-    "human_actionability": null,
-    "human_tone": null
+    "human_groundedness": 3,
+    "human_actionability": 3,
+    "human_tone": 5
   },
   {
     "tweet_id": "896707",
     "customer_text": "@AmazonHelp I've been on hold for a manager for 20 min. I received an email while on hold from someone named Van who said there is nothing they can do.",
     "draft_reply_to_judge": "@332951 Uh oh! Please keep us updated on the outcome of the call so this can be researched. ^HC",
-    "human_groundedness": null,
-    "human_actionability": null,
-    "human_tone": null
+    "human_groundedness": 1,
+    "human_actionability": 1,
+    "human_tone": 3
   },
   {
     "tweet_id": "805592",
     "customer_text": "@123813 Buenas tardes, hay manera de poner esta App en pantallas Hisense o Roku?? Gracias \u270c\ufe0f\ud83d\ude00",
     "draft_reply_to_judge": "@311964 Buenas tardes Alex, puedes ver los dispositivos compatibles con Prime Video en este enlace: https://t.co/p43hj2PE1o. ^DA",
-    "human_groundedness": null,
-    "human_actionability": null,
-    "human_tone": null
+    "human_groundedness": 0,
+    "human_actionability": 0,
+    "human_tone": 0
   },
   {
     "tweet_id": "686",
     "customer_text": "@AmazonHelp Already contacted 3-4 times in the last month. But all I got was assurance that matter is escalated &amp; new status will be provided in 1 day!",
     "draft_reply_to_judge": "@115849 Please share your details here:https://t.co/GIJyeYqKE0 and I'll get back to you. 2/2 ^HD",
-    "human_groundedness": null,
-    "human_actionability": null,
-    "human_tone": null
+    "human_groundedness": 3,
+    "human_actionability": 1,
+    "human_tone": 1
   },
   {
     "tweet_id": "651734",
     "customer_text": "@115850 I am not get my subscription due today. __email__.\n\nWhen it delivered?",
     "draft_reply_to_judge": "@274981 I apologize for the delay. Connect with our support team and it'll be resolved. Here's the link: https://t.co/vlvfJr4nN9. ^SK",
-    "human_groundedness": null,
-    "human_actionability": null,
-    "human_tone": null
+    "human_groundedness": 3,
+    "human_actionability": 3,
+    "human_tone": 1
   },
   {
     "tweet_id": "1126657",
     "customer_text": "@AmazonHelp I've updated the email address now and shared the required details over the link",
     "draft_reply_to_judge": "@385652 Thank you for keeping us posted, our support team will surely sort this for you. ^SF",
-    "human_groundedness": null,
-    "human_actionability": null,
-    "human_tone": null
+    "human_groundedness": 5,
+    "human_actionability": 5,
+    "human_tone": 5
   },
   {
     "tweet_id": "490484",
     "customer_text": "@AmazonHelp A domina\u00e7\u00e3o masculina do Bourdieu. \ud83d\ude0a",
     "draft_reply_to_judge": "@231842 Opa! Interessante demais, Rossana \ud83d\ude09 O livro da Chimamanda \u00e9 maravilhoso, tamb\u00e9m \ud83d\udc96. ^LG",
-    "human_groundedness": null,
-    "human_actionability": null,
-    "human_tone": null
+    "human_groundedness": 0,
+    "human_actionability": 0,
+    "human_tone": 0
   },
   {
     "tweet_id": "801657",
     "customer_text": "@119625 @119625 Hey, any chance of adding kannada movies? I would love to see. #KannadaMoviesOnAmazonPrime",
     "draft_reply_to_judge": "@311024 Regional languages are an integral to our Indian content. Stay tuned, we'll keep adding more subtitle and audio languages. ^MS",
-    "human_groundedness": null,
-    "human_actionability": null,
-    "human_tone": null
+    "human_groundedness": 5,
+    "human_actionability": 5,
+    "human_tone": 5
   },
   {
     "tweet_id": "1916339",
     "customer_text": "@118919 third class shopping site delivery boy don't how to spk using abuse words during conversation that ph no is 8700379353 poops",
     "draft_reply_to_judge": "@570797 Please don't provide your order details, we consider it personal information. Our Twitter page is visible to public. ^KS 2/2",
-    "human_groundedness": null,
-    "human_actionability": null,
-    "human_tone": null
+    "human_groundedness": 5,
+    "human_actionability": 3,
+    "human_tone": 5
   },
   {
     "tweet_id": "1622228",
     "customer_text": "@AmazonHelp It says amazon carrier",
     "draft_reply_to_judge": "@441237 It is standard to leave notice when a delivery has been attempted. Did we fail to do this? ^EM",
-    "human_groundedness": null,
-    "human_actionability": null,
-    "human_tone": null
+    "human_groundedness": 3,
+    "human_actionability": 5,
+    "human_tone": 5
   },
   {
     "tweet_id": "15704",
     "customer_text": ".@115821 don't say you'll deliver the next business day then come back the same day. I won't let someone in my building I'm not expecting.",
     "draft_reply_to_judge": "@119453 I'm sorry for the frustration. Who was the carrier for this delivery? You can check here: https://t.co/Y5jpI9gRhE ^EA",
-    "human_groundedness": null,
-    "human_actionability": null,
-    "human_tone": null
+    "human_groundedness": 1,
+    "human_actionability": 1,
+    "human_tone": 5
   },
   {
     "tweet_id": "423822",
     "customer_text": "@AmazonHelp He had even threatened me so I have to report this",
     "draft_reply_to_judge": "@206130 . Please share your details with us here: https://t.co/GIJyeYqKE0. We'll get in touch shortly. ^CB",
-    "human_groundedness": null,
-    "human_actionability": null,
-    "human_tone": null
+    "human_groundedness": 1,
+    "human_actionability": 1,
+    "human_tone": 1
   },
   {
     "tweet_id": "1374083",
     "customer_text": "@AmazonHelp \u3042\u308a\u304c\u3068\u3046\u3054\u3056\u3044\u307e\u3059",
     "draft_reply_to_judge": "@439825 \u5546\u54c1\u306e\u304a\u5c4a\u3051\u3092\u5fc3\u5f85\u3061\u306b\u3044\u305f\u3060\u3044\u3066\u3044\u308b\u306b\u3082\u95a2\u308f\u3089\u305a\u3001\u304a\u5f85\u305f\u305b\u3059\u308b\u304b\u305f\u3061\u3068\u306a\u308a\u8aa0\u306b\u7533\u3057\u8a33\u3054\u3056\u3044\u307e\u305b\u3093\u3002\u304a\u624b\u6570\u3092\u304a\u304b\u3051\u3057\u307e\u3059\u304c\u3069\u3046\u305e\u3088\u308d\u3057\u304f\u304a\u9858\u3044\u3044\u305f\u3057\u307e\u3059\u3002\u3000MH",
-    "human_groundedness": null,
-    "human_actionability": null,
-    "human_tone": null
+    "human_groundedness": 0,
+    "human_actionability": 0,
+    "human_tone": 0
   },
   {
     "tweet_id": "431628",
     "customer_text": "@AmazonHelp So I need to cancel it? Wow!",
     "draft_reply_to_judge": "@217613 I get your disappointment. As mentioned earlier, once the order is on its way back, we will not be able to reinstate it.  ^NK",
-    "human_groundedness": null,
-    "human_actionability": null,
-    "human_tone": null
+    "human_groundedness": 5,
+    "human_actionability": 5,
+    "human_tone": 3
   },
   {
     "tweet_id": "605044",
     "customer_text": "Sto facendo tutti i regali su Amazon, compresi i giochi per i miei nipoti. Credo che il corriere dovr\u00e0 prendersi una giornata solo per me.",
     "draft_reply_to_judge": "@263824 Ordina pure tutto ci\u00f2 che vuoi! Abbiamo gi\u00e0 scelto un corriere speciale tutto per te! \ud83d\ude09 ^LF https://t.co/MBYm6oGN5i",
-    "human_groundedness": null,
-    "human_actionability": null,
-    "human_tone": null
+    "human_groundedness": 0,
+    "human_actionability": 0,
+    "human_tone": 0
   },
   {
     "tweet_id": "224569",
     "customer_text": "@AmazonHelp Whats the status AMAZON team....!!!??? Today is the last day of delivery, and still no sign of it...infact courier comp.even nt pickng call!",
     "draft_reply_to_judge": "@169653 Sorry for the trouble. Kindly report this to our support team here: https://t.co/vlvfJr4nN9 and we'll check this. ^HN",
-    "human_groundedness": null,
-    "human_actionability": null,
-    "human_tone": null
+    "human_groundedness": 1,
+    "human_actionability": 1,
+    "human_tone": 1
   },
   {
     "tweet_id": "988115",
     "customer_text": "@AmazonHelp 9904708447",
     "draft_reply_to_judge": "@354115 as we consider it to be personal information. Our Twitter page is public.\u200b 2/2 ^NK",
-    "human_groundedness": null,
-    "human_actionability": null,
-    "human_tone": null
+    "human_groundedness": 5,
+    "human_actionability": 5,
+    "human_tone": 5
   },
   {
     "tweet_id": "162100",
     "customer_text": "@AmazonHelp Ja. Komm nicht an der Info vorbei. Bei einem anderen Spiel lief es problemlos",
     "draft_reply_to_judge": "@153423 Dann melde dich doch am besten mal bei uns im Kundenservice: https://t.co/5RHhEVutwe Wir wollen ja, dass du dein Spiel rechtzeitig bekommst. ;) ^BB",
-    "human_groundedness": null,
-    "human_actionability": null,
-    "human_tone": null
+    "human_groundedness": 0,
+    "human_actionability": 0,
+    "human_tone": 0
   },
   {
     "tweet_id": "1935112",
     "customer_text": "Bonjour @AmazonHelp possible de discuter en DM ?",
     "draft_reply_to_judge": "@575738 Oui, Vous pouvez nouc contacter en DM.",
-    "human_groundedness": null,
-    "human_actionability": null,
-    "human_tone": null
+    "human_groundedness": 0,
+    "human_actionability": 0,
+    "human_tone": 0
   },
   {
     "tweet_id": "152203",
     "customer_text": "@AmazonHelp Ah dommage je n'ach\u00e8terais pas alors. Vous ne savez pas si vous en aurez \u00e0 nouveau en stock ? (vu que ce sont les nouveaux ipad pro).",
     "draft_reply_to_judge": "@150780 Nous n'avons malheureusement pas de visibilit\u00e9 dessus pour l'instant. Restez connect\u00e9e :) ce sera mis \u00e0 jour d\u00e8s qu'il y a du nouveau.",
-    "human_groundedness": null,
-    "human_actionability": null,
-    "human_tone": null
+    "human_groundedness": 0,
+    "human_actionability": 0,
+    "human_tone": 0
   },
   {
     "tweet_id": "2598390",
     "customer_text": "I bought my phone on Amazon and now i was buying a back case for it by the same account and it says the address is invalid..this has happened second time and my order is not delivered may I know y?  This is really dumb See emails below @115821 https://t.co/PwiSEavYtD",
     "draft_reply_to_judge": "@735645 Hi, sorry to hear your order has not been delivered. Can you confirm which Amazon site you ordered from, was it https://t.co/xJXEJm9Z6c etc? ^BZ",
-    "human_groundedness": null,
-    "human_actionability": null,
-    "human_tone": null
+    "human_groundedness": 3,
+    "human_actionability": 3,
+    "human_tone": 5
   },
   {
     "tweet_id": "825082",
     "customer_text": "Hey @115821 I\u2019m trying to buy \u201c3 Ninjas\u201d on dvd and your app isn\u2019t allowing me too! \n\nI\u2019m unhappy!!!!",
     "draft_reply_to_judge": "@316503 That's strange! Sometimes uninstalling and reinstalling the app does the trick! Let us know if you need additional help. ^KJ",
-    "human_groundedness": null,
-    "human_actionability": null,
-    "human_tone": null
+    "human_groundedness": 3,
+    "human_actionability": 3,
+    "human_tone": 5
   },
   {
     "tweet_id": "500714",
     "customer_text": "@AmazonHelp Le colis est finalement la ce matin. Encore un scan precose j'imagine...",
     "draft_reply_to_judge": "@234609 Je suis ravie d'apprendre que votre colis a \u00e9t\u00e9 livr\u00e9 \ud83d\ude0a Votre colis est en bon \u00e9tat?^FT",
-    "human_groundedness": null,
-    "human_actionability": null,
-    "human_tone": null
+    "human_groundedness": 0,
+    "human_actionability": 0,
+    "human_tone": 0
   },
   {
     "tweet_id": "2766984",
     "customer_text": "@AmazonHelp First time was 6th November and then every 2 days since then",
     "draft_reply_to_judge": "@773763 I'm sorry you haven't received a response. Since they haven't responded to your inquiry, you should be eligible for our A-to-z Guarantee. More information about our A-to-z Guarantee can be found here: https://t.co/2BOMmKnn8r ^SK",
-    "human_groundedness": null,
-    "human_actionability": null,
-    "human_tone": null
+    "human_groundedness": 5,
+    "human_actionability": 5,
+    "human_tone": 5
   },
   {
     "tweet_id": "2457818",
     "customer_text": "@115821 https://t.co/HutVpHsi3D  ^JC i was disappointed to find a dirty bed sheet against my order of a blanket under order id(DLI4SBK212) placed.this is happening frequently with  you, hope action against ajay sales corporation.",
     "draft_reply_to_judge": "@703961 We'll certainly take a look at this issue. Could you confirm if you have reported this to our support team here: https://t.co/vlvfJr4nN9 ? ^SY",
-    "human_groundedness": null,
-    "human_actionability": null,
-    "human_tone": null
+    "human_groundedness": 5,
+    "human_actionability": 3,
+    "human_tone": 5
   },
   {
     "tweet_id": "326306",
     "customer_text": "@AmazonHelp Siento verguenza pagar un servicio que me pasa 3 codigos y ninguno funciona y luego le hechan la culpa a otra empresa",
     "draft_reply_to_judge": "@193738 \u00bfQu\u00e9 ha sucedido, Mr.Eevee? \u00bfQu\u00e9 informaci\u00f3n te ha brindado nuestros compa\u00f1eros de Soporte al Cliente sobre tu caso? ^LG",
-    "human_groundedness": null,
-    "human_actionability": null,
-    "human_tone": null
+    "human_groundedness": 0,
+    "human_actionability": 0,
+    "human_tone": 0
   },
   {
     "tweet_id": "469468",
     "customer_text": "@115850 help. Placed an order of @226787 QY7 and payment done but order not showing in My Orders. Not even received any confirmatory email.\n@115821 @AmazonHelp @115821",
     "draft_reply_to_judge": "@226786 Do not worry, we'll check this for you. Please connect with our support team here: https://t.co/vlvfJr4nN9. ^NR",
-    "human_groundedness": null,
-    "human_actionability": null,
-    "human_tone": null
+    "human_groundedness": 5,
+    "human_actionability": 5,
+    "human_tone": 5
   },
   {
     "tweet_id": "1576291",
     "customer_text": "@AmazonHelp I mean, I was sitting here when this false alert was sent. Like how you gonna tell me you delivered something &amp; you have not?",
     "draft_reply_to_judge": "@485645 Who is the carrier listed for this package here: https://t.co/Y5jpI9gRhE ? ^LB",
-    "human_groundedness": null,
-    "human_actionability": null,
-    "human_tone": null
+    "human_groundedness": 3,
+    "human_actionability": 3,
+    "human_tone": 1
   },
   {
     "tweet_id": "445473",
     "customer_text": "@AmazonHelp Looking to buy Garmin 735xt on UK site. Price changes from \u00a3245 on item to \u00a3251 at check-out (not including postage). Can you explain or correct this discrepancy please? Looking to buy today",
     "draft_reply_to_judge": "@220498 HI Se\u00e1n, could you send me a link to the item listing so I can take a look at that for you? ^TI",
-    "human_groundedness": null,
-    "human_actionability": null,
-    "human_tone": null
+    "human_groundedness": 5,
+    "human_actionability": 5,
+    "human_tone": 5
   },
   {
     "tweet_id": "2617260",
     "customer_text": "@AmazonHelp my book I ordered came without the first 26 pages.. um what",
     "draft_reply_to_judge": "@302999 I'm sorry you're missing pages from your book! Please visit us at the following link to check out our return options: https://t.co/2s212wsmvI ^WT",
-    "human_groundedness": null,
-    "human_actionability": null,
-    "human_tone": null
+    "human_groundedness": 5,
+    "human_actionability": 5,
+    "human_tone": 5
   },
   {
     "tweet_id": "1150906",
     "customer_text": "@AmazonHelp Fradulent sellers or delivery boys are stealing the product before delivery! What are your safeguards against such practices?",
     "draft_reply_to_judge": "@390831 Please don\u2019t provide your details, we consider it to be personal info. Our Twitter page is visible to public. 2/2 ^MA",
-    "human_groundedness": null,
-    "human_actionability": null,
-    "human_tone": null
+    "human_groundedness": 0,
+    "human_actionability": 0,
+    "human_tone": 0
   },
   {
     "tweet_id": "199241",
     "customer_text": "@AmazonHelp No, it has not expired, it is up to 5th of October.Both your customer care and MI customer care are harassing us.",
     "draft_reply_to_judge": "@162951 I'd like to take a closer look into this, please share your details here: https://t.co/GIJyeYqKE0. ^AG",
-    "human_groundedness": null,
-    "human_actionability": null,
-    "human_tone": null
+    "human_groundedness": 3,
+    "human_actionability": 5,
+    "human_tone": 3
   },
   {
     "tweet_id": "1125345",
     "customer_text": "@115850 I Received A Fake Sennheiser From U, Requested For Pickup &amp; Refund, But Didn't Get Any Of Those, I Want My Money Back..!! #worst https://t.co/rikeKHoBid",
     "draft_reply_to_judge": "@385340 Apologies, pawan. Have you contacted our support team about this? We'll be glad to help. ^SK",
-    "human_groundedness": null,
-    "human_actionability": null,
-    "human_tone": null
+    "human_groundedness": 5,
+    "human_actionability": 5,
+    "human_tone": 5
   },
   {
     "tweet_id": "793330",
     "customer_text": "@AmazonHelp je viens de recevoir votre r\u00e9ponse et je vous remercie du remboursement. \nbonne continuation",
     "draft_reply_to_judge": "@309164 Merci \u00e0 vous !",
-    "human_groundedness": null,
-    "human_actionability": null,
-    "human_tone": null
+    "human_groundedness": 0,
+    "human_actionability": 0,
+    "human_tone": 0
   },
   {
     "tweet_id": "1622297",
     "customer_text": "@AmazonHelp I should have posted it on Twitter earlier! You guys finally managed to get the delivery on track.  #HappyDiwali",
     "draft_reply_to_judge": "@497044 Glad to know your package has arrived safely. Hope you enjoy it for Diwali. :) ^SA",
-    "human_groundedness": null,
-    "human_actionability": null,
-    "human_tone": null
+    "human_groundedness": 5,
+    "human_actionability": 5,
+    "human_tone": 5
   },
   {
     "tweet_id": "2677347",
     "customer_text": "@AmazonHelp Your people. AMZL. I emailed about this. Got a refund for the missing pkg, but not a word about the other concern.",
     "draft_reply_to_judge": "@608181 So sorry for that! I'd like a member of my team to look into this issue. Please let us know more: https://t.co/bJyxBcKF2F ^AD",
-    "human_groundedness": null,
-    "human_actionability": null,
-    "human_tone": null
+    "human_groundedness": 5,
+    "human_actionability": 5,
+    "human_tone": 5
   },
   {
     "tweet_id": "2907853",
     "customer_text": "@115851 @115821 can someone please explain why 3 amazon prime packages have been lost by amazon logistics, the same facility, in a weeks time and now i have to wait 2 more days for them to locate the package and redelivery. 2 day shipping has turned into 4 day shipping. Wtf",
     "draft_reply_to_judge": "@553163 Oh no! I'm sorry for the trouble with the deliveries on your orders. I'd like to have a member of my team look into this with you. When you have a moment, please provide as much information as possible here: https://t.co/SmYnr5o8R8 ^TG",
-    "human_groundedness": null,
-    "human_actionability": null,
-    "human_tone": null
+    "human_groundedness": 5,
+    "human_actionability": 5,
+    "human_tone": 5
   },
   {
     "tweet_id": "665612",
     "customer_text": "@AmazonHelp Hi, yes I have.  Because the Xbox is part of a bigger order and other items have been delivered it won\u2019t let me change the delivery address.",
     "draft_reply_to_judge": "@278566 I'd like to have a member from our support team review any available options with you via phone: 1-866-216-1072. ^WM",
-    "human_groundedness": null,
-    "human_actionability": null,
-    "human_tone": null
+    "human_groundedness": 5,
+    "human_actionability": 3,
+    "human_tone": 3
   },
   {
     "tweet_id": "2895952",
     "customer_text": "@AmazonHelp The yearly renewal \ud83d\ude29\ud83d\ude29.",
     "draft_reply_to_judge": "@193547 If you need it refunded you can get in touch with us here:  https://t.co/hApLpMlfHN. Please let us know how you get on! ^HS",
-    "human_groundedness": null,
-    "human_actionability": null,
-    "human_tone": null
+    "human_groundedness": 3,
+    "human_actionability": 3,
+    "human_tone": 3
   },
   {
     "tweet_id": "2549002",
     "customer_text": "@115850 y u no give bookmarks with books?",
     "draft_reply_to_judge": "@724275 We're constantly striving to improve our services &amp; will consider your feedback to provide a better experience. (2/2)^YP",
-    "human_groundedness": null,
-    "human_actionability": null,
-    "human_tone": null
+    "human_groundedness": 5,
+    "human_actionability": 5,
+    "human_tone": 5
   },
   {
     "tweet_id": "281679",
     "customer_text": "#Amazon \u3067 #\u30cb\u30f3\u30c6\u30f3\u30c9\u30fc\u30af\u30e9\u30b7\u30c3\u30af\u30df\u30cb\u30b9\u30fc\u30d1\u30fc\u30d5\u30a1\u30df\u30b3\u30f3 \u914d\u9001\u3055\u308c\u3066\u308b\u306e\u306b\u4f4f\u6240\u304c\u6587\u5b57\u5316\u3051\u3067\u8fd4\u9001\u3060\u3063\u3066\u3088\u3002\n\u5225\u306b\u65e5\u6570\u306f\u69cb\u308f\u306a\u3044\u304b\u3089\u3001\u78ba\u5b9f\u306b\u8377\u7269\u5c4a\u3044\u3066\u304f\u308c\u306a\u3044\u304b\u306a",
     "draft_reply_to_judge": "@183112 \u3053\u306e\u305f\u3073\u306f\u3001\u3054\u8ff7\u60d1\u3092\u304a\u304b\u3051\u3057\u7533\u3057\u8a33\u3054\u3056\u3044\u307e\u305b\u3093\u3002\n\u672c\u4ef6\u306b\u3064\u3044\u3066\u3054\u6ce8\u6587\u3044\u305f\u3060\u3044\u305f\u304a\u5ba2\u69d8\u306b\u5f8c\u65e5https://t.co/st4oU5QbhP\u3088\u308a\u3054\u9023\u7d61\u3092\u884c\u308f\u305b\u3066\u3044\u305f\u3060\u304d\u307e\u3059\u305f\u3081\u3001\u305d\u306e\u3054\u9023\u7d61\u3092\u304a\u5f85\u3061\u3044\u305f\u3060\u304d\u307e\u3059\u3088\u3046\u304a\u9858\u3044\u3044\u305f\u3057\u307e\u3059\u3002HM",
-    "human_groundedness": null,
-    "human_actionability": null,
-    "human_tone": null
+    "human_groundedness": 0,
+    "human_actionability": 0,
+    "human_tone": 0
   },
   {
     "tweet_id": "247442",
     "customer_text": "@AmazonHelp Please share your email ID.",
     "draft_reply_to_judge": "@174795 Please drop in your details here: https://t.co/GIJyeYqKE0 from your registered account and I'll get in touch with you.^BA",
-    "human_groundedness": null,
-    "human_actionability": null,
-    "human_tone": null
+    "human_groundedness": 5,
+    "human_actionability": 5,
+    "human_tone": 5
   },
   {
     "tweet_id": "1263971",
     "customer_text": "@AmazonHelp why are we still waiting for collection of something which should have been collected 2 days ago,fed up ringing you \ud83d\ude20",
     "draft_reply_to_judge": "@415995 Hi, sorry to hear that. Did an agent organise the collection for you? What company is being used? ^JJ",
-    "human_groundedness": null,
-    "human_actionability": null,
-    "human_tone": null
+    "human_groundedness": 5,
+    "human_actionability": 5,
+    "human_tone": 5
   },
   {
     "tweet_id": "2919856",
     "customer_text": "@AmazonHelp can you add more than one google account to Alexa for calendars?",
     "draft_reply_to_judge": "@236020 You can currently link one calendar from each of the supported e-mail providers. If there is another adult part of your Amazon Household, they may also link one calendar from each of the supported providers. See more information here: https://t.co/aaEk6VBtMf ^LR",
-    "human_groundedness": null,
-    "human_actionability": null,
-    "human_tone": null
+    "human_groundedness": 5,
+    "human_actionability": 5,
+    "human_tone": 5
   },
   {
     "tweet_id": "1332722",
     "customer_text": "@126705 Hey @AmazonHelp any idea if it\u2019s coming as @126705 aren\u2019t answering",
     "draft_reply_to_judge": "@430898 Parcels may be delivered up to 21:00. Please keep us updated on its arrival! ^ZW",
-    "human_groundedness": null,
-    "human_actionability": null,
-    "human_tone": null
+    "human_groundedness": 5,
+    "human_actionability": 3,
+    "human_tone": 2
   }
 ]
