@@ -1,33 +1,32 @@
-﻿import json
-import groq
+﻿import groq
 from src.config import settings
-from src.schemas import Intent
+from src.api_utils import with_retry_and_pacing, groq_limiter
 
 class ReplyGenerator:
     def __init__(self):
-        self.client = groq.Groq()
+        self.client = groq.Groq(max_retries=0)
         self.model_name = settings.llm_model
-
-    def generate(self, customer_text: str, intent: Intent, context: list[str]) -> str:
-        prompt = self._build_prompt(customer_text, intent, context)
         
-        response = self.client.chat.completions.create(
-            model=self.model_name,
-            messages=[{"role": "user", "content": prompt}],
-            temperature=0.3
-        )
-        return response.choices[0].message.content.strip()
-
-    def _build_prompt(self, text: str, intent: str, context: list[str]) -> str:
+    def generate(self, customer_text: str, intent: str, context: list[str]) -> str:
         context_str = "\n".join([f"- {c}" for c in context])
-        return f"""You are an @AmazonHelp customer support agent.
-The customer has reached out with intent: {intent}.
-Here are historical ways we have resolved similar issues:
+        prompt = f"""You are an expert Amazon customer support agent.
+Draft a polite, helpful reply to this customer.
+Ensure it aligns with their intent: {intent}.
+Use the historical examples below as style and policy reference. Do NOT invent new policies.
+Keep it under {settings.max_reply_chars} characters.
+
+Historical Examples:
 {context_str}
 
-Draft a helpful, polite, and concise reply to the customer. Limit to {settings.max_reply_chars} characters.
-Do not invent policies that are not in the historical resolutions.
-If the historical resolutions just ask for a DM, do the same.
-
-Customer Tweet: "{text}"
-Reply:"""
+Customer Tweet: "{customer_text}"
+Drafted Reply:"""
+        
+        def _call():
+            response = self.client.chat.completions.create(
+                model=self.model_name,
+                messages=[{"role": "user", "content": prompt}],
+                temperature=0.3
+            )
+            return response.choices[0].message.content
+            
+        return with_retry_and_pacing(groq_limiter, 800, _call)

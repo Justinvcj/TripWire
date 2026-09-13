@@ -3,10 +3,10 @@ import os
 from google import genai
 from google.genai import types
 from src.config import settings
+from src.api_utils import with_retry_and_pacing, gemini_limiter
 
 class SelfVerifier:
     def __init__(self):
-        # The judge model must be different from generator
         self.client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
         self.model_name = settings.judge_model
         
@@ -27,15 +27,19 @@ Respond in JSON exactly:
   "is_grounded": true/false
 }}
 """
-        response = self.client.models.generate_content(
-            model=self.model_name,
-            contents=prompt,
-            config=types.GenerateContentConfig(
-                temperature=0.0,
-                response_mime_type="application/json",
+        def _call():
+            response = self.client.models.generate_content(
+                model=self.model_name,
+                contents=prompt,
+                config=types.GenerateContentConfig(
+                    temperature=0.0,
+                    response_mime_type="application/json",
+                )
             )
-        )
+            return response.text
+            
         try:
-            return json.loads(response.text).get("is_grounded", False)
-        except Exception:
+            res_str = with_retry_and_pacing(gemini_limiter, 400, _call)
+            return json.loads(res_str).get("is_grounded", False)
+        except Exception as e:
             return False

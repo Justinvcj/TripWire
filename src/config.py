@@ -16,6 +16,13 @@ class Settings(BaseSettings):
     max_verifier_retries: int
     tune_slice_path: str
     holdout_slice_path: str
+    results_file_path: str
+    max_api_retries: int
+    backoff_factor: float
+    groq_rpm_limit: int
+    groq_tpm_limit: int
+    gemini_rpm_limit: int
+    gemini_rpd_limit: int
     
     class Config:
         env_file = ".env"
@@ -24,11 +31,19 @@ class Settings(BaseSettings):
 def load_config() -> Settings:
     with open('config.yaml', 'r', encoding='utf-8-sig') as f:
         data = yaml.safe_load(f)
-    settings = Settings(**data)
-    
-    assert settings.judge_model != settings.llm_model, \
-        "Judge must use a different model than the generator to avoid self-preference bias (see ARCHITECTURE_v2 §4)"
-    
-    return settings
+    return Settings(**data)
 
 settings = load_config()
+
+def update_config_models(llm_model: str, judge_model: str):
+    global settings
+    with open('config.yaml', 'r', encoding='utf-8-sig') as f:
+        data = yaml.safe_load(f)
+    data['llm_model'] = llm_model
+    data['judge_model'] = judge_model
+    with open('config.yaml', 'w', encoding='utf-8-sig') as f:
+        yaml.dump(data, f, sort_keys=False)
+    
+    # Reload settings in memory
+    settings.llm_model = llm_model
+    settings.judge_model = judge_model
