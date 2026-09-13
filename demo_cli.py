@@ -1,6 +1,6 @@
-﻿import sys
+import sys
 import argparse
-from src.pipeline import TripwirePipeline
+from src.pipeline import Pipeline
 
 def main():
     parser = argparse.ArgumentParser(description="Tripwire Interactive CLI")
@@ -9,7 +9,7 @@ def main():
 
     print("\n[System] Initializing Tripwire Pipeline...")
     try:
-        pipeline = TripwirePipeline()
+        pipeline = Pipeline()
     except Exception as e:
         print(f"[Error] Failed to initialize pipeline: {e}")
         sys.exit(1)
@@ -26,19 +26,19 @@ def main():
     try:
         result = pipeline.process_ticket(tweet_id="CLI_DEMO", raw_text=text)
         
-        print(f"🎯 Intent: {result.intent}")
-        print(f"🤖 Action: {result.action}")
-        print(f"📊 Confidence: {result.confidence}")
-        print(f"📌 Reason: {result.reason}")
+        print(f"?? Intent: {result.intent}")
+        print(f"?? Action: {result.action}")
+        print(f"?? Confidence: {result.confidence}")
+        print(f"?? Reason: {result.reason}")
         
         print("\n[Retrieving Context...]")
         if result.retrieved_docs:
-            print(f"🔍 RAG Match: {result.retrieved_docs[0][:150]}...")
+            print(f"?? RAG Match: {result.retrieved_docs[0][:150]}...")
         else:
-            print("🔍 RAG Match: None found.")
+            print("?? RAG Match: None found.")
             
         print("\n[Drafting Reply...]")
-        print(f"📝 Output: {result.draft_reply}")
+        print(f"?? Output: {result.draft_reply}")
         print("="*50 + "\n")
         
     except Exception as e:
