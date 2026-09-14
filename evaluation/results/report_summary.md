@@ -1,7 +1,7 @@
 # Tripwire Evaluation Summary
 
 ## 1. Classification Metrics (Champion)
-- Macro F1: 0.50
+- Macro F1: 0.62
 - Escalation Precision: 0.20
 - Escalation Recall: 1.00
 
@@ -9,12 +9,12 @@
 *Cost weights: False Auto-Handle = 5, False Escalation = 1*
 | System | Total Expected Cost |
 |---|---|
-| Baseline 1 (Majority) | 2 |
+| Baseline 1 (Majority) | 3 |
 | Baseline 2 (TF-IDF) | 5 |
 | **TripWire Champion** | **4** |
 
 ## 3. Retrieval & Grounding
-- Average Retrieval Similarity: 0.58
+- Average Retrieval Similarity: 0.55
 
 ## 4. LLM-as-Judge
 - Groundedness (1-5): 3.00
@@ -32,28 +32,28 @@
 ## 7. Baseline Comparisons
 | Metric | Base 1 | Base 2 | Champion |
 |---|---|---|---|
-| Intent Macro F1 | 0.25 | 0.25 | 0.50 |
-| Escalation Prec | 0.33 | 0.00 | 0.20 |
+| Intent Macro F1 | 0.14 | 0.83 | 0.62 |
+| Escalation Prec | 0.25 | 0.00 | 0.20 |
 
 ## 8. Per-Intent F1 Classification Report
 ```text
                              precision    recall  f1-score   support
 
-   DELIVERY_SHIPPING_STATUS       0.00      0.00      0.00         3
+   DELIVERY_SHIPPING_STATUS       0.00      0.00      0.00         2
           FEEDBACK_CHITCHAT       1.00      1.00      1.00         1
-          NON_ENGLISH_QUERY       0.00      0.00      0.00         0
+          NON_ENGLISH_QUERY       0.33      1.00      0.50         1
 REFUND_CANCELLATION_BILLING       1.00      1.00      1.00         1
 
-                   accuracy                           0.40         5
-                  macro avg       0.50      0.50      0.50         5
-               weighted avg       0.40      0.40      0.40         5
+                   accuracy                           0.60         5
+                  macro avg       0.58      0.75      0.62         5
+               weighted avg       0.47      0.60      0.50         5
 
 ```
 
 ## 9. Confusion Matrix
 |                             |   DELIVERY_SHIPPING_STATUS |   FEEDBACK_CHITCHAT |   NON_ENGLISH_QUERY |   REFUND_CANCELLATION_BILLING |
 |:----------------------------|---------------------------:|--------------------:|--------------------:|------------------------------:|
-| DELIVERY_SHIPPING_STATUS    |                          0 |                   0 |                   3 |                             0 |
+| DELIVERY_SHIPPING_STATUS    |                          0 |                   0 |                   2 |                             0 |
 | FEEDBACK_CHITCHAT           |                          0 |                   1 |                   0 |                             0 |
-| NON_ENGLISH_QUERY           |                          0 |                   0 |                   0 |                             0 |
+| NON_ENGLISH_QUERY           |                          0 |                   0 |                   1 |                             0 |
 | REFUND_CANCELLATION_BILLING |                          0 |                   0 |                   0 |                             1 |
