@@ -37,6 +37,25 @@ python -m evaluation.run_eval
 
 ---
 
+## ??? Interactive Demonstrations
+
+<div align="center">
+  <img src="assets/demo_initial.png" alt="Tripwire UI - Input" width="48%" /> <img src="assets/demo_response.png" alt="Tripwire UI - Response" width="48%" />
+</div>
+
+We provide both a terminal interface and a web dashboard to test the pipeline live.
+
+**1. Streamlit Web Dashboard**
+```bash
+streamlit run app.py
+```
+
+**2. CLI Terminal Tool**
+```bash
+python demo_cli.py --tweet "Where is my package? It was supposed to arrive yesterday!"
+```
+
+
 # ?? Evaluation-First Technical Report
 
 ## 1. Problem
