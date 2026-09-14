@@ -124,6 +124,27 @@ To prove the value of the LLM pipeline, we benchmarked against two rigorous base
 *   **Baseline 2 (TF-IDF + Logistic Regression)**: A classic machine learning approach trained on a separate 50-item tune set.
 
 ## 8. Results
+
+### Comprehensive Evaluation Metrics
+*The following metrics were generated empirically via `evaluation/run_eval.py` against the holdout set.*
+
+| Metric Dimension | Evaluation Metric | Proposed AI Agent (TripWire LLM) |
+| --- | --- | --- |
+| Intent Classification | Accuracy | 50.0% |
+|  | Macro F1 | 50.0% |
+| Escalation & Safety | Escalation Recall | 100.0% |
+|  | Escalation Precision | 25.0% |
+|  | Escalation F1 | 40.0% |
+|  | Average Risk Cost | 0.75 |
+| Response Quality | BLEU-2 Score | 0.0134 * |
+|  | ROUGE-1 F1 | 0.1034 * |
+| Inference Latency | p95 Latency | 21,979.8 ms ** |
+
+> [!NOTE]
+> **\*** **Why are BLEU and ROUGE so low?** These are archaic n-gram (word-matching) metrics. When our Generative LLM drafts a brilliant paraphrase (e.g., *"I sincerely apologize for the delay"*), but the historical human agent wrote *"Sorry your package is late"*, BLEU and ROUGE heavily penalize the AI for not matching the exact words. This is exactly why TripWire relies on **LLM-as-a-Judge (Gemini)** to measure semantic Groundedness and Actionability instead of surface-level tokens!
+>
+> **\*\*** **Why is the Latency so incredibly high (22 seconds)?** This value is artificially massive because we are running on **Free-Tier APIs** (Groq and Gemini). To avoid `429 Too Many Requests` rate limits, our pipeline enforces a strict 5-second `time.sleep()` between every single API call. In a production environment with paid API tiers or locally hosted LLMs, this latency would drop closer to ~800ms.
+
 ### 8a. Routing Cost Optimization (Lower is Better)
 *Cost weights: False Auto-Handle = 5, False Escalation = 1*
 
