@@ -16,7 +16,7 @@
 
 > **Hiver SDE Intern Take-Home Assignment Submission**
 > 
-> **Candidate:** Justin
+> **Candidate:** Justin Varghese
 > 
 > **Target Brand:** `@AmazonHelp` (E-Commerce Customer Support on Twitter)
 > 
