@@ -132,7 +132,7 @@ def run():
             
             judge_scores = {"groundedness": 3, "actionability": 3, "tone": 3}
             if res.action.value == "AUTO_HANDLE" and res.draft_reply:
-                judge_scores = {'groundedness': 3, 'actionability': 3, 'tone': 3}
+                judge_scores = judge.evaluate_reply(item['customer_text'], res.draft_reply, item.get('gold_reference_reply', ''))
                 
             out_dict = {
                 "tweet_id": t_id,
