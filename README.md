@@ -4,6 +4,27 @@
   <img src="assets/tripwire_logo.jpg" alt="TripWire Logo" width="200" />
 </div>
 
+
+<div align="center">
+
+![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)
+![License MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Tests Passed](https://img.shields.io/badge/tests-passed-brightgreen.svg)
+![Reproduction Time](https://img.shields.io/badge/reproduction_time-~10_minutes-orange.svg)
+
+</div>
+
+> **Hiver SDE Intern Take-Home Assignment Submission**
+> 
+> **Candidate:** Justin
+> 
+> **Target Brand:** `@AmazonHelp` (E-Commerce Customer Support on Twitter)
+> 
+> **Primary Dataset:** Kaggle Customer Support on Twitter (`thoughtvector/customer-support-on-twitter`)
+> 
+> **Tech Stack:** Python, Groq (`gpt-oss-20b`), Google Gemini (`gemini-3.6-flash`), ChromaDB (Vector Search), Streamlit (UI)
+
+
 TripWire is a multi-stage AI support agent built for `@AmazonHelp` on Twitter. More importantly, it is a **mathematically rigorous evaluation framework** designed to answer the critical question: *When should we trust an LLM with customer support, and when should we escalate?*
 
 ```text
