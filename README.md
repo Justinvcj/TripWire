@@ -1,4 +1,4 @@
-# TripWire ? Amazon Customer Support Agent
+# TripWire — Amazon Customer Support Agent
 
 <div align="center">
   <img src="assets/tripwire_logo.jpg" alt="TripWire Logo" width="200" />
@@ -8,21 +8,21 @@ TripWire is a multi-stage AI support agent built for `@AmazonHelp` on Twitter. M
 
 ```text
 Customer message
-        ?
+        ↓
 Intent + Risk Classification
-        ?
+        ↓
 Historical-response Retrieval (RAG)
-        ?
+        ↓
 Grounded Reply Generation
-        ?
+        ↓
 Self-Verifier (Safety check)
-        ?
+        ↓
 AUTO-HANDLE or HUMAN ESCALATION
 ```
 
 ---
 
-## ?? Quick Start: Reproduce Headline Results (Under 10 Minutes)
+## 🚀 Quick Start: Reproduce Headline Results (Under 10 Minutes)
 
 TripWire is engineered for immediate, offline reproducibility.
 
@@ -37,7 +37,7 @@ python -m evaluation.run_eval
 
 ---
 
-## ??? Interactive Demonstrations
+## 🕹️ Interactive Demonstrations
 
 <div align="center">
   <img src="assets/demo_initial.png" alt="Tripwire UI - Input" width="48%" /> <img src="assets/demo_response.png" alt="Tripwire UI - Response" width="48%" />
@@ -55,8 +55,9 @@ streamlit run app.py
 python demo_cli.py --tweet "Where is my package? It was supposed to arrive yesterday!"
 ```
 
+---
 
-# ?? Evaluation-First Technical Report
+# 📖 Evaluation-First Technical Report
 
 ## 1. Problem
 Automating Amazon customer support on Twitter is fundamentally a risk-management problem, not just a generative AI problem. Support interactions are noisy, high-stakes, and public. A hallucinated or factually incorrect response (e.g., offering a refund outside policy) is strictly worse than routing the ticket to a human. The challenge is to build a system that maximizes safe auto-resolutions while mathematically minimizing harmful hallucinations.
@@ -94,7 +95,7 @@ We designed a defensive, multi-stage architecture:
 
 ## 6. Evaluation Methodology
 *   **Separation of Concerns**: The Champion generator (`openai/gpt-oss-20b` via Groq) is isolated from the LLM-as-a-Judge (`gemini-3.6-flash`) to prevent self-preference bias.
-*   **Human Calibration**: The LLM-as-a-Judge rubric (Groundedness, Actionability, Tone) was mathematically calibrated against human annotators, yielding a Cohen's Kappa (?) of **0.854** (Substantial Agreement). *(See `docs/calibration_report.md` for mathematical proofs).*
+*   **Human Calibration**: The LLM-as-a-Judge rubric (Groundedness, Actionability, Tone) was mathematically calibrated against human annotators, yielding a Cohen's Kappa (κ) of **0.854** (Substantial Agreement). *(See `docs/calibration_report.md` for mathematical proofs).*
 
 ## 7. Baselines
 To prove the value of the LLM pipeline, we benchmarked against two rigorous baselines:
