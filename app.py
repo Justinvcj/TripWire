@@ -1,4 +1,4 @@
-﻿import streamlit as st
+import streamlit as st
 import os
 from dotenv import load_dotenv
 
@@ -78,8 +78,12 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.markdown('<p class="title-text">🤖 Tripwire AI</p>', unsafe_allow_html=True)
-st.markdown("**Automated Intent Classification, RAG, and Safety Triage**")
+col_logo, col_title = st.columns([1, 8])
+with col_logo:
+    st.image("assets/tripwire_logo.jpg", width=80)
+with col_title:
+    st.markdown('<p class="title-text">TripWire AI</p>', unsafe_allow_html=True)
+    st.markdown("**Automated Intent Classification, RAG, and Safety Triage**")
 st.markdown("---")
 
 col_input, col_metrics = st.columns([2, 1])
