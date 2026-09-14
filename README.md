@@ -191,7 +191,7 @@ Aggregate accuracy entirely conceals weaker performance on rare intents. While `
 *   **D05: Structured Escalation Reasons**: Replaced binary `ESCALATE` with explicit JSON codes (`VERIFICATION_FAILED`, `PII_REQUIRED_DM_HANDOFF`, etc.) for robust downstream routing.
 
 ## 12. Reproduction
-*See Quick Start section above.*
+*See the [?? Quick Start: Reproduce Headline Results (Under 10 Minutes)](#-quick-start-reproduce-headline-results-under-10-minutes) section above.*
 
 ## 13. Limitations
 *   **Context Window**: Extremely long tweet threads are aggressively truncated during preprocessing.
