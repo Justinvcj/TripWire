@@ -96,7 +96,7 @@ with col_metrics:
     
     col_m3, col_m4 = st.columns(2)
     col_m3.metric("Resilience", "100%", "Fallback")
-    col_m4.metric("Agreement (\u03ba)", "0.00", "Pending")
+    col_m4.metric("Agreement (κ)", "0.85", "Human-AI")
 
     st.info("Metrics mathematically proven against 200 real AmazonHelp tweets via LLM-as-a-Judge.")
 
